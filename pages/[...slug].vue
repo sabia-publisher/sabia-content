@@ -1,0 +1,63 @@
+<script setup>
+const settings = reactive({
+    fontSize: 19, // number
+    fontsOptions: [
+        {
+            label: 'Times New Roman',
+            name: 'TimesNewRoman, Times New Roman, Times, Baskerville, Georgia,serif',
+            defaultTextFont: true
+        },
+        {
+            label: 'Inter',
+            name: '"Inter", sans-serif',
+            link: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap',
+            defaultBaseFont: true
+        },
+        {
+            label: 'Open Dyslexic',
+            name: '"Open-Dyslexic", sans-serif',
+            link: 'https://fonts.cdnfonts.com/css/open-dyslexic'
+        },
+        {
+            label: 'Atkinson Hyperlegible',
+            name: 'Atkinson Hyperlegible',
+            link: 'https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap'
+        }
+    ]
+})
+
+const content = reactive({
+    summary: [
+        { title: 'Chapter 1', link: 'index.html' },
+        { title: 'Chapter 2', link: 'index2.html' },
+        { title: 'Chapter 3', link: 'index3.html' }
+    ]
+})
+</script>
+
+<template>
+    <main class="w-full">
+        <paginate-content
+            id="pagination-el"
+            book-title="A Tale of Two Cities"
+            :reader-settings="JSON.stringify(settings)"
+            :book-content="JSON.stringify(content)"
+        >
+            <div slot="header">
+                <img src="https://sabia.pub/images/logo-mobile-dark.svg" style="height: 40px">
+            </div>
+
+            <div slot="optionsBottom">
+                <div class="my-3 border-b border-gray-100"></div>
+                <a href="https://sabia.pub" target="_blank" title="Sobre a Editora"
+                    class="w-full block text-black text-center text-xs py-2 px-3 hover:bg-gray-100 rounded">
+                    <img src="https://sabia.pub/images/logo.svg" style="height: 48px; margin: 0 auto; display: block;">
+                </a>
+            </div>
+
+            <div slot="content">
+                <ContentDoc />
+            </div>
+        </paginate-content>
+    </main>
+</template>
