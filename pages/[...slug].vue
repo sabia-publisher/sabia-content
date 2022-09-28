@@ -1,4 +1,16 @@
 <script setup>
+import { resolveRoute } from 'vue-i18n-routing';
+
+const { data: navigation } = await useAsyncData('navigation', () => fetchContentNavigation())
+
+const route = useRoute()
+
+const isbn = route.params.slug[1]
+const books = navigation.value.find(item => item._path === '/books')
+
+const book = books.children.find(item => item.title === isbn)
+const chapters = book.children
+
 const settings = reactive({
     fontSize: 19, // number
     fontsOptions: [
@@ -27,11 +39,7 @@ const settings = reactive({
 })
 
 const content = reactive({
-    summary: [
-        { title: 'Chapter 1', link: 'index.html' },
-        { title: 'Chapter 2', link: 'index2.html' },
-        { title: 'Chapter 3', link: 'index3.html' }
-    ]
+    summary: chapters.map(item => ({ title: item.title, link: item._path }))
 })
 </script>
 
