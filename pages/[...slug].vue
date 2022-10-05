@@ -4,6 +4,7 @@ import { resolveRoute } from 'vue-i18n-routing';
 const { data: navigation } = await useAsyncData('navigation', () => fetchContentNavigation())
 
 const route = useRoute()
+const recalc = ref(0)
 
 const isbn = route.params.slug[1]
 const books = navigation.value.find(item => item._path === '/books')
@@ -41,10 +42,16 @@ const settings = reactive({
 const content = reactive({
     summary: chapters.map(item => ({ title: item.title, link: item._path }))
 })
+
+onMounted(() => {
+    setTimeout(() => {
+        recalc.value = Math.floor(Math.random() * 110)
+    }, 150)
+})
 </script>
 
 <template>
-    <main class="w-full">
+    <main class="w-full h-screen">
         <paginate-content
             id="pagination-el"
             book-title="A Tale of Two Cities"

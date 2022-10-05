@@ -28,10 +28,16 @@ export default defineNuxtConfig({
         classSuffix: ''
     },
 
+    vue: {
+        compilerOptions: {
+            isCustomElement: tag => ['paginate-content'].includes(tag)
+        }
+    },
+
     app: {
         head: {
             script: [
-                { src: 'https://unpkg.com/paginar@0.1.0/dist/index.es.js', type: 'module'}
+                { src: 'https://unpkg.com/paginar@0.1.1/dist/index.es.js', type: 'module'}
             ]
         }
     },
