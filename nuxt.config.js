@@ -28,6 +28,10 @@ export default defineNuxtConfig({
         classSuffix: ''
     },
 
+    vite: {
+        devBundler: 'legacy'
+    },
+
     vue: {
         compilerOptions: {
             isCustomElement: tag => ['paginate-content'].includes(tag)

@@ -1,6 +1,4 @@
 <script setup>
-import { resolveRoute } from 'vue-i18n-routing';
-
 const { data: navigation } = await useAsyncData('navigation', () => fetchContentNavigation())
 
 const route = useRoute()
@@ -39,8 +37,15 @@ const settings = reactive({
     ]
 })
 
+const { default: references } = await import(`../content/books/${isbn}/.references.json`)
+// const { default: footnotes } = await import(`../content/books/${isbn}/.footnotes.json`)
+
+console.log(references)
+
 const content = reactive({
-    summary: chapters.map(item => ({ title: item.title, link: item._path }))
+    summary: chapters.map(item => ({ title: item.title, link: item._path })),
+    references,
+    // footnotes
 })
 
 onMounted(() => {
