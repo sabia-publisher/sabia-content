@@ -10,6 +10,14 @@ const books = navigation.value.find(item => item._path === '/books')
 const book = books.children.find(item => item.title === isbn)
 const chapters = book.children
 
+const { data } = await useAsyncData(`content-${route.path}`, () => {
+    return queryContent()
+        .where({ _path: route.path })
+        .findOne()
+})
+
+console.log({ data })
+
 const settings = reactive({
     fontSize: 19, // number
     fontsOptions: [
@@ -40,24 +48,26 @@ const settings = reactive({
 const { default: references } = await import(`../content/books/${isbn}/.references.json`)
 // const { default: footnotes } = await import(`../content/books/${isbn}/.footnotes.json`)
 
-console.log(references)
-
 const content = reactive({
     summary: chapters.map(item => ({ title: item.title, link: item._path })),
     references,
     // footnotes
 })
 
-onMounted(() => {
-    setTimeout(() => {
-        recalc.value = Math.floor(Math.random() * 110)
-    }, 150)
+watch(() => route.params.slug, async () => {
+    const { path } = useRoute()
+    const newContent = await queryContent()
+        .where({ _path: path })
+        .findOne()
+
+    data.value = newContent
 })
 </script>
 
 <template>
     <main class="w-full h-screen">
         <paginate-content
+            v-if="data"
             id="pagination-el"
             book-title="A Tale of Two Cities"
             :reader-settings="JSON.stringify(settings)"
@@ -76,7 +86,7 @@ onMounted(() => {
             </div>
 
             <div slot="content">
-                <ContentDoc />
+                <ContentRenderer :key="path" :value="data" />
             </div>
         </paginate-content>
     </main>
