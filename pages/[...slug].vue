@@ -2,7 +2,6 @@
 const { data: navigation } = await useAsyncData('navigation', () => fetchContentNavigation())
 
 const route = useRoute()
-const recalc = ref(0)
 
 const isbn = route.params.slug[1]
 const books = navigation.value.find(item => item._path === '/books')
@@ -10,13 +9,22 @@ const books = navigation.value.find(item => item._path === '/books')
 const book = books.children.find(item => item.title === isbn)
 const chapters = book.children
 
+const references = await import(`../content/books/${isbn}/.references.js`)
+// const { default: footnotes } = await import(`../content/books/${isbn}/.footnotes.json`)
+
+const content = reactive({
+    summary: chapters.map(item => ({ title: item.title, link: item._path })),
+    ...(references?.default?.references && { references: references.default.references }),
+    // footnotes
+})
+
 const { data } = await useAsyncData(`content-${route.path}`, () => {
     return queryContent()
         .where({ _path: route.path })
         .findOne()
 })
 
-console.log({ data })
+// data.value.body = useReferences(data.value.body, references)
 
 const settings = reactive({
     fontSize: 19, // number
@@ -43,15 +51,6 @@ const settings = reactive({
             link: 'https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap'
         }
     ]
-})
-
-const { default: references } = await import(`../content/books/${isbn}/.references.json`)
-// const { default: footnotes } = await import(`../content/books/${isbn}/.footnotes.json`)
-
-const content = reactive({
-    summary: chapters.map(item => ({ title: item.title, link: item._path })),
-    references,
-    // footnotes
 })
 
 watch(() => route.params.slug, async () => {

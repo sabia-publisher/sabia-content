@@ -1,4 +1,4 @@
-[
+const references = [
     {
         "cit": "GAMA, 2019",
         "ref": "GAMA, Mara. <strong>As três rotas que trouxeram a centenária Bauhaus ao Brasil</strong>. Folha de São Paulo, São Paulo, 1 abr. 2019. Disponível em: https://www1.folha.uol.com.br/ilustrissima/2019/03/as-tres-rotas-que-trouxeram-a-centenaria-bauhaus-ao-brasil.shtml. Acesso em: 4 abr. 2019"
@@ -38,10 +38,6 @@
     {
         "cit": "COUTO, 2008",
         "ref": "COUTO, Rita Maria de Souza. <strong>Escritos sobre Ensino de Design no Brasil</strong>. 1ª ed, Rio de Janeiro, 2008."
-    },
-    {
-        "cit": "PAPANEK, 1984",
-        "ref": "PAPANEK, Victor. <strong>Design for the Real World: Human Ecology and Social Change</strong>, 2ª ed. 1984."
     },
     {
         "cit": "ESCOBAR, 2007",
@@ -252,3 +248,5 @@
         "ref": "LIMA, Verena Ferreira Tidei de. <strong>Ensino superior em design de moda no Brasil: práxis e (in)sustentabilidade</strong>. 2018. Tese (Doutorado em Arquitetura e Urbanismo) - Faculdade de Arquitetura e Urbanismo da Universidade de São Paulo, São Paulo, 2018."
     }
 ]
+
+module.exports = { references }

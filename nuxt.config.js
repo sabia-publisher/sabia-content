@@ -38,10 +38,14 @@ export default defineNuxtConfig({
         }
     },
 
+    nitro: {
+        plugins: ['~/server/plugins/useReferences.js']
+    },
+
     app: {
         head: {
             script: [
-                { src: 'https://unpkg.com/paginar@0.1.1/dist/index.es.js', type: 'module'}
+                { src: 'https://unpkg.com/paginar@0.1.2/dist/index.es.js', type: 'module'}
             ]
         }
     },
