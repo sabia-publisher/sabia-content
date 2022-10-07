@@ -50,6 +50,10 @@ export default defineNuxtConfig({
         }
     },
 
+    css: [
+        '@/assets/css/fonts/larken.css',
+    ],
+
     i18n: {
         strategy: 'prefix_except_default',
 

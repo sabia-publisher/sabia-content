@@ -5,7 +5,7 @@ export default defineNitroPlugin(async (nitroApp) => {
 
                 const isbn = file._id.split(':')?.find(item => item.startsWith('978'))
                 if (isbn) {
-                    const { references } = await import(`../../content/books/${isbn}/.references.js`)
+                    const { references } = await import(`../../content/books/${isbn}/.settings/references.js`)
 
                     if (references?.length) {
                         file.body = references.reduce((content, reference) => {
@@ -25,7 +25,7 @@ export default defineNitroPlugin(async (nitroApp) => {
                 }
             }
         } catch (err) {
-            console.log({ err })
+           // console.log({ err })
         }
     })
 })

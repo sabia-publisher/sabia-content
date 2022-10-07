@@ -1,6 +1,13 @@
 @font-face {
   font-family: 'Larken';
-  font-style: bold;
+  font-style: normal;
   font-weight: 700;
-  src: local('Larken'), url('larken/ttf/LarkenBold.ttf') format('truetype');
+  src: url('larken/Larken-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Larken';
+  font-style: italic;
+  font-weight: 700;
+  src: url('larken/Larken-BoldItalic.woff2') format('woff2');
 }

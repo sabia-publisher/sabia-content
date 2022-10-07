@@ -2,6 +2,7 @@
 const { data: navigation } = await useAsyncData('navigation', () => fetchContentNavigation())
 
 const route = useRoute()
+const contentHead = useContentHead()
 
 const isbn = route.params.slug[1]
 const books = navigation.value.find(item => item._path === '/books')
@@ -9,12 +10,12 @@ const books = navigation.value.find(item => item._path === '/books')
 const book = books.children.find(item => item.title === isbn)
 const chapters = book.children
 
-const references = await import(`../content/books/${isbn}/.references.js`)
+// const references = await import(`../content/books/${isbn}/.references.js`)
 // const { default: footnotes } = await import(`../content/books/${isbn}/.footnotes.json`)
 
 const content = reactive({
     summary: chapters.map(item => ({ title: item.title, link: item._path })),
-    ...(references?.default?.references && { references: references.default.references }),
+    // ...(references?.default?.references && { references: references.default.references }),
     // footnotes
 })
 
@@ -24,34 +25,10 @@ const { data } = await useAsyncData(`content-${route.path}`, () => {
         .findOne()
 })
 
+const bookSettings = await import(`../content/books/${isbn}/.settings/index.js`)
 // data.value.body = useReferences(data.value.body, references)
 
-const settings = reactive({
-    fontSize: 19, // number
-    fontsOptions: [
-        {
-            label: 'Times New Roman',
-            name: 'TimesNewRoman, Times New Roman, Times, Baskerville, Georgia,serif',
-            defaultTextFont: true
-        },
-        {
-            label: 'Inter',
-            name: '"Inter", sans-serif',
-            link: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap',
-            defaultBaseFont: true
-        },
-        {
-            label: 'Open Dyslexic',
-            name: '"Open-Dyslexic", sans-serif',
-            link: 'https://fonts.cdnfonts.com/css/open-dyslexic'
-        },
-        {
-            label: 'Atkinson Hyperlegible',
-            name: 'Atkinson Hyperlegible',
-            link: 'https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap'
-        }
-    ]
-})
+const settings = reactive(bookSettings.default)
 
 watch(() => route.params.slug, async () => {
     const { path } = useRoute()
@@ -73,7 +50,7 @@ watch(() => route.params.slug, async () => {
             :book-content="JSON.stringify(content)"
         >
             <div slot="header">
-                <img src="https://sabia.pub/images/logo-mobile-dark.svg" style="height: 40px">
+                <p class="text-white">{{ data.navigation.title }}</p>
             </div>
 
             <div slot="optionsBottom">
@@ -84,7 +61,7 @@ watch(() => route.params.slug, async () => {
                 </a>
             </div>
 
-            <div slot="content">
+            <div slot="content" class="contentSlot">
                 <ContentRenderer :key="path" :value="data" />
             </div>
         </paginate-content>

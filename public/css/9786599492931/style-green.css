@@ -1,0 +1,10 @@
+@import url("base.css");
+
+html {
+  --bg-light-mode: #fff7e0;
+  --bg-dark-mode: rgb(45, 45, 45);
+  --theme-primary: rgb(110, 180, 100);
+  --theme-primary-extralight: rgb(208 227 190);
+  --theme-secondary: rgb(110, 180, 100);
+  --text-main: rgba(40, 96, 30);
+}
