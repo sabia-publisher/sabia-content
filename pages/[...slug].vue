@@ -4,20 +4,24 @@ const { data: navigation } = await useAsyncData('navigation', () => fetchContent
 const route = useRoute()
 const contentHead = useContentHead()
 
-const isbn = route.params.slug[1]
-const books = navigation.value.find(item => item._path === '/books')
+console.log({ route: route.params })
 
-const book = books.children.find(item => item.title === isbn)
-const chapters = book.children
+const isbn = route.params.slug[0]
+const book = navigation.value.find(item => item.title === isbn)
+console.log(isbn, navigation.value, book)
 
-// const references = await import(`../content/books/${isbn}/.references.js`)
-// const { default: footnotes } = await import(`../content/books/${isbn}/.footnotes.json`)
+console.log({ book })
+
+// const references = await import(`../content/${isbn}/.references.js`)
+// const { default: footnotes } = await import(`../content/${isbn}/.footnotes.json`)
 
 const content = reactive({
-    summary: chapters.map(item => ({ title: item.title, link: item._path })),
-    // ...(references?.default?.references && { references: references.default.references }),
-    // footnotes
+  summary: book.children.map(item => ({ title: item.title, link: item._path })),
+  // ...(references?.default?.references && { references: references.default.references }),
+  // footnotes
 })
+
+console.log(route.path)
 
 const { data } = await useAsyncData(`content-${route.path}`, () => {
     return queryContent()
@@ -25,7 +29,7 @@ const { data } = await useAsyncData(`content-${route.path}`, () => {
         .findOne()
 })
 
-const bookSettings = await import(`../content/books/${isbn}/.settings/index.js`)
+const bookSettings = await import(`../content/${isbn}/.settings/index.js`)
 // data.value.body = useReferences(data.value.body, references)
 
 const settings = reactive(bookSettings.default)
