@@ -33,6 +33,12 @@ watch(() => route.params.slug, async () => {
 
     data.value = newContent
 })
+
+useHead({
+    title: data?.value?.title
+        ? data.value.title
+        : 'Editora Sabiá'
+})
 </script>
 
 <template>

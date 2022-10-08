@@ -84,6 +84,12 @@
     font-size: 0.8em;
 }
 
+@media (max-width: 768px) {
+    .hide-mobile {
+        display: none !important;
+    }
+}
+
 .opening {
     font-style: italic;
     justify-content: center;
