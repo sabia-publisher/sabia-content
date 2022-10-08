@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 626.49 505.14">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 31.16px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #285d3c;
+        font-family: CrimsonText-Regular, 'Crimson Text';
+      }
+
+      .cls-2 {
+        font-size: 31.16px;
+      }
+
+      .cls-3 {
+        letter-spacing: .01em;
+      }
+
+      .cls-4 {
+        letter-spacing: .04em;
+      }
+
+      .cls-5 {
+        letter-spacing: .02em;
+      }
+
+      .cls-6 {
+        letter-spacing: .04em;
+      }
+
+      .cls-7 {
+        fill: #6eb464;
+        font-family: Larken-ExtraBold, Larken-ExtraBold;
+        font-size: 67.51px;
+      }
+
+      .cls-8 {
+        fill: none;
+        stroke: #6eb464;
+      }
+
+      .cls-9 {
+        letter-spacing: .04em;
+      }
+    </style>
+  </defs>
+  <text class="cls-7" transform="translate(235.13 312.75)"><tspan class="cls-3" x="0" y="0">N</tspan><tspan class="cls-5" x="50.43" y="0">a</tspan><tspan class="cls-9" x="90.06" y="0">t</tspan><tspan class="cls-4" x="119.49" y="0">u</tspan><tspan class="cls-6" x="161.68" y="0">r</tspan><tspan x="194.16" y="0">e</tspan></text>
+  <text class="cls-1" transform="translate(517.95 285.02)"><tspan x="0" y="0">Humans</tspan></text>
+  <line class="cls-8" x1="518.59" y1="311.45" x2="626.49" y2="311.45"/>
+  <text class="cls-1" transform="translate(361.9 369.22) rotate(90)"><tspan x="0" y="0">Mountains</tspan></text>
+  <line class="cls-8" x1="339.78" y1="505.14" x2="339.78" y2="375.04"/>
+  <text class="cls-2" transform="translate(444.11 203.56) rotate(-45)"><tspan x="0" y="0">Animals</tspan></text>
+  <line class="cls-8" x1="461.17" y1="219.54" x2="531.36" y2="149.34"/>
+  <text class="cls-2" transform="translate(116.74 490.96) rotate(-45)"><tspan x="0" y="0">Light and wind</tspan></text>
+  <line class="cls-8" x1="131.26" y1="503.18" x2="264.3" y2="370.14"/>
+  <text class="cls-2" transform="translate(457.61 356.9) rotate(45)"><tspan x="0" y="0">Plants</tspan></text>
+  <line class="cls-8" x1="438.74" y1="373.6" x2="493.41" y2="428.27"/>
+  <text class="cls-2" transform="translate(84.17 74.3) rotate(45)"><tspan x="0" y="0">Natural processes</tspan></text>
+  <line class="cls-8" x1="71.37" y1="86.92" x2="224.52" y2="240.07"/>
+  <text class="cls-1" transform="translate(328.37 193.92) rotate(-90)"><tspan x="0" y="0">The great spirit</tspan></text>
+  <line class="cls-8" x1="357.82" y1="193.92" x2="357.82"/>
+  <text class="cls-1" transform="translate(0 293.47)"><tspan x="0" y="0">Will that make</tspan></text>
+  <text class="cls-1" transform="translate(0 337.62)"><tspan x="0" y="0">seeds grow</tspan></text>
+  <line class="cls-8" x1="0" y1="307.73" x2="183.27" y2="307.73"/>
+</svg>

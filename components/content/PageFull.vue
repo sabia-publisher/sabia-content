@@ -22,7 +22,7 @@ function setHeight() {
     const element = webComponent.shadowRoot.querySelector('#engine')
 
     if (element && element.offsetHeight) {
-        boxHeight.value = element.offsetHeight * 0.9
+        boxHeight.value = element.clientHeight * 0.9
     }
 }
 
@@ -32,9 +32,7 @@ function setHeight() {
     <div class="rounded-lg prevent-break"
         :style="boxHeight > 0 ? `height: ${boxHeight}px` : `opacity: 0`"
     >
-        <div>
-            <slot></slot>
-        </div>
+        <slot :boxHeight="boxHeight"></slot>
     </div>
 </template>
 
