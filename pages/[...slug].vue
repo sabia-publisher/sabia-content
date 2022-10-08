@@ -1,16 +1,9 @@
 <script setup>
 const { data: navigation } = await useAsyncData('navigation', () => fetchContentNavigation())
-
 const route = useRoute()
-const contentHead = useContentHead()
-
-console.log({ route: route.params })
 
 const isbn = route.params.slug[0]
 const book = navigation.value.find(item => item.title === isbn)
-console.log(isbn, navigation.value, book)
-
-console.log({ book })
 
 // const references = await import(`../content/${isbn}/.references.js`)
 // const { default: footnotes } = await import(`../content/${isbn}/.footnotes.json`)
@@ -20,8 +13,6 @@ const content = reactive({
   // ...(references?.default?.references && { references: references.default.references }),
   // footnotes
 })
-
-console.log(route.path)
 
 const { data } = await useAsyncData(`content-${route.path}`, () => {
     return queryContent()
