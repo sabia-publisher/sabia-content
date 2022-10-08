@@ -3,6 +3,11 @@
     line-height: 145%;
 }
 
+.contentSlot *::selection {
+    color: #FFF;
+    background: var(--theme-secondary, #ffa03c);
+}
+
 .contentSlot h1,
 .contentSlot .h1,
 .contentSlot h2,

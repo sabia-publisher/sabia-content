@@ -2,8 +2,6 @@ const selectorParser = require('postcss-selector-parser');
 const plugin = require('windicss/plugin');
 
 module.exports = {
-    darkMode: 'class',
-
     extract: {
         include: ['**/*.{vue,html,jsx,tsx}'],
         exclude: ['node_modules', '.git'],

@@ -20,13 +20,8 @@ export default defineNuxtConfig({
     modules: [
         '@nuxt/content',
         '@nuxtjs/i18n',
-        'nuxt-windicss',
-        '@nuxtjs/color-mode'
+        'nuxt-windicss'
     ],
-
-    colorMode: {
-        classSuffix: ''
-    },
 
     vite: {
         devBundler: 'legacy'
@@ -45,7 +40,7 @@ export default defineNuxtConfig({
     app: {
         head: {
             script: [
-                { src: 'https://unpkg.com/paginar@0.1.3/dist/index.es.js', type: 'module'}
+                { src: 'https://unpkg.com/paginar@0.1.4/dist/index.es.js', type: 'module'}
             ]
         }
     },
