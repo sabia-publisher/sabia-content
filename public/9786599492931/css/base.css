@@ -50,6 +50,7 @@
 
 .contentSlot p {
     margin-bottom: 1em;
+    line-height: 160%;
     color: var(--text-main, #333333);
 }
 
