@@ -1,10 +1,8 @@
 <script setup>
-import { string } from 'postcss-selector-parser';
-
 const props = defineProps({
     src: String,
-    imageClass: string,
-    imageStyle: string,
+    imageClass: String,
+    imageStyle: String,
     imageHeight: String,
     subtitle: String
 })
