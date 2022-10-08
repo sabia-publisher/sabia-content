@@ -7,7 +7,6 @@
 @import './fonts/hyperlegible.css';
 @import './fonts/faune.css';
 @import './fonts/larken.css';
-@import './fonts/crimson.css';
 @import './fonts/opendyslexic.css';
 @import './components.css';
 
@@ -19,10 +18,6 @@ html {
 	font-family: 'Libre Franklin', sans-serif;
 }
 
-.Crimson {
-	font-family: 'Crimson', sans-serif;
-}
-
 .Alegreya {
 	font-family: 'Alegreya', serif !important;
 }
@@ -30,7 +25,6 @@ html {
 .Larken {
 	font-family: 'Larken', serif;
 }
-
 
 .Faune {
 	font-family: 'Faune', serif;

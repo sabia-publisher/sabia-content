@@ -1,7 +1,6 @@
 .contentSlot {
     font-size: 1em;
     line-height: 145%;
-    font-family: 'Crimson Text', serif;
 }
 
 .contentSlot h1,
@@ -22,25 +21,26 @@
 
 .contentSlot h1,
 .contentSlot h2,
-.contentSlot h3,
-.contentSlot h4,
-.contentSlot h5 {
+.contentSlot h3 {
     break-before: column;
 }
 
 .contentSlot h1 {
     font-size: 3em;
-    line-height: 135%;
+    line-height: 115%;
+    margin-top: 0;
 }
 
 .contentSlot h2 {
     font-size: 2.25em;
-    line-height: 135%;
+    line-height: 115%;
+    margin-top: 0;
 }
 
 .contentSlot h3 {
     font-size: 1.5em;
     line-height: 135%;
+    margin-top: 0;
 }
 
 .contentSlot h4 {
@@ -77,4 +77,11 @@
     color: var(--theme-primary, #333333);
     border-top: 0.25em solid var(--theme-primary, #333333);
     font-size: 0.8em;
+}
+
+.opening {
+    font-style: italic;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
 }

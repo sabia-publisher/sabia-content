@@ -29,7 +29,7 @@ function setHeight() {
 </script>
 
 <template>
-    <div class="rounded-lg prevent-break"
+    <div class="prevent-break"
         :style="boxHeight > 0 ? `height: ${boxHeight}px` : `opacity: 0`"
     >
         <slot :boxHeight="boxHeight"></slot>
