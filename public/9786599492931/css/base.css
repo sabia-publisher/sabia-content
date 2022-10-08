@@ -56,14 +56,19 @@
 .contentSlot blockquote {
     font-style: italic;
     color: var(--theme-primary, #333333);
+    border-left: 0.25em solid var(--theme-primary, #333333);
     margin-left: 0;
-    padding-left: 0;
+    padding-left: 3em;
+}
+
+@media (max-width: 768px) {
+    .contentSlot blockquote {
+        padding-left: 1em;
+    }
 }
 
 .contentSlot blockquote p {
     color: var(--theme-primary, #333333);
-    border-left: 0.25em solid var(--theme-primary, #333333);
-    padding-left: 3em;
 }
 
 .highlight, mark {
@@ -84,4 +89,8 @@
     justify-content: center;
     flex-direction: column;
     display: flex;
+}
+
+.float-left {
+    float: left;
 }
