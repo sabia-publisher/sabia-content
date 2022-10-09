@@ -8,6 +8,10 @@
     background: var(--theme-secondary, #ffa03c);
 }
 
+.contentSlot .background-primary {
+    background-color: var(--theme-primary, transparent)
+}
+
 .contentSlot h1,
 .contentSlot .h1,
 .contentSlot h2,
@@ -56,6 +60,10 @@
 .contentSlot p {
     margin-bottom: 1em;
     line-height: 160%;
+    color: var(--text-main, #333333);
+}
+
+.contentSlot li {
     color: var(--text-main, #333333);
 }
 

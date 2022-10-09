@@ -1,0 +1,31 @@
+@import url("base.css");
+
+html {
+  --bg-light-mode: #fff7e0;
+  --bg-dark-mode: rgb(45, 45, 45);
+  --theme-primary: rgb(200 70 60);
+  --theme-primary-extralight: rgb(242 211 199);
+  --theme-secondary: rgb(135 26 49);
+  --text-main: rgb(200 70 60);
+}
+
+.contentSlot.part-a.currentPage-1.columns-double h1,
+.contentSlot.part-a.currentPage-1.columns-single h1,
+.contentSlot.part-a.currentPage-2.columns-double h2 {
+    color: #FFF !important;
+}
+
+.contentSlot.part-a.currentPage-1.columns-double h2,
+.contentSlot.part-a.currentPage-2.columns-single h2 {
+    color: var(--theme-primary-extralight, #FFFFFF) !important;
+}
+
+.contentSlot.part-a.currentPage-2.columns-double figcaption,
+.contentSlot.part-a.currentPage-3.columns-single figcaption {
+    color: var(--theme-primary-extralight, #FFFFFF) !important;
+    border-top: 0.25em solid #FFF !important;
+}
+
+.contentSlot.part-a.currentPage-2.columns-double p {
+    color: var(--theme-primary-extralight, #FFFFFF) !important;
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 644.15 570.15">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-4 {
+        fill: #fff;
+        font-family: CrimsonText-Regular, 'Crimson Text';
+        font-size: 28.14px;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 1.24px;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="644.15" height="570.15"/>
+    </clipPath>
+  </defs>
+  <text class="cls-4" transform="translate(246.41 198.34)"><tspan x="0" y="0">Political crisis</tspan></text>
+  <text class="cls-4" transform="translate(394.72 453.6)"><tspan x="0" y="0">Socio-economic</tspan></text>
+  <text class="cls-4" transform="translate(394.72 487.36)"><tspan x="0" y="0">crisis</tspan></text>
+  <text class="cls-4" transform="translate(88.73 462.07)"><tspan x="0" y="0">Enviromental</tspan></text>
+  <text class="cls-4" transform="translate(240.64 462.07)"><tspan x="0" y="0"> </tspan></text>
+  <text class="cls-4" transform="translate(88.73 495.84)"><tspan x="0" y="0">crisis</tspan></text>
+  <g class="cls-3">
+    <path class="cls-2" d="M320.36,473.52c-60.17,58.67-142.39,94.82-233.05,94.82-28.2,0-54.29-.98-80.23-7.16-3.81-.91-6.07-4.84-5-8.6,39.99-139.62,168.57-241.81,321.01-241.81s276.08,98.3,318.6,233.82c2.44,7.77-2.24,16-10.2,17.73-22.74,4.96-44.21,5.95-69.54,6.02-184.67,.5-336.97-149.9-336.97-334.62,0-115.32,66.59-203.01,88.35-228.59,3.61-4.25,10.08-4.43,13.96-.43,58,59.91,93.88,139.6,93.88,229.69s-38.62,178.48-100.82,239.13Z"/>
+  </g>
+</svg>
