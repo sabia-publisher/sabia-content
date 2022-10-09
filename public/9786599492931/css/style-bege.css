@@ -11,5 +11,4 @@ html {
 
 .contentSlot.gratitudes.currentPage-1 p {
     color: var(--theme-primary-extralight, #FFFFFF) !important;
-    transition: background-color 200ms linear;
 }

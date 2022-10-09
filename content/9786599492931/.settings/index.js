@@ -26,11 +26,16 @@ export default {
     ],
 
     cssString: `
+        main#rootComponent  {
+            transition: background-color 200ms linear;
+        }
+
         .gratitudes.columns-double.currentPage-1,
         .gratitudes.columns-single.currentPage-1,
         .gratitudes.columns-single.currentPage-2 {
             background: var(--theme-primary, #FFFFFF) !important;
         }
+
         .introduction.columns-double.currentPage-1,
         .introduction.columns-single.currentPage-1,
         .introduction.columns-single.currentPage-2 {
