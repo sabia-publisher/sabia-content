@@ -11,7 +11,8 @@ html {
 
 .contentSlot.part-a.currentPage-1.columns-double h1,
 .contentSlot.part-a.currentPage-1.columns-single h1,
-.contentSlot.part-a.currentPage-2.columns-double h2 {
+.contentSlot.part-a.currentPage-2.columns-double h2,
+.contentSlot.part-a.currentPage-2.columns-double h3 {
     color: #FFF !important;
 }
 
