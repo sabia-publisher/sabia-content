@@ -8,3 +8,8 @@ html {
   --theme-secondary: rgb(185, 136, 61);
   --text-main: rgba(185, 136, 61);
 }
+
+.contentSlot.gratitudes.currentPage-1 p {
+    color: var(--theme-primary-extralight, #FFFFFF) !important;
+    transition: background-color 200ms linear;
+}

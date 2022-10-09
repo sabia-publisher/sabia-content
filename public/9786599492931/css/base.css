@@ -115,6 +115,16 @@
     display: flex;
 }
 
+.full-align-center {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.full-align-center * {
+    break-before: initial !important;
+}
+
 .float-left {
     float: left;
 }

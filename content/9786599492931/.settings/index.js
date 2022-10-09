@@ -23,5 +23,18 @@ export default {
             name: 'Atkinson Hyperlegible',
             link: 'https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap'
         }
-    ]
+    ],
+
+    cssString: `
+        .gratitudes.columns-double.currentPage-1,
+        .gratitudes.columns-single.currentPage-1,
+        .gratitudes.columns-single.currentPage-2 {
+            background: var(--theme-primary, #FFFFFF) !important;
+        }
+        .introduction.columns-double.currentPage-1,
+        .introduction.columns-single.currentPage-1,
+        .introduction.columns-single.currentPage-2 {
+            background: var(--theme-primary, #FFFFFF) !important;
+        }
+    `
 }

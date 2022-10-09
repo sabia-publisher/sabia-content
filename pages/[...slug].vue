@@ -1,4 +1,5 @@
 <script setup>
+import slugify from 'slugify'
 const { data: navigation } = await useAsyncData('navigation', () => fetchContentNavigation())
 const route = useRoute()
 
@@ -24,6 +25,7 @@ const bookSettings = await import(`../content/${isbn}/.settings/index.js`)
 // data.value.body = useReferences(data.value.body, references)
 
 const settings = reactive(bookSettings.default)
+const classList = ref('')
 
 watch(() => route.params.slug, async () => {
     const { path } = useRoute()
@@ -32,6 +34,26 @@ watch(() => route.params.slug, async () => {
         .findOne()
 
     data.value = newContent
+})
+
+onMounted(() => {
+    const targetNode = document
+        .querySelector('paginate-content')
+        .shadowRoot.querySelector('#rootComponent')
+
+    classList.value = targetNode.classList.toString()
+
+    const config = { attributes: true };
+
+    const callback = (mutationList) => {
+        for (const mutation of mutationList) {
+            console.log(`The ${mutation.attributeName} attribute was modified.`)
+            classList.value = targetNode.classList.toString()
+        }
+    }
+
+    const observer = new MutationObserver(callback)
+    observer.observe(targetNode, config)
 })
 
 useHead({
@@ -46,9 +68,11 @@ useHead({
         <paginate-content
             v-if="data"
             id="pagination-el"
-            book-title="A Tale of Two Cities"
+            :book-title="data.navigation.title"
             :reader-settings="JSON.stringify(settings)"
             :book-content="JSON.stringify(content)"
+            :root-class="slugify(data.navigation.title).toLocaleLowerCase()"
+            :css-string="bookSettings?.default?.cssString ?? ''"
         >
             <div slot="header">
                 <p class="text-white">{{ data.navigation.title }}</p>
@@ -62,7 +86,7 @@ useHead({
                 </a>
             </div>
 
-            <div slot="content" class="contentSlot">
+            <div slot="content" class="contentSlot" :class="classList">
                 <ContentRenderer :key="path" :value="data" />
             </div>
         </paginate-content>
