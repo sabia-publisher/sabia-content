@@ -1,5 +1,7 @@
 <script setup>
 import slugify from 'slugify'
+import usePageFull from '../composables/usePageFull'
+
 const { data: navigation } = await useAsyncData('navigation', () => fetchContentNavigation())
 const route = useRoute()
 
@@ -43,17 +45,13 @@ onMounted(() => {
 
     classList.value = targetNode.classList.toString()
 
-    const config = { attributes: true };
+    const observer = new MutationObserver(() => {
+        classList.value = targetNode.classList.toString()
+    })
+    observer.observe(targetNode, { attributes: true })
 
-    const callback = (mutationList) => {
-        for (const mutation of mutationList) {
-            console.log(`The ${mutation.attributeName} attribute was modified.`)
-            classList.value = targetNode.classList.toString()
-        }
-    }
-
-    const observer = new MutationObserver(callback)
-    observer.observe(targetNode, config)
+    const newHeight = usePageFull.getHeight()
+    usePageFull.setHeight(newHeight)
 })
 
 useHead({

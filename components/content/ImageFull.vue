@@ -1,4 +1,6 @@
 <script setup>
+import usePageFull from '../../composables/usePageFull'
+
 const props = defineProps({
     title: String,
     src: String,
@@ -8,12 +10,12 @@ const props = defineProps({
 
 <template>
     <PageFull class="flex flex-col" v-slot="slotProps">
-        <figure class="flex flex-col" :style="`height: ${slotProps.boxHeight}px`">
+        <figure class="flex flex-col" :style="`height: ${usePageFull.height.value}`">
             <p v-if="props.title" class="h3 grow-0">
                 {{ props.title }}
             </p>
             <div class="flex-1">
-                <img :src="props.src" class="mx-auto" :style="`max-height: calc(${slotProps.boxHeight}px - 6em);`">
+                <img :src="props.src" class="mx-auto" :style="`max-height: calc(${usePageFull.height.value} - 6em);`">
             </div>
             <figcaption class="grow-0">
                 {{ props.subtitle }}
