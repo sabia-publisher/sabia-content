@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 683.73 541.98">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 9px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        font-family: CrimsonText-Regular, 'Crimson Text';
+      }
+
+      .cls-6, .cls-3 {
+        fill: #c7463c;
+      }
+
+      .cls-7 {
+        stroke-dasharray: 0 0 1.78 1.78;
+      }
+
+      .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-7, .cls-8, .cls-9, .cls-11, .cls-12 {
+        stroke-width: .9px;
+      }
+
+      .cls-7, .cls-8, .cls-11, .cls-12 {
+        stroke: #c7463c;
+      }
+
+      .cls-9 {
+        stroke: #8c1e18;
+      }
+
+      .cls-10 {
+        stroke: #963f17;
+        stroke-width: .71px;
+      }
+
+      .cls-13 {
+        font-family: CrimsonText-Bold, 'Crimson Text';
+      }
+
+      .cls-13, .cls-2, .cls-3, .cls-4, .cls-5 {
+        font-size: 12.32px;
+      }
+
+      .cls-11 {
+        stroke-dasharray: 0 0 1.77 1.77;
+      }
+
+      .cls-2 {
+        fill: #8c1e18;
+      }
+
+      .cls-4 {
+        fill: #963f17;
+      }
+
+      .cls-12 {
+        stroke-dasharray: 0 0 1.82 1.82;
+      }
+    </style>
+  </defs>
+  <text class="cls-4" transform="translate(5.99 59.05)"><tspan x="0" y="0">Strategic cultural mentoring for: </tspan><tspan x="10.52" y="14.78">Serving the social ecological </tspan><tspan x="13.56" y="29.57">community (”giving back”)</tspan><tspan x="52.49" y="44.35">behavioral</tspan></text>
+  <text class="cls-4" transform="translate(291.95 488.39)"><tspan x="0" y="0">Mostly structured purposeful </tspan><tspan x="6.14" y="14.78">time-constrained activities</tspan></text>
+  <text class="cls-2" transform="translate(244.04 55.57)"><tspan x="0" y="0">Connectedness with nature (CWN)</tspan><tspan x="34.74" y="14.78">(mind - body - spirit)</tspan><tspan x="45.37" y="44.35">“to be enlivened”</tspan></text>
+  <text class="cls-2" transform="translate(114.97 299.58)"><tspan x="0" y="0">Information about nature</tspan><tspan x="45.02" y="14.78">(mind)</tspan><tspan x="23.67" y="44.35">“to know more”</tspan></text>
+  <text class="cls-2" transform="translate(428.15 303.62)"><tspan x="0" y="0">Experience in nature</tspan><tspan x="16.64" y="14.78">(mind - body)</tspan><tspan x="15.84" y="44.35">“to feel better”</tspan></text>
+  <text class="cls-4" transform="translate(527.28 68.17)"><tspan x="0" y="0">Mostly unstructured playful, </tspan><tspan x="6.12" y="14.78">creative timeless activities</tspan></text>
+  <circle class="cls-8" cx="329.81" cy="153.7" r="153.25"/>
+  <circle class="cls-9" cx="413.27" cy="289.71" r="153.25"/>
+  <circle class="cls-10" cx="245.41" cy="289.71" r="153.25"/>
+  <text class="cls-3" transform="translate(215.68 181.26)"><tspan x="0" y="0">affective </tspan><tspan x="-2.05" y="14.78">cognitive</tspan></text>
+  <text class="cls-3" transform="translate(401.88 176.66)"><tspan x="0" y="0">affective </tspan><tspan x="-8.13" y="14.78">experiential</tspan></text>
+  <text class="cls-3" transform="translate(307.63 338.34)"><tspan x="0" y="0">cognitive </tspan><tspan x="-6.08" y="14.78">experiential</tspan></text>
+  <text class="cls-6" transform="translate(299.57 235.6)"><tspan class="cls-13"><tspan x="0" y="0">Committed</tspan></tspan><tspan class="cls-13"><tspan x="15.15" y="14.78">CWN</tspan></tspan><tspan class="cls-1"><tspan x="-28.58" y="25.58" xml:space="preserve">(mind - body - spirit-  willpower)</tspan></tspan><tspan class="cls-5"><tspan x="-.55" y="40.37">“to live fully”</tspan></tspan></text>
+  <g>
+    <line class="cls-8" x1="329.81" y1="128.46" x2="329.39" y2="209.34"/>
+    <polygon class="cls-6" points="326.07 206.8 329.4 208.23 332.74 206.83 329.37 214.72 326.07 206.8"/>
+  </g>
+  <g>
+    <line class="cls-8" x1="530.13" y1="216.64" x2="417.57" y2="104.08"/>
+    <polygon class="cls-6" points="421.71 103.51 418.35 104.86 417 108.22 413.77 100.28 421.71 103.51"/>
+  </g>
+  <g>
+    <line class="cls-8" x1="235.93" y1="396.27" x2="395.11" y2="396.27"/>
+    <polygon class="cls-6" points="392.58 399.6 394 396.27 392.58 392.93 400.48 396.27 392.58 399.6"/>
+  </g>
+  <g>
+    <line class="cls-8" x1="139.94" y1="100.39" x2="140.82" y2="100.57"/>
+    <line class="cls-7" x1="142.57" y1="100.91" x2="323.86" y2="136.49"/>
+    <line class="cls-8" x1="324.74" y1="136.66" x2="325.62" y2="136.83"/>
+  </g>
+  <g>
+    <line class="cls-8" x1="537.49" y1="100.39" x2="536.82" y2="101"/>
+    <line class="cls-11" x1="535.5" y1="102.18" x2="475.62" y2="156.13"/>
+    <line class="cls-8" x1="474.96" y1="156.72" x2="474.29" y2="157.32"/>
+  </g>
+  <g>
+    <line class="cls-8" x1="360.5" y1="462.71" x2="359.91" y2="462.03"/>
+    <line class="cls-12" x1="358.7" y1="460.67" x2="306.25" y2="401.39"/>
+    <line class="cls-8" x1="305.65" y1="400.71" x2="305.05" y2="400.04"/>
+  </g>
+</svg>

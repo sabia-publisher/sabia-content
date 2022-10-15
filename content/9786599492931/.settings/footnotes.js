@@ -179,4 +179,36 @@
         "id": "footnote45",
         "text": "The movements of Brazilian tribes are constant and strong, though continually overlooked by the Brazilian government. Updated news can be found on platforms such as the one from the Coalition of Indigenous Peoples of Brazil (APIB) (https://apiboficial.org/noticias/), National Indigenous Mobilization (https://mobilizacaonacionalindigena.wordpress.com/) and the Indigenous Media (https://www.midiaindia.com/)."
     },
+    {
+        "id": "footnote46",
+        "text": "As Thomas Berry liked to identify himself, instead of the commonly used \"theologian\" or \"eco theologian\"."
+    },
+    {
+        "id": "footnote47",
+        "text": "Retrieved from https://therightsofnature.org/thomas-berrys-ten-principles-of-jurisprudence/"
+    },
+    {
+        "id": "footnote48",
+        "text": "Concept that derives from Marxist thought, it refers to the portion at which a commodity can be exchanged for other commodities."
+    },
+    {
+        "id": "footnote49",
+        "text": "Also deriving from Marxist thought, it refers to the tangible qualities of something, its values when applied for the satisfaction of a wish or need."
+    },
+    {
+        "id": "footnote50",
+        "text": "The “Movimento dos Trabalhadores Rurais Sem Terra no Brasil” or MST. Influential social movement organized in 1984, self defined as “a mass social movement, formed by rural workers and by all those who want to fight for land reform and against injustice and social inequality in rural areas.”Retrieved from https://www.mstbrazil.org/content/what-mst. "
+    },
+    {
+        "id": "footnote51",
+        "text": "American environmental scientist, educator, and writer who was an important contributor to the Limits of Growth (1972) report that exposed the limits of development (Beltrán, 2019, p. 117)."
+    },
+    {
+        "id": "footnote52",
+        "text": "Activities that are aimed at improving an individual’s mental or physical health by contact with Nature. "
+    },
+    {
+        "id": "footnote53",
+        "text": "As defends Latour (2004), one of the mistakes of environmentalists of the 20th century green movement might have been not engaging in complex, long but necessary, conversations. He writes <em>“In order to force ourselves to slow down, we will have to deal simultaneously with the sciences, with nature, and with politics, in the plural.”</em> (p. 03)"
+    },
 ]

@@ -49,5 +49,13 @@ export default {
         .part-a.columns-single.currentPage-3 {
             background: var(--theme-primary, #FFFFFF) !important;
         }
+
+        .part-b.columns-double.currentPage-1,
+        .part-b.columns-double.currentPage-2,
+        .part-b.columns-single.currentPage-1,
+        .part-b.columns-single.currentPage-2,
+        .part-b.columns-single.currentPage-3 {
+            background: var(--theme-primary, #FFFFFF) !important;
+        }
     `
 }
