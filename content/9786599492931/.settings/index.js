@@ -57,5 +57,12 @@ export default {
         .part-b.columns-single.currentPage-3 {
             background: var(--theme-primary, #FFFFFF) !important;
         }
+
+        .part-c.columns-double.currentPage-1,
+        .part-c.columns-double.currentPage-2,
+        .part-c.columns-single.currentPage-1,
+        .part-c.columns-single.currentPage-2 {
+            background: var(--theme-primary, #FFFFFF) !important;
+        }
     `
 }

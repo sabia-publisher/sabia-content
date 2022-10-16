@@ -211,4 +211,68 @@
         "id": "footnote53",
         "text": "As defends Latour (2004), one of the mistakes of environmentalists of the 20th century green movement might have been not engaging in complex, long but necessary, conversations. He writes <em>“In order to force ourselves to slow down, we will have to deal simultaneously with the sciences, with nature, and with politics, in the plural.”</em> (p. 03)"
     },
+    {
+        "id": "footnote54",
+        "text": "The Merriam-Webster Dictionary defines value systems as “the system of established values, norms, or goals existing in a society”."
+    },
+    {
+        "id": "footnote55",
+        "text": "To a more complete argument on this matter, see full paper by Veselova, 2019."
+    },
+    {
+        "id": "footnote56",
+        "text": "Grassroots means “in the most basic level”, applied in this case it means “innovation carried out by non-experts”."
+    },
+    {
+        "id": "footnote57",
+        "text": "On the webpage of the DESIS (Design for Social Innovation and Sustainability) Network, in which Manzini takes part, there is a lot of information available on past and ongoing projects on this theme. Retrieved from https://www.desisnetwork.org/."
+    },
+    {
+        "id": "footnote58",
+        "text": "In case you don’t remember the meaning of this word, we have seen it as a concept that comes from the Mexican Zapatista movement as a vision of a <em>world in which many worlds fit</em>, meaning a society in which the profound respect for the other and their ways of being is primordial."
+    },
+    {
+        "id": "footnote59",
+        "text": "The idea of non-human actors is introduced by branches of philosophy known as object-oriented ontology and speculative realism, in which objects are an active part of the practical and moral construction of society and its cultures. The English scholar Timothy Morton, for example, considers the Fukushima nuclear disaster a “hyper-object”, or non-human actors that impose “scalar dilemmas” (Morton, 2013 as cited in Forlano, 2016). "
+    },
+    {
+        "id": "footnote60",
+        "text": "It is important to clarify what is meant by human-nonhuman assemblage since it plays a central role in this philosophy, and for that we can refer to a piece of her quoting of Bruno Latour (1992): <em>“We have been able to delegate to non-humans not only force as we have known it for centuries but also values, duties, and ethics. It is because of this morality that we, humans, behave so ethically, no matter how weak and wicked we feel we are. The sum of morality does not only remain stable but increases enormously with the population of non humans.”</em> (p. 232). This is considered by Latour the birth of nonhumanity, or an enormous group of actors that carry human values but are not human themselves (Forlano, 2016, p. 48)."
+    },
+    {
+        "id": "footnote61",
+        "text": "Retrieved from https://www.ellenmacarthurfoundation.org/circular-economy/concept/schools-of-thought#:~:text=The%20circular%20economy%20concept%20has,%2C%20thought%2Dleaders%20and%20businesses. (Accessed 29.10.2020)"
+    },
+    {
+        "id": "footnote62",
+        "text": "See more about the brand on their website mogu.bio"
+    },
+    {
+        "id": "footnote63",
+        "text": "See more about the brand on their website pili.bio"
+    },
+    {
+        "id": "footnote64",
+        "text": "Her recent publications and lectures revolve around the concept of Respectful Design, what she describes as “something akin to the creation of preferred courses of action based on the intrinsic worth of all human, animal, mineral, fauna and flora and the treatment of them with dignity and regard.” (Tunstall, 2011, p.133)  Highly connected to decolonizing practices, Respectful Design has been practiced in Ontario College of Art & Design University, of which she is the Dean."
+    },
+    {
+        "id": "footnote65",
+        "text": "Information retrieved from lecture featured in video entitled “Dori Tunstall Shares the Truth About Decolonizing Design | M.AD INSIGHTERS Series”, available at https://www.youtube.com/watch?v=-ALR4KbhmFQ Accessed on 24.04.2022"
+    },
+    {
+        "id": "footnote66",
+        "text": "For Design Activism, the author cites Fuad-Luke (2009) and Thorpe (2008), in this order."
+    },
+    {
+        "id": "footnote67",
+        "text": "For Participatory Design, the author cites Sanders & Stappers (2008), Schuler/Namioka (1993) and Simonsen/Robertson (2013), in this order."
+    },
+    {
+        "id": "footnote68",
+        "text": "For Design Infrastructuring, the author cites Björgvinsson et al. (2010)"
+    },
+    {
+        "id": "footnote69",
+        "text": "As has been discussed in this work in Chapter 3, the consequences of a ruling world vision, as a future vision, has led to epistemicide (the killing of knowledge systems) and domination."
+    },
 ]

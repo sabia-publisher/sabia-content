@@ -5,10 +5,35 @@ html {
   --bg-dark-mode: rgb(45, 45, 45);
   --theme-primary: rgb(185, 136, 61);
   --theme-primary-extralight: rgb(243 244 246);
-  --theme-secondary: rgb(185, 136, 61);
+  --theme-secondary: rgb(147 101 31);
   --text-main: rgba(185, 136, 61);
 }
 
 .contentSlot.gratitudes.currentPage-1 p {
     color: var(--theme-primary-extralight, #FFFFFF) !important;
+}
+
+.contentSlot.part-c.currentPage-1.columns-double h1,
+.contentSlot.part-c.currentPage-1.columns-single h1,
+.contentSlot.part-c.currentPage-2.columns-double h2,
+.contentSlot.part-c.currentPage-2.columns-double h3 {
+    color: #FFF !important;
+}
+
+.contentSlot.part-c.currentPage-1.columns-double h2,
+.contentSlot.part-c.currentPage-2.columns-single h2 {
+    color: var(--theme-primary-extralight, #FFFFFF) !important;
+}
+
+.contentSlot.part-c.currentPage-2.columns-double figcaption {
+    color: var(--theme-primary-extralight, #FFFFFF) !important;
+    border-top: 0.25em solid #FFF !important;
+}
+
+.contentSlot.part-c.currentPage-2.columns-double p {
+    color: var(--theme-primary-extralight, #FFFFFF) !important;
+}
+
+.contentSlot.part-c.currentPage-2.columns-double blockquote {
+    border-left: 0.25em solid #FFF;
 }
