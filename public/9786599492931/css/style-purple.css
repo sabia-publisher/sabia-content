@@ -27,6 +27,7 @@ html {
     border-top: 0.25em solid #FFF !important;
 }
 
-.contentSlot.part-b.currentPage-2.columns-double p {
+.contentSlot.part-b.currentPage-2.columns-double p,
+.contentSlot.part-b.currentPage-3.columns-single p {
     color: var(--theme-primary-extralight, #FFFFFF) !important;
 }

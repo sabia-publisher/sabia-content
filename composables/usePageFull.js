@@ -5,7 +5,7 @@ const state = reactive({
     height: 100
 })
 
-const height = computed(() => (state.height * 0.9) + 'px')
+const height = computed(() => (state.height * 0.94) + 'px')
 function setHeight(height) {
     state.height = height
 }

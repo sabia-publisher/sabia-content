@@ -116,6 +116,10 @@
     }
 }
 
+.contentSlot.columns-single .hide-single-column {
+    display: none !important;
+}
+
 .opening {
     font-style: italic;
     justify-content: center;
