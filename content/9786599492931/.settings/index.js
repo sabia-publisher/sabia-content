@@ -30,9 +30,7 @@ export default {
             transition: background-color 200ms linear;
         }
 
-        .gratitudes.columns-double.currentPage-1,
-        .gratitudes.columns-single.currentPage-1,
-        .gratitudes.columns-single.currentPage-2 {
+        .gratitudes {
             background: var(--theme-primary, #FFFFFF) !important;
         }
 
