@@ -63,10 +63,10 @@ useHead({
 
 <template>
     <main class="w-full h-screen">
-        <!-- :reader-blocked="readerSettings.blocked.value ? 'true' : false" -->
         <paginate-content
             v-if="data"
             id="pagination-el"
+            :reader-blocked="readerSettings.blocked.value === true ? true : null"
             :book-title="data.navigation.title"
             :reader-settings="JSON.stringify(settings)"
             :book-content="JSON.stringify(content)"

@@ -7,6 +7,8 @@ html {
   --theme-primary-extralight: rgb(217 218 214);
   --theme-secondary: rgb(70 70 100);
   --text-main: rgb(70 70 100);
+  --sidebar-backgorund: rgb(70 70 100);
+  --sidebar-text: #fff;
 }
 
 .contentSlot.part-b.currentPage-1.columns-double h1,

@@ -7,6 +7,8 @@ html {
   --theme-primary-extralight: rgb(243 244 246);
   --theme-secondary: rgb(147 101 31);
   --text-main: rgba(185, 136, 61);
+  --sidebar-backgorund: rgb(147 101 31);
+  --sidebar-text: #fff;
 }
 
 .contentSlot.gratitudes.currentPage-1 p {

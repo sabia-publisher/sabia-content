@@ -7,6 +7,8 @@ html {
   --theme-primary-extralight: rgb(208 227 190);
   --theme-secondary: rgb(110, 180, 100);
   --text-main: rgba(40, 96, 30);
+  --sidebar-backgorund: rgb(110, 180, 100);
+  --sidebar-text: #fff;
 }
 
 .contentSlot.introduction.currentPage-1.columns-double h2,

@@ -1,4 +1,8 @@
 <script setup>
+import readerSettings from '../../composables/readerSettings'
+
+const show = ref(false)
+
 const props = defineProps({
     src: String,
     imageClass: String,
@@ -6,6 +10,11 @@ const props = defineProps({
     imageHeight: String,
     subtitle: String
 })
+
+function openImage() {
+    readerSettings.setBlocked(true)
+    show.value = true
+}
 </script>
 
 <template>
@@ -13,12 +22,19 @@ const props = defineProps({
         <figure>
             <img :src="props.src"
                 :style="imageStyle"
-                class="mx-auto"
+                class="mx-auto cursor-pointer"
                 :class="props.imageClass"
+                @click.prevent="openImage()"
             >
             <figcaption>
                 {{ props.subtitle }}
             </figcaption>
+
+            <ImageComponent
+                v-bind="props"
+                :show="show"
+                @close-image="show = false"
+            />
         </figure>
     </div>
 </template>
