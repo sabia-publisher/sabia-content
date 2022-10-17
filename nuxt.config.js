@@ -40,7 +40,7 @@ export default defineNuxtConfig({
     app: {
         head: {
             script: [
-                { src: 'https://unpkg.com/paginar@0.1.7/dist/index.es.js', type: 'module'}
+                { src: 'https://unpkg.com/paginar@0.2.3/dist/index.es.js', type: 'module'}
             ]
         }
     },

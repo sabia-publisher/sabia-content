@@ -17,7 +17,6 @@
     "postcss-nested": "^5.0.6"
   },
   "dependencies": {
-    "paginar": "^0.1.1",
     "slugify": "^1.6.5"
   }
 }

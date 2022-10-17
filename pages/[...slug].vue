@@ -1,6 +1,7 @@
 <script setup>
 import slugify from 'slugify'
 import usePageFull from '../composables/usePageFull'
+import readerSettings from '../composables/readerSettings'
 
 const { data: navigation } = await useAsyncData('navigation', () => fetchContentNavigation())
 const route = useRoute()
@@ -9,13 +10,6 @@ const isbn = route.params.slug[0]
 const book = navigation.value.find(item => item.title === isbn)
 
 // const references = await import(`../content/${isbn}/.references.js`)
-// const { default: footnotes } = await import(`../content/${isbn}/.footnotes.json`)
-
-const content = reactive({
-  summary: book.children.map(item => ({ title: item.title, link: item._path })),
-  // ...(references?.default?.references && { references: references.default.references }),
-  // footnotes
-})
 
 const { data } = await useAsyncData(`content-${route.path}`, () => {
     return queryContent()
@@ -28,6 +22,12 @@ const bookSettings = await import(`../content/${isbn}/.settings/index.js`)
 
 const settings = reactive(bookSettings.default)
 const classList = ref('')
+
+const content = reactive({
+    summary: book.children.map(item => ({ title: item.title, link: item._path })),
+    footnotes: bookSettings.default?.footnotes ?? [],
+    references: bookSettings.default?.references ?? []
+})
 
 watch(() => route.params.slug, async () => {
     const { path } = useRoute()
@@ -63,6 +63,7 @@ useHead({
 
 <template>
     <main class="w-full h-screen">
+        <!-- :reader-blocked="readerSettings.blocked.value ? 'true' : false" -->
         <paginate-content
             v-if="data"
             id="pagination-el"

@@ -140,3 +140,12 @@
 .float-left {
     float: left;
 }
+
+.footnote {
+    border-bottom: 1px dashed var(--theme-primary, #333333);
+    cursor: pointer;
+}
+
+.footnote:hover {
+    border-bottom: 1px solid var(--theme-primary, #333333);
+}
