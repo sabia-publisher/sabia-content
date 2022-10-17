@@ -26,6 +26,7 @@
     letter-spacing: 0.05em;
     font-weight: bold;
     color: var(--theme-primary, #333333);
+    margin-bottom: 0.83em;
 }
 
 .contentSlot h1,
@@ -77,6 +78,7 @@
     border-left: 0.25em solid var(--theme-primary, #333333);
     margin-left: 0;
     padding-left: 3em;
+    clear: both;
 }
 
 @media (max-width: 768px) {
