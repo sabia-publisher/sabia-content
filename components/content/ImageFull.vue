@@ -22,7 +22,7 @@ function openImage() {
             <p v-if="props.title" class="h3 grow-0">
                 {{ props.title }}
             </p>
-            <div class="flex-1">
+            <div class="flex-1 flex">
                 <img :src="props.src"
                     class="mx-auto cursor-pointer"
                     :style="`max-height: calc(${usePageFull.height.value} - 6em);`"

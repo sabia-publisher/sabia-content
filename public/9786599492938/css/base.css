@@ -64,6 +64,36 @@
     color: var(--text-main, #333333);
 }
 
+.contentSlot ol,
+.contentSlot ul {
+    list-style: none;
+    margin: 1em 0 1em 2em;
+    counter-reset: list;
+}
+
+.contentSlot ol li,
+.contentSlot ul li {
+    list-style: none;
+    position: relative;
+    counter-increment: list;
+}
+
+.contentSlot ol li:before {
+    content: counter(list) ". ";
+    position: absolute;
+    left: -2em;
+    font-size: 1em;
+    color: var(--theme-secondary, #ffa03c);
+}
+
+.contentSlot ul li:before {
+    content: "•";
+    position: absolute;
+    left: -1.40em;
+    font-size: 1.5em;
+    color: var(--theme-secondary, #ffa03c);
+}
+
 .contentSlot li {
     color: var(--text-main, #333333);
 }
