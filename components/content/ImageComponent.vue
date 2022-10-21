@@ -30,7 +30,9 @@ onKeyStroke('Escape', () => closeImage())
         <div ref="image" class="bg-white p-10 rounded-lg w-full max-w-[88vw] h-[94vh]">
             <figure class="flex h-full max-h-[calc(94vh-5rem)]">
                 <div class="flex-1 h-full flex justify-center items-center">
-                    <img :src="props.src" class="object-contain h-full w-full">
+                    <slot>
+                        <img :src="props.src" class="object-contain h-full w-full">
+                    </slot>
                 </div>
                 <figcaption class="grow-0 w-72 text-sm leading-normal ml-10 pt-6">
                     {{ props.subtitle }}
