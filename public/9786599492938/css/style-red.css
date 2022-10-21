@@ -32,3 +32,21 @@ html {
 .contentSlot.part-a.currentPage-2.columns-double p {
     color: var(--theme-primary-extralight, #FFFFFF) !important;
 }
+
+.contentSlot.references.currentPage-1.columns-double h1,
+.contentSlot.references.currentPage-1.columns-single h1 {
+    color: #FFF !important;
+}
+
+.contentSlot.references p {
+    padding-left: 3em;
+    text-indent: -3em;
+}
+
+.contentSlot.references p a {
+    border-bottom: 1px dotted var(--theme-primary, #333) !important;
+}
+
+.contentSlot.references p a:hover {
+    border-bottom: 2px solid var(--theme-primary, #333) !important;
+}

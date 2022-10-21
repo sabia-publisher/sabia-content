@@ -62,6 +62,11 @@ export default {
         .part-c.columns-single.currentPage-2 {
             background: var(--theme-primary, #FFFFFF) !important;
         }
+
+        .references.columns-double.currentPage-1,
+        .references.columns-single.currentPage-1 {
+            background: var(--theme-primary, #FFFFFF) !important;
+        }
     `,
 
     references: [
