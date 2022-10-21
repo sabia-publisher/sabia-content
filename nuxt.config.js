@@ -46,6 +46,7 @@ export default defineNuxtConfig({
     },
 
     css: [
+        '@/assets/css/fonts/faune.css',
         '@/assets/css/fonts/larken.css',
     ],
 

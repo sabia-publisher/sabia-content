@@ -1,0 +1,312 @@
+html {
+  --bg-light-mode: #fff7e0;
+  --bg-dark-mode: rgb(45, 45, 45);
+  --theme-primary: #1c4094;
+  --theme-primary-extralight: rgb(244 229 206);
+  --theme-secondary: rgb(8 42 121);
+  --text-main: #2D2D2D;
+  --sidebar-backgorund: rgb(8 42 121);
+  --sidebar-text: #fff;
+}
+
+.contentSlot {
+    font-size: 1em;
+    line-height: 1.55;
+}
+
+.contentSlot *::selection {
+    color: #FFF;
+    background: var(--theme-secondary, #ffa03c);
+}
+
+.contentSlot .background-primary {
+    background-color: var(--theme-primary, transparent)
+}
+
+.contentSlot h1,
+.contentSlot .h1,
+.contentSlot h2,
+.contentSlot .h2,
+.contentSlot h3,
+.contentSlot .h3,
+.contentSlot h4,
+.contentSlot .h4,
+.contentSlot .featured-text * {
+    margin: 0;
+    color: #1c4094 !important;
+}
+
+
+.contentSlot h1,
+.contentSlot h2 {
+    break-before: column;
+}
+
+.contentSlot h1,
+.contentSlot .h1 {
+    font-size: 4em;
+    line-height: 1.52380952em;
+    margin-bottom: 0.5em;
+    font-family: "Faune", sans-serif;
+    font-weight: bold;
+}
+
+.contentSlot h2,
+.contentSlot .h2 {
+    font-size: 3em;
+    line-height: 1.22380952em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-family: "Faune", sans-serif;
+    font-weight: bold;
+    padding-right: 20%;
+}
+
+.contentSlot h3,
+.contentSlot .h3 {
+    font-size: 2em;
+    line-height: 1.23076923em;
+    margin-top: 1.23076923em;
+    margin-bottom: 1.23076923em;
+    font-family: "Faune", sans-serif;
+    font-weight: bold;
+    padding-right: 25%;
+}
+
+.contentSlot h4,
+.contentSlot .h4 {
+    font-size: 1.25em;
+    line-height: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-family: "Faune", sans-serif;
+    font-weight: bold;
+}
+
+.contentSlot h5,
+.contentSlot .h5 {
+    font-size: 1em;
+    line-height: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-family: "Faune", sans-serif;
+    font-weight: bold;
+}
+
+.contentSlot p {
+    text-indent: 2em;
+    font-weight: 300;
+}
+
+.contentSlot .featured-text {
+    font-size: 2em;
+    margin: 2em 0;
+    font-family: "Faune", sans-serif;
+    text-align: right;
+}
+
+.contentSlot .featured-text * {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-indent: 0;
+}
+
+.contentSlot ul,
+.contentSlot ol,
+.contentSlot pre,
+.contentSlot table {
+    margin: 2em 0;
+    font-weight: 300;
+}
+
+.contentSlot blockquote {
+    margin: 2em 0 2em 2em;
+    padding-left: 2em;
+    font-style: italic;
+    font-weight: 300;
+    border-left: 3px solid #154194;
+}
+
+.contentSlot blockquote p:first-child {
+    text-indent: 0 !important;
+}
+
+.contentSlot ul ul,
+.contentSlot ol ol,
+.contentSlot ul ol,
+.contentSlot ol ul {
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+	/* Let's make sure all's aligned */
+.contentSlot hr,
+.contentSlot .hr {
+    border: 1px solid;
+    margin: -1px 0;
+}
+
+.contentSlot a,
+.contentSlot b,
+.contentSlot i,
+.contentSlot strong,
+.contentSlot em,
+.contentSlot small,
+.contentSlot code,
+.contentSlot em {
+    line-height: 0;
+}
+
+.contentSlot sub,
+.contentSlot sup {
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+.contentSlot sup {
+    top: -0.5em;
+}
+
+.contentSlot sub {
+    bottom: -0.25em;
+}
+
+.contentSlot em,
+.contentSlot i {
+    font-style: italic;
+}
+
+.contentSlot strong,
+.contentSlot b {
+    font-weight: bold;
+}
+
+.contentSlot:not(.referencias) h1 + p,
+.contentSlot:not(.referencias) h2 + p,
+.contentSlot:not(.referencias) h3 + p,
+.contentSlot:not(.referencias) h4 + p,
+.contentSlot:not(.referencias) h5 + p,
+.contentSlot:not(.referencias) h6 + p {
+    text-indent: 0 !important;
+}
+
+.contentSlot .cover {
+    max-width: 520px;
+}
+
+.contentSlot .separator {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 2.5em 0;
+
+    span {
+        display: block;
+        width: 100px;
+        border-bottom: 1px solid #ccc;
+    }
+}
+
+.contentSlot .list-item-style {
+    padding: 0.5em 0 0.5em 2em;
+    position: relative;
+    text-indent: 0 !important;
+}
+
+.contentSlot .list-item-style::before {
+    content: '•';
+    position: absolute;
+    top: 0.65em;
+    left: 0;
+    width: 1em;
+    font-size: 2em;
+    line-height: 0;
+}
+
+.contentSlot .list-item-style p {
+    text-indent: 0 !important;
+}
+
+.contentSlot .list-number-style {
+    padding: 0.5em 0 0.5em 2em;
+    position: relative;
+    text-indent: 0 !important;
+    counter-increment: line-number;
+}
+
+.contentSlot .list-number-style::before {
+    content: counter(line-number)'.';
+    position: absolute;
+    top: 1.3em;
+    left: 0;
+    font-size: 1em;
+    line-height: 0;
+}
+
+.contentSlot .list-number-style p {
+    text-indent: 0 !important;
+}
+
+.contentSlot p:not(.list-item-style) + .list-item-style,
+.contentSlot p:not(.list-number-style) + .list-number-style {
+    padding-top: 1em;
+}
+
+.contentSlot p:not(.list-item-style) + .list-item-style::before {
+    top: 0.9em;
+}
+
+.contentSlot p:not(.list-number-style) + .list-number-style::before {
+    top: 1.8em;
+}
+
+.contentSlot .list-item-style + p:not(.list-item-style),
+.contentSlot .list-number-style + p:not(.list-number-style) {
+    margin-top: 1em;
+}
+
+.contentSlot .reference,
+.contentSlot .footnote {
+    border-bottom: 1px dotted rgb(21, 65, 148);
+    cursor: pointer;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    transition-duration: 75ms;
+}
+
+.contentSlot .reference:hover,
+.contentSlot .footnote:hover {
+    border-bottom: 3px solid rgb(21, 65, 148);
+}
+
+.contentSlot .epigrafe {
+    width: 100%;
+    max-width: 520px;
+    break-after: column;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.contentSlot .epigrafe * {
+    font-family: "Faune", sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-indent: 0;
+    font-weight: 500;
+}
+
+.contentSlot.referencias p {
+    padding-left: 3em;
+    text-indent: -3em;
+    margin-bottom: 1em;
+}
+
+.contentSlot.referencias p:first-chid {
+    padding-left: 3em !important;
+    text-indent: -3em !important;
+}
