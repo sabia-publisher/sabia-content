@@ -1,5 +1,5 @@
 <script setup>
-import SchemeFull from './Schemes/SchemeFull.vue'
+import SchemeFull from './SchemeFull.vue'
 
 import readerSettings from '../../composables/readerSettings'
 import usePageFull from '../../composables/usePageFull'

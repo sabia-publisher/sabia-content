@@ -1,5 +1,5 @@
 <script setup>
-import readerSettings from '../../../composables/readerSettings'
+import readerSettings from '../../composables/readerSettings'
 import { onClickOutside, onKeyStroke } from '@vueuse/core'
 
 const emit = defineEmits(['closeImage'])
@@ -66,7 +66,7 @@ function scrollHorizontal(e) {
     </div>
 </template>
 
-<style lang="scss">
+<style>
 .diagram {
     transform: rotate(v-bind(rotate));
 }
