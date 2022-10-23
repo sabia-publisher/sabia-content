@@ -30,19 +30,19 @@ onKeyStroke('Escape', () => close())
 
 <template>
     <div>
-        <div class="border border-green my-4 p-4 bg-red-700 text-white">
-            <button @click="open()">
-                Timeline
+        <div>
+            <button @click="open()" class="border border-green my-4 p-4 bg-red-700 text-white w-full rounded-md">
+                Open Timeline
             </button>
         </div>
 
         <div v-if="show" class="fixed top-0 left-0 z-20 w-screen h-screen flex p-4 justify-center items-center bg-black/50">
-            <div ref="timeline" class="bg-white p-10 rounded-lg w-full h-[90vh] overflow-x-auto overflow-y-hidden">
-                <ul class="[ timeline-wrapper ] flex flex-nowrap">
+            <div ref="timeline" class="bg-white p-8 pb-4 rounded-lg w-full h-[80vh] overflow-x-auto overflow-y-hidden">
+                <ul class="[ timeline-wrapper ] m-0 p-0">
                     <li class="origin-blue">
                         <h3>19th century</h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
+                        <figure class="rounded w-full">
                             <img src="" alt="">
                         </figure>
 
@@ -50,11 +50,11 @@ onKeyStroke('Escape', () => close())
                         beautiful natural sceneries were expressed by few individuals, but not abundant.</p>
                     </li>
 
-                    <li class="origin-yellow">
+                    <li class="origin-bege">
                         <h3>1948</h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
-                            <img src="" alt="">
+                        <figure class="rounded w-full">
+                            <img src="/9786599492938/images/1948.png">
                         </figure>
 
                         <p>The International Union for Conservation of Nature – IUCN was established by representatives of governments and
@@ -62,11 +62,11 @@ onKeyStroke('Escape', () => close())
                         the Protection of Nature (IUPN).</p>
                     </li>
 
-                    <li class="origin-yellow">
+                    <li class="origin-bege">
                         <h3>1951</h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
-                            <img src="" alt="">
+                        <figure class="rounded w-full">
+                            <img src="/9786599492938/images/1951.png">
                         </figure>
 
                         <p>The World Wildlife Fund – WWF, first named World Wide Fund for Nature was founded in 1961 as an international
@@ -77,19 +77,19 @@ onKeyStroke('Escape', () => close())
                     <li class="origin-green">
                         <h3>1962</h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
-                            <img src="" alt="">
+                        <figure class="rounded w-full">
+                            <img src="/9786599492938/images/1962.png">
                         </figure>
 
                         <p>Silent Spring, by Rachel Carson, brings together research on toxicology, ecology, and epidemiology to suggest that
                         agricultural pesticides are building to catastrophic levels, linked to damage to animal species and human health.</p>
                     </li>
 
-                    <li class="origin-">
+                    <li class="origin-bege">
                         <h3>1968</h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
-                            <img src="" alt="">
+                        <figure class="rounded w-full">
+                            <img src="/9786599492938/images/1968.png">
                         </figure>
 
                         <p>Intergovernmental Conference for Rational Use and Conservation of the Biosphere, the first international conference on
@@ -99,8 +99,8 @@ onKeyStroke('Escape', () => close())
                     <li class="origin-red">
                         <h3>1971</h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
-                            <img src="" alt="">
+                        <figure class="rounded w-full">
+                            <img src="/9786599492938/images/1971.png">
                         </figure>
 
                         <p>The creation of Greenpeace in Canada</p>
@@ -111,11 +111,11 @@ onKeyStroke('Escape', () => close())
                         accountable for their actions.</p>
                     </li>
 
-                    <li class="origin-purple">
+                    <li class="origin-blue">
                         <h3>1972</h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
-                            <img src="" alt="">
+                        <figure class="rounded w-full">
+                            <img src="/9786599492938/images/1972.png">
                         </figure>
 
                         <p>The United Nations Conference on Human Environment, in Stockholm, the first world conference on environment and
@@ -123,11 +123,11 @@ onKeyStroke('Escape', () => close())
                         national environmental protection agencies and the United Nations Environment Programme (Unep).</p>
                     </li>
 
-                    <li class="origin-">
+                    <li class="origin-red">
                         <h3>1973</h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
-                            <img src="" alt="">
+                        <figure class="rounded w-full">
+                            <img src="/9786599492938/images/1973.png">
                         </figure>
 
                         <p>Publication of the influential book Small is Beautiful by Ernst Friedrich Schumacher; Molina and Rowland released their
@@ -139,8 +139,8 @@ onKeyStroke('Escape', () => close())
                     <li class="origin-green">
                         <h3>1974</h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
-                            <img src="" alt="">
+                        <figure class="rounded w-full">
+                            <img src="/9786599492938/images/1974.png">
                         </figure>
 
                         <p>Latin American World Model is the South American response to Limits to Growth developed by the Fundación Bariloche and
@@ -150,8 +150,8 @@ onKeyStroke('Escape', () => close())
                     <li class="origin-green">
                         <h3>1976</h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
-                            <img src="" alt="">
+                        <figure class="rounded w-full">
+                            <img src="/9786599492938/images/1976.png">
                         </figure>
 
                         <p>Habitat, the UN Conference on Human Settlements, is the first global meeting to link the environment and human
@@ -161,8 +161,8 @@ onKeyStroke('Escape', () => close())
                     <li class="origin-green">
                         <h3>1978</h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
-                            <img src="" alt="">
+                        <figure class="rounded w-full">
+                            <img src="/9786599492938/images/1978.png">
                         </figure>
 
                         <p>OECD Directorate of the Environment relaunches research on environmental and economic linkages. The work builds the
@@ -171,10 +171,6 @@ onKeyStroke('Escape', () => close())
 
                     <li class="origin-red">
                         <h3>1980</h3>
-
-                        <figure class="bg-gray-200 rounded w-full h-48">
-                            <img src="" alt="">
-                        </figure>
 
                         <p>The World Conservation Strategy was released by The International Union for the Conservation of Nature and Natural
                         Resources (now known as the World Conservation Union). The main agents of habitat destruction were identified in a
@@ -189,10 +185,6 @@ onKeyStroke('Escape', () => close())
                     <li class="origin-red">
                         <h3>1982</h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
-                            <img src="" alt="">
-                        </figure>
-
                         <p>The publishing of the United Nations World Charter for Nature that presented the principle that every form of life is
                         unique and should be respected regardless of its value to humankind.</p>
 
@@ -200,10 +192,10 @@ onKeyStroke('Escape', () => close())
                     </li>
 
                     <li class="origin-red">
-                        <h3>1985</h3>
+                        <h3>1983</h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
-                            <img src="" alt="">
+                        <figure class="rounded w-full">
+                            <img src="/9786599492938/images/1983.png">
                         </figure>
 
                         <p>The World Meteorological Society, Unep and the International Council of Scientific Unions predicted global warming would
@@ -214,19 +206,15 @@ onKeyStroke('Escape', () => close())
                     <li class="origin-green">
                         <h3>1985</h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
-                            <img src="" alt="">
-                        </figure>
-
                         <p>Meeting in Austria of the World Meteorological Society, Unep and the International Council of Scientific Unions reports
                         on the buildup of carbon dioxide and other “greenhouse gases” in the atmosphere. They predict global warming.</p>
                     </li>
 
-                    <li class="origin-purple">
+                    <li class="origin-blue">
                         <h3>1987</h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
-                            <img src="" alt="">
+                        <figure class="rounded w-full">
+                            <img src="/9786599492938/images/1987.png">
                         </figure>
 
                         <p>The Brundtland Report also known as “Our Common Future” made the expression “sustainable development” popular as it
@@ -237,14 +225,14 @@ onKeyStroke('Escape', () => close())
                     <li class="origin-green">
                         <h3>1990</h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
-                            <img src="" alt="">
+                        <figure class="rounded w-full">
+                            <img src="/9786599492938/images/1990.png">
                         </figure>
 
                         <p>International Institute for Sustainable Development (IISD) was established in Canada and began publishing the Earth
                         Negotiations Bulletin in 1992</p>
 
-                        <p class="origin-blue">. In the same year, in compass with The Brundtland Report, the BID, or Inter-American Development Bank (Banco
+                        <p class="origin-blue">In the same year, in compass with The Brundtland Report, the BID, or Inter-American Development Bank (Banco
                         Interamericano del Desarollo), known as a relevant source of development financing for Latin America and the Caribbean,
                         together with the UNDP designed the “Our own agenda”, a Central and South American version of “Our common future”.</p>
                     </li>
@@ -252,8 +240,8 @@ onKeyStroke('Escape', () => close())
                     <li class="origin-blue">
                         <h3>1991</h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
-                            <img src="" alt="">
+                        <figure class="rounded w-full">
+                            <img src="/9786599492938/images/1991.png">
                         </figure>
 
                         <p>The IUCN, the United Nations Environment Programme – Unep and the WWF develop the Caring for the Earth world
@@ -264,8 +252,8 @@ onKeyStroke('Escape', () => close())
                     <li class="origin-red">
                         <h3>1992</h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
-                            <img src="" alt="">
+                        <figure class="rounded w-full">
+                            <img src="/9786599492938/images/1992.png">
                         </figure>
 
                         <p>The Business Council for Sustainable Development which later became the World Business Council for Sustainable
@@ -287,30 +275,34 @@ onKeyStroke('Escape', () => close())
                     <li class="origin-red">
                         <h3>1993</h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
-                            <img src="" alt="">
-                        </figure>
-
                         <p>The first meeting of the UN Commission on Sustainable Development took place.</p>
                     </li>
 
                     <li class="origin-red">
                         <h3>1995</h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
-                            <img src="" alt="">
+                        <figure class="rounded w-full">
+                            <img src="/9786599492938/images/1995.png">
                         </figure>
 
                         <p>The international community agreed for the first time on the goal to eradicate poverty at the World Summit for Social
                         Development, held in Copenhagen.</p>
                     </li>
 
-                    <li class="origin-yellow">
-                        <h3>1998</h3>
+                    <li class="origin-red">
+                        <h3>1997</h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
-                            <img src="" alt="">
+                        <figure class="rounded w-full">
+                            <img src="/9786599492938/images/1997.png">
                         </figure>
+
+                        <p>The Kyoto Protocol regarding greenhouse gas emissions was signed by delegates to the UN Framework Convention on Climate
+                        Change Third Conference of the Parties (COP-3). In this same year, the UN General Assembly review of Earth Summit
+                        progress noted that the efforts to implement Agenda 21 by the signers was not enough</p>
+                    </li>
+
+                    <li class="origin-bege">
+                        <h3>1998</h3>
 
                         <p>Indian economist Amartya Sen won the Nobel Prize for his contributions to a new perspective on the root and the possible
                         responses to social disasters, such as extreme poverty and famine. His reflections for an economy based on long-term,
@@ -318,10 +310,10 @@ onKeyStroke('Escape', () => close())
                     </li>
 
                     <li class="origin-green">
-                        <h3></h3>
+                        <h3>1999</h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
-                            <img src="" alt="">
+                        <figure class="rounded w-full">
+                            <img src="/9786599492938/images/1999.png">
                         </figure>
 
                         <p>Launch of the Dow Jones Sustainability Indexes. The first of its kind, the tool provides guidance to investors looking
@@ -331,8 +323,8 @@ onKeyStroke('Escape', () => close())
                     <li class="origin-red">
                         <h3>2000</h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
-                            <img src="" alt="">
+                        <figure class="rounded w-full">
+                            <img src="/9786599492938/images/2000.png">
                         </figure>
 
                         <p>It was recognized that almost half of the world’s population now lived in cities that occupy less than 2% of the Earth’s
@@ -342,8 +334,8 @@ onKeyStroke('Escape', () => close())
                     <li class="origin-red">
                         <h3>2002</h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
-                            <img src="" alt="">
+                        <figure class="rounded w-full">
+                            <img src="/9786599492938/images/2002.png">
                         </figure>
 
                         <p>The second World Summit on Sustainable Development was held in Johannesburg during which world governments, concerned
@@ -351,15 +343,13 @@ onKeyStroke('Escape', () => close())
                         change since the United Nations Conference on Environment and Development in 1992. At the Summit the following was
                         reported:</p>
 
-                        <ol>
-                            <li>A third of the world’s population lives in countries suffering from moderate to high water stress.</li>
-                            <li>Eighty percent of all disease in developing countries is caused by consumption of contaminated water.</li>
-                            <li>Twelve percent of bird species, 25% of mammal species and 34% of fish species are under threat of extinction.</li>
-                            <li>Air pollution is estimated to cause 5% of the world’s deaths each year.</li>
-                            <li>A hundred and thirteen million of the world’s children do not have access to primary education while 20% of adults
-                            are illiterate, two-thirds of those are women.</li>
-                            <li>Global consumption of mineral, wood, plastics, and other materials increased by 240% between 1960 and 1995</li>
-                        </ol>
+                        <p>1. A third of the world’s population lives in countries suffering from moderate to high water stress.</p>
+                        <p>2. Eighty percent of all disease in developing countries is caused by consumption of contaminated water.</p>
+                        <p>3. Twelve percent of bird species, 25% of mammal species and 34% of fish species are under threat of extinction.</p>
+                        <p>4. Air pollution is estimated to cause 5% of the world’s deaths each year.</p>
+                        <p>5. A hundred and thirteen million of the world’s children do not have access to primary education while 20% of adults
+                            are illiterate, two-thirds of those are women.</p>
+                        <p>6. Global consumption of mineral, wood, plastics, and other materials increased by 240% between 1960 and 1995</p>
 
                         <p>The Summit’s plan of implementation recognized that an unprecedented level of commitment and co-operation is required
                         from all sectors and countries if change is going to occur. More than one hundred world leaders made a recommitment to
@@ -372,31 +362,23 @@ onKeyStroke('Escape', () => close())
                     <li class="origin-blue">
                         <h3>2003</h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
-                            <img src="" alt="">
-                        </figure>
-
                         <p>A group of South American environmental ministries promoted a document called Manifesto pela vida (Manifest for Live).
                         The initiative was based on ethical principles that could base plans for sustainable development that included topics on
                         social justice. It was supported by Unep</p>
                     </li>
 
-                    <li class="origin-yellow">
+                    <li class="origin-bege">
                         <h3>2005</h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
-                            <img src="" alt="">
+                        <figure class="rounded w-full">
+                            <img src="/9786599492938/images/2005.png">
                         </figure>
 
                         <p>With most of the world’s nations, but the United States, ratifying the Kyoto Protocol, it officially goes into force.</p>
                     </li>
 
-                    <li class="origin-yellow">
+                    <li class="origin-bege">
                         <h3>2007</h3>
-
-                        <figure class="bg-gray-200 rounded w-full h-48">
-                            <img src="" alt="">
-                        </figure>
 
                         <p>Bali Action Plan is signed at the 13th United Nations Climate Change Conference (COP 13), agreeing on long-term
                         strategies to fight climate change based on shared vision, mitigation, adaptation, technology, and financing. In the
@@ -410,8 +392,8 @@ onKeyStroke('Escape', () => close())
                     <li class="origin-green">
                         <h3>2008</h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
-                            <img src="" alt="">
+                        <figure class="rounded w-full">
+                            <img src="/9786599492938/images/2008.png">
                         </figure>
 
                         <p>World food, fuel, and financial crises converge as global food prices increase 43% in one year. At the same time,
@@ -420,22 +402,22 @@ onKeyStroke('Escape', () => close())
                         in the countryside, for the first time in history, more than 50% of the world’s population lived in towns and cities.</p>
                     </li>
 
-                    <li class="origin-yellow">
+                    <li class="origin-bege">
                         <h3>2009</h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
-                            <img src="" alt="">
+                        <figure class="rounded w-full">
+                            <img src="/9786599492938/images/2009.png">
                         </figure>
 
                         <p>The COP15 in Copenhagen is considered a failure as 193 countries failed to reach a consensus on replacement for the 1997
                         Kyoto Protocol emissions treaty, set to expire in 2012.</p>
                     </li>
 
-                    <li class="origin-yellow">
+                    <li class="origin-bege">
                         <h3>2010</h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
-                            <img src="" alt="">
+                        <figure class="rounded w-full">
+                            <img src="/9786599492938/images/2010.png">
                         </figure>
 
                         <p>United Nations Climate Change Conference in Cancun (COP 16), Mexico ends with agreements on funding for climate change
@@ -448,22 +430,22 @@ onKeyStroke('Escape', () => close())
                         damaging wildlife habitats, fisheries, tourism, and the economy in the region.</p>
                     </li>
 
-                    <li class="origin-yellow">
+                    <li class="origin-bege">
                         <h3>2011</h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
-                            <img src="" alt="">
+                        <figure class="rounded w-full">
+                            <img src="/9786599492938/images/2011.png">
                         </figure>
 
                         <p>The Fukushima Daiichi nuclear disaster reinforced the need to rethink the prioritization of economy and production over
                         caring for life, since hundreds of thousands of humans and non-humans were directly negatively affected.</p>
                     </li>
 
-                    <li class="origin-yellow">
+                    <li class="origin-bege">
                         <h3>2012</h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
-                            <img src="" alt="">
+                        <figure class="rounded w-full">
+                            <img src="/9786599492938/images/2012.png">
                         </figure>
 
                         <p>Rio +20 celebrates the 20th anniversary of the Earth Summit conference, while native Brazilians demonstrate against the
@@ -471,11 +453,11 @@ onKeyStroke('Escape', () => close())
                         were the increasing murders of environmental activists.</p>
                     </li>
 
-                    <li class="origin-yellow">
+                    <li class="origin-bege">
                         <h3>2013</h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
-                            <img src="" alt="">
+                        <figure class="rounded w-full">
+                            <img src="/9786599492938/images/2013.png">
                         </figure>
 
                         <p>Argentinian cardinal Jorge Mario Bergoglio is elected Pope, leader of the Catholic Church. He chooses the name Francis,
@@ -484,11 +466,11 @@ onKeyStroke('Escape', () => close())
                         calling for environmental justice and dialogue in the international community, especially on climate change.</p>
                     </li>
 
-                    <li class="origin-yellow">
+                    <li class="origin-bege">
                         <h3>2014</h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
-                            <img src="" alt="">
+                        <figure class="rounded w-full">
+                            <img src="/9786599492938/images/2014.png">
                         </figure>
 
                         <p>US National Climate Assessment report, elaborated by more than 300 experts from thirteen government agencies, states:
@@ -496,11 +478,11 @@ onKeyStroke('Escape', () => close())
                         human-induced emissions of heat-trapping gasses.” Finally.</p>
                     </li>
 
-                    <li class="origin-yellow">
+                    <li class="origin-bege">
                         <h3>2015</h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
-                            <img src="" alt="">
+                        <figure class="rounded w-full">
+                            <img src="/9786599492938/images/2015.png">
                         </figure>
 
                         <p><strong>Paris Agreement signed</strong> by 175 countries. The aims of the agreement are:</p>
@@ -519,12 +501,12 @@ onKeyStroke('Escape', () => close())
                         all" that are intended to be achieved by the year 2030. They are included in a UN Resolution called the 2030 Agenda.</p>
                     </li>
 
-                    <li class="origin-yellow">
+                    <li class="origin-bege">
                         <h3>2016</h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
+                        <!-- <figure class="rounded w-full">
                             <img src="" alt="">
-                        </figure>
+                        </figure> -->
 
                         <p>Donald Trump becomes president of the world’s largest economy, famously recognized for his anti-environmental attitude.
                         He orders a stop to climate change prevention and research in a series of executive orders in the same year and attempts
@@ -534,11 +516,11 @@ onKeyStroke('Escape', () => close())
                         people and environmentalists had been constantly attacked by him and his party.</p>
                     </li>
 
-                    <li class="origin-yellow">
+                    <li class="origin-bege">
                         <h3>2018</h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
-                            <img src="" alt="">
+                        <figure class="rounded w-full">
+                            <img src="/9786599492938/images/2018.png">
                         </figure>
 
                         <p>Climate change report containing detailed impacts of a temperature rise of 1.5 ºC was released by the UN
@@ -546,11 +528,11 @@ onKeyStroke('Escape', () => close())
                         summit in Poland.</p>
                     </li>
 
-                    <li class="origin-yellow">
+                    <li class="origin-bege">
                         <h3>2019</h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
-                            <img src="" alt="">
+                        <figure class="rounded w-full">
+                            <img src="/9786599492938/images/2019.png">
                         </figure>
 
                         <p>The Green New Deal resolution was introduced in US Congress by Senator Edward Markey and Representative Alexandria
@@ -569,11 +551,11 @@ onKeyStroke('Escape', () => close())
                         reached new records on deforestation.</p>
                     </li>
 
-                    <li class="origin-yello">
+                    <li class="origin-bege">
                         <h3>2020</h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
-                            <img src="" alt="">
+                        <figure class="rounded w-full">
+                            <img src="/9786599492938/images/2020.png">
                         </figure>
 
                         <p>The Covid-19 pandemic kills millions of people, reinforcing the unsustainability of our economic system. While a large
@@ -581,11 +563,11 @@ onKeyStroke('Escape', () => close())
                         pollution is evident.</p>
                     </li>
 
-                    <li class="origin-yello">
+                    <li class="origin-bege">
                         <h3>2021</h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
-                            <img src="" alt="">
+                        <figure class="rounded w-full">
+                            <img src="/9786599492938/images/2021.png">
                         </figure>
 
                         <p>Newly-elected US President Joe Biden starts reversing Trump’s anti-climate legacy by instructing the US government to
@@ -594,12 +576,12 @@ onKeyStroke('Escape', () => close())
                         longer. . . . We see it with our own eyes, we feel it in our bones. It’s time to act.”</p>
                     </li>
 
-                    <li class="origin-yello">
+                    <li class="origin-bege">
                         <h3>2021</h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
+                        <!-- <figure class="rounded w-full">
                             <img src="" alt="">
-                        </figure>
+                        </figure> -->
 
                         <p>The COP-26 Summit revolved around the failure of the Paris Agreement, insufficient funding for poorer countries to
                         pursue sustainable goals and the distance between what has been promised and what has been done. It was also the COP
@@ -612,7 +594,7 @@ onKeyStroke('Escape', () => close())
                     <li class="origin-">
                         <h3></h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
+                        <figure class="rounded w-full">
                             <img src="" alt="">
                         </figure>
 
@@ -622,7 +604,7 @@ onKeyStroke('Escape', () => close())
                     <li class="origin-">
                         <h3></h3>
 
-                        <figure class="bg-gray-200 rounded w-full h-48">
+                        <figure class="rounded w-full">
                             <img src="" alt="">
                         </figure>
 
@@ -636,9 +618,125 @@ onKeyStroke('Escape', () => close())
 </template>
 
 <style scoped lang="postcss">
-.timeline-wrapper li {
+.timeline-wrapper {
+    column-count: 4;
+    grid-column-gap: 0;
+    column-gap: 0;
+    margin: 0 !important;
     height: 100%;
 
-    @apply w-96 flex-shrink-0 px-3;
+    @media (max-width: 1600px) {
+        column-count: 3;
+    }
+
+    @media (max-width: 1300px) {
+        column-count: 2;
+    }
+
+    @media (max-width: 640px) {
+        column-count: 1;
+    }
+}
+
+.timeline-wrapper > li {
+    break-before: column;
+    break-inside: avoid-column;
+
+    @apply flex-shrink-0 px-3;
+
+    &::before {
+        display: none;
+    }
+
+    h3 {
+      position: relative;
+      margin-bottom: 1em;
+      color: #222;
+
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: -0.45em;
+        left: 0;
+        border-bottom: 5px solid #000;
+        width: 75px;
+      }
+    }
+
+    figure {
+        margin-bottom: 1em;
+    }
+
+    p {
+        color: #222;
+        position: relative;
+
+        &.origin-blue,
+        &.origin-red
+        &.origin-bege,
+        &.origin-green {
+            padding-top: 1em;
+
+            &::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                border-bottom: 5px solid #000;
+                width: 75px;
+            }
+        }
+
+        &.origin-blue::before {
+            border-bottom-color: rgb(140 150 179);
+        }
+        &.origin-red::before {
+            border-bottom-color: rgb(200 70 60);
+        }
+
+        &.origin-green::before {
+            border-bottom-color: rgb(110, 180, 100);
+        }
+
+        &.origin-bege::before {
+            border-bottom-color: rgb(185, 136, 61);
+        }
+    }
+
+    &.origin-blue {
+        h3::after {
+            border-bottom-color: rgb(140 150 179);
+        }
+    }
+
+    &.origin-red {
+        h3::after {
+            border-bottom-color: rgb(200 70 60);
+        }
+    }
+
+    &.origin-green {
+        h3::after {
+            border-bottom-color: rgb(110, 180, 100);
+        }
+    }
+
+    &.origin-bege {
+        h3::after {
+            border-bottom-color: rgb(185, 136, 61);
+        }
+    }
+
+    :deep(ol) {
+        list-style: initial;
+
+        li {
+            list-style: initial;
+
+            &::before {
+                display: none;
+            }
+        }
+    }
 }
 </style>

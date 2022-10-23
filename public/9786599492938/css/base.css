@@ -132,6 +132,28 @@
     box-shadow: 0px -0.65em var(--theme-primary-extralight, #eeeeee) inset;
 }
 
+.highlight.highlight-green {
+    color: rgba(40, 96, 30) !important;
+    box-shadow: 0px -0.65em rgb(208 227 190) inset !important;
+}
+
+.highlight.highlight-red {
+    color: rgb(200 70 60) !important;
+    box-shadow: 0px -0.65em rgb(242 211 199) inset !important;
+}
+
+.highlight.highlight-blue {
+    color: rgb(70 70 100) !important;
+    box-shadow: 0px -0.65em rgb(217 218 214) inset !important;
+}
+
+.highlight.highlight-bege {
+    color: rgba(185, 136, 61) !important;
+    box-shadow: 0px -0.65em rgb(244 229 206) inset !important;
+}
+
+
+
 .dark .highlight, .dark mark {
     box-shadow: 0px -0.65em var(--theme-primary-extradark, #666) inset;
 }
