@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-f3d7fc4b-9612-490e-a3dd-2243aafb91b1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 816.16 800">
+  <defs>
+    <style>
+      .uuid-def0fd4e-20cd-4c8c-891e-672fec4a79d0, .uuid-b18e977e-d8e3-4716-98e0-4fdd09e3e896, .uuid-ea38c9c8-9abb-4e21-a78a-30ee96289cdc {
+        fill: none;
+      }
+
+      .uuid-ca49948f-8916-44bf-b983-527acae8016f {
+        clip-path: url(#uuid-59e44332-0205-47c6-b968-e25de264b092);
+      }
+
+      .uuid-b18e977e-d8e3-4716-98e0-4fdd09e3e896 {
+        stroke: #6b6969;
+        stroke-miterlimit: 17;
+        stroke-width: 32px;
+      }
+
+      .uuid-09dec07c-15b3-42e4-9a7e-eb455a0e53f9 {
+        clip-path: url(#uuid-48710d6b-2636-47a6-b6a5-80f75e2701e2);
+      }
+
+      .uuid-dffae47d-a6a2-4113-8cb5-8c95a09d2607 {
+        clip-path: url(#uuid-e66a3fb6-012f-41e4-9b20-38dc69c26cb4);
+      }
+
+      .uuid-edae3e16-2c3a-4f3f-a66b-dfe7dbdf3937 {
+        fill: #6b6868;
+      }
+
+      .uuid-662b3afc-2a52-4b04-b08f-fa753cb0409a {
+        letter-spacing: 0em;
+      }
+
+      .uuid-ea38c9c8-9abb-4e21-a78a-30ee96289cdc {
+        stroke: #c8463c;
+        stroke-width: 2px;
+      }
+
+      .uuid-e1ab88d3-81c7-4be8-9f6b-8a9309863eb8 {
+        font-size: 25.06px;
+      }
+
+      .uuid-e1ab88d3-81c7-4be8-9f6b-8a9309863eb8, .uuid-437507a8-6181-4dd4-adac-a63aa172e311, .uuid-393f62eb-2d99-4eec-99c9-b4f7c2c47ea7, .uuid-ef6f8bec-1632-4731-b156-3935ad2d6617, .uuid-5c0d5ad2-cf9c-4f0b-b5bf-0370c64f2731, .uuid-445e738c-c661-4ee0-ba96-a498f5f6fad9, .uuid-4560a2df-81c6-4626-852d-b58558e75fe3, .uuid-9fea2b00-3ca4-4ac1-a4e9-458147249922, .uuid-b789b659-a4ed-4d8c-aba1-465f87d6ec51, .uuid-2ea067eb-7f11-42cb-8d57-855727c3d300, .uuid-f800d485-d775-4a29-8232-2530240c5a5d, .uuid-486c59d9-c238-40ec-a821-0da2976abe1e, .uuid-f8e7c035-fea3-4eda-bc28-6767817ec86f, .uuid-684cecac-f7da-4257-a8f9-ed6e0729a427, .uuid-19b4315d-9415-44cf-b883-dc7575d4e591, .uuid-f73599fa-7485-4ebf-97c2-71b01e4ce478, .uuid-afada8b9-a4b7-4f5b-8c41-138eb173582a, .uuid-b572eec3-7973-4b54-939a-12accdd0cd55, .uuid-bee92b3b-0404-4921-9c03-51a4ad9b3681, .uuid-78e3b3a3-8c6d-45a0-8095-1c6ebec16399, .uuid-fc8e3c5a-2ce9-4179-ab03-675ae6c0610f, .uuid-6339f34a-194c-470c-98eb-93fd945c5a47, .uuid-64d5d4ee-ca21-4033-8f9c-284e452d611e, .uuid-d53fdd68-f285-43e2-a5fe-03d78d257791, .uuid-94ff05dc-0b2a-4f5c-bf5c-e9eeaa021cf6, .uuid-83ff00cf-a675-4d79-bdb4-cdb9e18ccf90, .uuid-63509e3a-beae-4821-ae7d-794abda6ca2f, .uuid-8e19d602-586c-4a41-a404-f5e174c40a73, .uuid-2f26c238-3510-4144-ad2d-f20390ccee5f, .uuid-447edc0c-52ec-45f6-bc8d-a08bf755bae7, .uuid-fa9006b9-d038-4b45-a521-1644a034c0c9, .uuid-7326e00f-5e22-4356-9a6e-75d06cf5d220, .uuid-cdfe8c80-f680-413f-9711-bf019e1fe4ad, .uuid-14325123-818a-4701-b759-34e75a24e60d, .uuid-ac0ea970-47cf-470b-928d-53544173652e, .uuid-0e24cfb9-d382-4de5-8ac5-e24820685eda, .uuid-15090eb3-ebd3-4afe-8543-17996c040af3, .uuid-69800759-d29f-4cf0-81d1-19af8aac8738, .uuid-9b94fae4-93a1-4231-8f1c-82514f5a335f, .uuid-b1bf84cf-7d75-4653-b261-36c23ff6517f, .uuid-149e157d-8684-40c9-a74f-f01ae6dd4476, .uuid-8b85fe9f-6800-418a-8b8a-4e9820faa2df, .uuid-c6f20942-eb92-42b6-8456-7faa25aee10f, .uuid-6fb0c651-8541-4a42-8fd3-75da37726705, .uuid-5d50a00f-62c1-4f2e-9401-2c12bb7c33d9, .uuid-c59396f0-180f-40ea-9ce6-0d265b01f7ba, .uuid-14bd055c-5706-4d25-95fc-e2bd411f0a38, .uuid-2770283d-f057-4f02-a75d-0c176ede5a70, .uuid-55e52a36-fb30-4c7c-8195-d0b50fa220de, .uuid-73e4d799-ea75-44d9-b95f-45eb5a7e2601, .uuid-57a4cfb7-2f76-4829-91ff-ba9588477480, .uuid-64376953-d874-4f75-91c9-d1d65097ab6f, .uuid-afd5c9d5-da09-499b-8f1a-1d847c5f7eaa, .uuid-73a94504-eca5-4cab-a8fd-314f89de0069, .uuid-40fcb45e-8625-48f4-ad87-26f9a0049e75, .uuid-a752924a-76a8-420f-9ce3-d7072c63ca42, .uuid-c6c1e7d7-866b-4814-9a19-7a1749b285bf {
+        font-family: CrimsonText-Regular, 'Crimson Text';
+      }
+
+      .uuid-e1ab88d3-81c7-4be8-9f6b-8a9309863eb8, .uuid-437507a8-6181-4dd4-adac-a63aa172e311, .uuid-ef6f8bec-1632-4731-b156-3935ad2d6617, .uuid-4560a2df-81c6-4626-852d-b58558e75fe3, .uuid-9fea2b00-3ca4-4ac1-a4e9-458147249922, .uuid-2ea067eb-7f11-42cb-8d57-855727c3d300, .uuid-684cecac-f7da-4257-a8f9-ed6e0729a427, .uuid-afada8b9-a4b7-4f5b-8c41-138eb173582a, .uuid-b572eec3-7973-4b54-939a-12accdd0cd55, .uuid-bee92b3b-0404-4921-9c03-51a4ad9b3681, .uuid-6339f34a-194c-470c-98eb-93fd945c5a47, .uuid-d53fdd68-f285-43e2-a5fe-03d78d257791, .uuid-63509e3a-beae-4821-ae7d-794abda6ca2f, .uuid-8e19d602-586c-4a41-a404-f5e174c40a73, .uuid-2f26c238-3510-4144-ad2d-f20390ccee5f, .uuid-fa9006b9-d038-4b45-a521-1644a034c0c9, .uuid-cdfe8c80-f680-413f-9711-bf019e1fe4ad, .uuid-9b94fae4-93a1-4231-8f1c-82514f5a335f, .uuid-149e157d-8684-40c9-a74f-f01ae6dd4476, .uuid-8b85fe9f-6800-418a-8b8a-4e9820faa2df, .uuid-c59396f0-180f-40ea-9ce6-0d265b01f7ba, .uuid-e2e09faf-9a91-4e6f-8a10-3ca0f6aa931b, .uuid-92fd86e0-4e72-46b6-b7e9-0107370cca7d, .uuid-83a12ba8-5fec-4ac6-ac7a-ce9be6aeaa6b, .uuid-3ec06b59-818a-4f58-81d6-1c48ca5c4c0a, .uuid-56281f09-cbb7-4c4c-974d-97c281c21fb3, .uuid-7d9fc32d-a328-479b-84a7-dabdc199847b, .uuid-dabe4c66-610f-41d9-8454-bc5ad01e19c5, .uuid-174efd1d-9c67-497d-b234-74683957fc9d, .uuid-0dc9edff-857a-49b3-99ae-3f3887ff842a, .uuid-d6611db7-08be-47ab-9cc8-ca20b9cb6035, .uuid-a79716cc-ceb5-4496-b2d8-85ed5d3455ea, .uuid-a610af31-2995-4e1d-9036-1e2618e1c368, .uuid-01d09f53-d1d3-4ee1-bfcb-44a735797f54, .uuid-a09fffdf-b19b-4aa4-a520-641503930685, .uuid-2b73b1ab-e4d5-4c3e-9a4a-7212439a6d43, .uuid-fb799bd6-d3c4-4ec1-80f9-b5d3226de8bd, .uuid-fc24a414-35b0-4b42-882f-7e115d490e4a, .uuid-d96d5657-a232-4852-8e44-9b4072bd428f, .uuid-3ba46daf-602a-482f-bbf7-d3ff9f14b8df, .uuid-58b88ffd-4e7c-40a0-9ae9-c0bd21e3d1e1, .uuid-77b7c35d-0b8c-48b5-840f-b0416800d3b3, .uuid-9b1dd86b-ea09-4935-989a-27c0cf1e3ece, .uuid-d409467e-0791-4876-a27e-24e18bb7d05d, .uuid-4883be50-8231-44ec-a758-fdb4dfc61606, .uuid-3f4025c0-d813-430e-b5fa-73696d54f796, .uuid-2eaa7c4e-ed66-4e48-af9e-848a2fa9095b, .uuid-738e7623-0f46-4182-8937-5a1c171077c9 {
+        fill: #c8463c;
+      }
+
+      .uuid-437507a8-6181-4dd4-adac-a63aa172e311 {
+        font-size: 25.06px;
+      }
+
+      .uuid-393f62eb-2d99-4eec-99c9-b4f7c2c47ea7 {
+        font-size: 25.06px;
+      }
+
+      .uuid-393f62eb-2d99-4eec-99c9-b4f7c2c47ea7, .uuid-5c0d5ad2-cf9c-4f0b-b5bf-0370c64f2731, .uuid-445e738c-c661-4ee0-ba96-a498f5f6fad9, .uuid-b789b659-a4ed-4d8c-aba1-465f87d6ec51, .uuid-f800d485-d775-4a29-8232-2530240c5a5d, .uuid-19b4315d-9415-44cf-b883-dc7575d4e591, .uuid-78e3b3a3-8c6d-45a0-8095-1c6ebec16399, .uuid-fc8e3c5a-2ce9-4179-ab03-675ae6c0610f, .uuid-64d5d4ee-ca21-4033-8f9c-284e452d611e, .uuid-94ff05dc-0b2a-4f5c-bf5c-e9eeaa021cf6, .uuid-83ff00cf-a675-4d79-bdb4-cdb9e18ccf90, .uuid-447edc0c-52ec-45f6-bc8d-a08bf755bae7, .uuid-7326e00f-5e22-4356-9a6e-75d06cf5d220, .uuid-14325123-818a-4701-b759-34e75a24e60d, .uuid-ac0ea970-47cf-470b-928d-53544173652e, .uuid-b1bf84cf-7d75-4653-b261-36c23ff6517f, .uuid-c6f20942-eb92-42b6-8456-7faa25aee10f, .uuid-6fb0c651-8541-4a42-8fd3-75da37726705, .uuid-5d50a00f-62c1-4f2e-9401-2c12bb7c33d9, .uuid-14bd055c-5706-4d25-95fc-e2bd411f0a38, .uuid-2770283d-f057-4f02-a75d-0c176ede5a70, .uuid-55e52a36-fb30-4c7c-8195-d0b50fa220de, .uuid-73e4d799-ea75-44d9-b95f-45eb5a7e2601, .uuid-57a4cfb7-2f76-4829-91ff-ba9588477480, .uuid-64376953-d874-4f75-91c9-d1d65097ab6f, .uuid-afd5c9d5-da09-499b-8f1a-1d847c5f7eaa, .uuid-73a94504-eca5-4cab-a8fd-314f89de0069, .uuid-40fcb45e-8625-48f4-ad87-26f9a0049e75, .uuid-a752924a-76a8-420f-9ce3-d7072c63ca42, .uuid-c6c1e7d7-866b-4814-9a19-7a1749b285bf {
+        fill: #d48b8c;
+      }
+
+      .uuid-ef6f8bec-1632-4731-b156-3935ad2d6617, .uuid-5c0d5ad2-cf9c-4f0b-b5bf-0370c64f2731 {
+        font-size: 25.06px;
+      }
+
+      .uuid-445e738c-c661-4ee0-ba96-a498f5f6fad9 {
+        font-size: 25.06px;
+      }
+
+      .uuid-4560a2df-81c6-4626-852d-b58558e75fe3 {
+        font-size: 25.06px;
+      }
+
+      .uuid-9fea2b00-3ca4-4ac1-a4e9-458147249922, .uuid-b789b659-a4ed-4d8c-aba1-465f87d6ec51 {
+        font-size: 25.06px;
+      }
+
+      .uuid-2ea067eb-7f11-42cb-8d57-855727c3d300, .uuid-f800d485-d775-4a29-8232-2530240c5a5d {
+        font-size: 25.06px;
+      }
+
+      .uuid-486c59d9-c238-40ec-a821-0da2976abe1e, .uuid-f8e7c035-fea3-4eda-bc28-6767817ec86f, .uuid-f73599fa-7485-4ebf-97c2-71b01e4ce478, .uuid-0e24cfb9-d382-4de5-8ac5-e24820685eda, .uuid-15090eb3-ebd3-4afe-8543-17996c040af3, .uuid-69800759-d29f-4cf0-81d1-19af8aac8738 {
+        fill: #8c1e19;
+      }
+
+      .uuid-486c59d9-c238-40ec-a821-0da2976abe1e, .uuid-afada8b9-a4b7-4f5b-8c41-138eb173582a, .uuid-78e3b3a3-8c6d-45a0-8095-1c6ebec16399 {
+        font-size: 25.06px;
+      }
+
+      .uuid-f8e7c035-fea3-4eda-bc28-6767817ec86f, .uuid-64d5d4ee-ca21-4033-8f9c-284e452d611e, .uuid-8e19d602-586c-4a41-a404-f5e174c40a73 {
+        font-size: 25.06px;
+      }
+
+      .uuid-684cecac-f7da-4257-a8f9-ed6e0729a427, .uuid-19b4315d-9415-44cf-b883-dc7575d4e591 {
+        font-size: 25.06px;
+      }
+
+      .uuid-f73599fa-7485-4ebf-97c2-71b01e4ce478, .uuid-d53fdd68-f285-43e2-a5fe-03d78d257791, .uuid-94ff05dc-0b2a-4f5c-bf5c-e9eeaa021cf6 {
+        font-size: 25.06px;
+      }
+
+      .uuid-b572eec3-7973-4b54-939a-12accdd0cd55 {
+        font-size: 25.06px;
+      }
+
+      .uuid-bee92b3b-0404-4921-9c03-51a4ad9b3681, .uuid-fc8e3c5a-2ce9-4179-ab03-675ae6c0610f {
+        font-size: 25.06px;
+      }
+
+      .uuid-6339f34a-194c-470c-98eb-93fd945c5a47 {
+        font-size: 25.06px;
+      }
+
+      .uuid-83ff00cf-a675-4d79-bdb4-cdb9e18ccf90, .uuid-63509e3a-beae-4821-ae7d-794abda6ca2f {
+        font-size: 25.06px;
+      }
+
+      .uuid-2f26c238-3510-4144-ad2d-f20390ccee5f {
+        font-size: 25.06px;
+      }
+
+      .uuid-447edc0c-52ec-45f6-bc8d-a08bf755bae7 {
+        font-size: 25.06px;
+      }
+
+      .uuid-fa9006b9-d038-4b45-a521-1644a034c0c9, .uuid-7326e00f-5e22-4356-9a6e-75d06cf5d220 {
+        font-size: 25.06px;
+      }
+
+      .uuid-cdfe8c80-f680-413f-9711-bf019e1fe4ad {
+        font-size: 25.06px;
+      }
+
+      .uuid-14325123-818a-4701-b759-34e75a24e60d {
+        font-size: 25.06px;
+      }
+
+      .uuid-ac0ea970-47cf-470b-928d-53544173652e {
+        font-size: 25.06px;
+      }
+
+      .uuid-0e24cfb9-d382-4de5-8ac5-e24820685eda {
+        font-size: 25.06px;
+      }
+
+      .uuid-15090eb3-ebd3-4afe-8543-17996c040af3, .uuid-9b94fae4-93a1-4231-8f1c-82514f5a335f, .uuid-b1bf84cf-7d75-4653-b261-36c23ff6517f {
+        font-size: 25.06px;
+      }
+
+      .uuid-69800759-d29f-4cf0-81d1-19af8aac8738 {
+        font-size: 25.06px;
+      }
+
+      .uuid-149e157d-8684-40c9-a74f-f01ae6dd4476, .uuid-c6f20942-eb92-42b6-8456-7faa25aee10f {
+        font-size: 25.06px;
+      }
+
+      .uuid-8b85fe9f-6800-418a-8b8a-4e9820faa2df, .uuid-6fb0c651-8541-4a42-8fd3-75da37726705 {
+        font-size: 25.06px;
+      }
+
+      .uuid-5d50a00f-62c1-4f2e-9401-2c12bb7c33d9, .uuid-c59396f0-180f-40ea-9ce6-0d265b01f7ba {
+        font-size: 25.06px;
+      }
+
+      .uuid-14bd055c-5706-4d25-95fc-e2bd411f0a38 {
+        font-size: 27.38px;
+      }
+
+      .uuid-2770283d-f057-4f02-a75d-0c176ede5a70 {
+        font-size: 27.38px;
+      }
+
+      .uuid-55e52a36-fb30-4c7c-8195-d0b50fa220de, .uuid-738e7623-0f46-4182-8937-5a1c171077c9 {
+        font-size: 27.38px;
+      }
+
+      .uuid-73e4d799-ea75-44d9-b95f-45eb5a7e2601 {
+        font-size: 27.38px;
+      }
+
+      .uuid-57a4cfb7-2f76-4829-91ff-ba9588477480 {
+        font-size: 27.38px;
+      }
+
+      .uuid-64376953-d874-4f75-91c9-d1d65097ab6f {
+        font-size: 27.38px;
+      }
+
+      .uuid-afd5c9d5-da09-499b-8f1a-1d847c5f7eaa {
+        font-size: 27.38px;
+      }
+
+      .uuid-73a94504-eca5-4cab-a8fd-314f89de0069, .uuid-a09fffdf-b19b-4aa4-a520-641503930685 {
+        font-size: 27.38px;
+      }
+
+      .uuid-40fcb45e-8625-48f4-ad87-26f9a0049e75, .uuid-fc24a414-35b0-4b42-882f-7e115d490e4a {
+        font-size: 27.38px;
+      }
+
+      .uuid-a752924a-76a8-420f-9ce3-d7072c63ca42, .uuid-3ba46daf-602a-482f-bbf7-d3ff9f14b8df {
+        font-size: 27.38px;
+      }
+
+      .uuid-c6c1e7d7-866b-4814-9a19-7a1749b285bf {
+        font-size: 27.38px;
+      }
+
+      .uuid-c38b6545-d364-4bc1-bc2b-1fb46d66fd83 {
+        letter-spacing: -.02em;
+      }
+
+      .uuid-9cf44980-d68e-4994-aa75-1194a87e6602 {
+        letter-spacing: .02em;
+      }
+
+      .uuid-064f8c76-fcad-4473-b083-ffefd26dd5f1 {
+        letter-spacing: 0em;
+      }
+
+      .uuid-e473755d-a0c9-4251-86a8-60acf257f72d {
+        letter-spacing: 0em;
+      }
+
+      .uuid-56a23ebb-8065-4a03-a161-708c6ae2b483 {
+        letter-spacing: -.03em;
+      }
+
+      .uuid-649467f2-46af-4d82-8757-5fa68c9bae36 {
+        letter-spacing: 0em;
+      }
+
+      .uuid-f43f7a3d-630c-4496-8c15-746ce5f1d826 {
+        letter-spacing: .03em;
+      }
+
+      .uuid-45646ec6-658e-4cff-b2d3-0faff59de25a {
+        letter-spacing: 0em;
+      }
+
+      .uuid-e2e09faf-9a91-4e6f-8a10-3ca0f6aa931b {
+        font-size: 26.25px;
+      }
+
+      .uuid-e2e09faf-9a91-4e6f-8a10-3ca0f6aa931b, .uuid-92fd86e0-4e72-46b6-b7e9-0107370cca7d, .uuid-83a12ba8-5fec-4ac6-ac7a-ce9be6aeaa6b, .uuid-3ec06b59-818a-4f58-81d6-1c48ca5c4c0a, .uuid-56281f09-cbb7-4c4c-974d-97c281c21fb3, .uuid-7d9fc32d-a328-479b-84a7-dabdc199847b, .uuid-dabe4c66-610f-41d9-8454-bc5ad01e19c5, .uuid-174efd1d-9c67-497d-b234-74683957fc9d, .uuid-0dc9edff-857a-49b3-99ae-3f3887ff842a, .uuid-d6611db7-08be-47ab-9cc8-ca20b9cb6035, .uuid-a79716cc-ceb5-4496-b2d8-85ed5d3455ea, .uuid-a610af31-2995-4e1d-9036-1e2618e1c368, .uuid-01d09f53-d1d3-4ee1-bfcb-44a735797f54, .uuid-a09fffdf-b19b-4aa4-a520-641503930685, .uuid-2b73b1ab-e4d5-4c3e-9a4a-7212439a6d43, .uuid-fb799bd6-d3c4-4ec1-80f9-b5d3226de8bd, .uuid-fc24a414-35b0-4b42-882f-7e115d490e4a, .uuid-d96d5657-a232-4852-8e44-9b4072bd428f, .uuid-3ba46daf-602a-482f-bbf7-d3ff9f14b8df, .uuid-58b88ffd-4e7c-40a0-9ae9-c0bd21e3d1e1, .uuid-77b7c35d-0b8c-48b5-840f-b0416800d3b3, .uuid-9b1dd86b-ea09-4935-989a-27c0cf1e3ece, .uuid-d409467e-0791-4876-a27e-24e18bb7d05d, .uuid-4883be50-8231-44ec-a758-fdb4dfc61606, .uuid-3f4025c0-d813-430e-b5fa-73696d54f796, .uuid-2eaa7c4e-ed66-4e48-af9e-848a2fa9095b, .uuid-738e7623-0f46-4182-8937-5a1c171077c9, .uuid-cb927c6c-03a8-417c-b970-8df0fe167831 {
+        font-family: Larken-Black, Larken-Black;
+      }
+
+      .uuid-92fd86e0-4e72-46b6-b7e9-0107370cca7d {
+        font-size: 26.25px;
+      }
+
+      .uuid-83a12ba8-5fec-4ac6-ac7a-ce9be6aeaa6b {
+        font-size: 26.25px;
+      }
+
+      .uuid-3ec06b59-818a-4f58-81d6-1c48ca5c4c0a {
+        font-size: 26.25px;
+      }
+
+      .uuid-56281f09-cbb7-4c4c-974d-97c281c21fb3 {
+        font-size: 26.25px;
+      }
+
+      .uuid-ca930ab8-ac42-42d6-a089-0720315913d5 {
+        letter-spacing: 0em;
+      }
+
+      .uuid-7d9fc32d-a328-479b-84a7-dabdc199847b {
+        font-size: 26.25px;
+      }
+
+      .uuid-dabe4c66-610f-41d9-8454-bc5ad01e19c5 {
+        font-size: 26.25px;
+      }
+
+      .uuid-174efd1d-9c67-497d-b234-74683957fc9d {
+        font-size: 26.25px;
+      }
+
+      .uuid-0dc9edff-857a-49b3-99ae-3f3887ff842a {
+        font-size: 26.25px;
+      }
+
+      .uuid-d6611db7-08be-47ab-9cc8-ca20b9cb6035 {
+        font-size: 26.25px;
+      }
+
+      .uuid-a79716cc-ceb5-4496-b2d8-85ed5d3455ea {
+        font-size: 26.25px;
+      }
+
+      .uuid-a610af31-2995-4e1d-9036-1e2618e1c368 {
+        font-size: 26.25px;
+      }
+
+      .uuid-01d09f53-d1d3-4ee1-bfcb-44a735797f54 {
+        font-size: 26.25px;
+      }
+
+      .uuid-2b73b1ab-e4d5-4c3e-9a4a-7212439a6d43 {
+        font-size: 27.38px;
+      }
+
+      .uuid-fb799bd6-d3c4-4ec1-80f9-b5d3226de8bd {
+        font-size: 27.38px;
+      }
+
+      .uuid-d96d5657-a232-4852-8e44-9b4072bd428f {
+        font-size: 27.38px;
+      }
+
+      .uuid-58b88ffd-4e7c-40a0-9ae9-c0bd21e3d1e1 {
+        font-size: 27.38px;
+      }
+
+      .uuid-77b7c35d-0b8c-48b5-840f-b0416800d3b3 {
+        font-size: 27.38px;
+      }
+
+      .uuid-9b1dd86b-ea09-4935-989a-27c0cf1e3ece {
+        font-size: 27.38px;
+      }
+
+      .uuid-d409467e-0791-4876-a27e-24e18bb7d05d {
+        font-size: 27.38px;
+      }
+
+      .uuid-4883be50-8231-44ec-a758-fdb4dfc61606 {
+        font-size: 27.38px;
+      }
+
+      .uuid-3f4025c0-d813-430e-b5fa-73696d54f796 {
+        font-size: 27.38px;
+      }
+
+      .uuid-2eaa7c4e-ed66-4e48-af9e-848a2fa9095b {
+        font-size: 27.38px;
+      }
+
+      .uuid-cb927c6c-03a8-417c-b970-8df0fe167831 {
+        fill: #fff;
+        font-size: 27.38px;
+      }
+    </style>
+    <clipPath id="uuid-48710d6b-2636-47a6-b6a5-80f75e2701e2">
+      <rect class="uuid-def0fd4e-20cd-4c8c-891e-672fec4a79d0" width="809.83" height="800"/>
+    </clipPath>
+    <clipPath id="uuid-e66a3fb6-012f-41e4-9b20-38dc69c26cb4">
+      <rect class="uuid-def0fd4e-20cd-4c8c-891e-672fec4a79d0" width="809.83" height="800"/>
+    </clipPath>
+    <clipPath id="uuid-59e44332-0205-47c6-b968-e25de264b092">
+      <rect class="uuid-def0fd4e-20cd-4c8c-891e-672fec4a79d0" width="809.83" height="800"/>
+    </clipPath>
+  </defs>
+  <g class="uuid-09dec07c-15b3-42e4-9a7e-eb455a0e53f9">
+    <circle class="uuid-ea38c9c8-9abb-4e21-a78a-30ee96289cdc" cx="389.4" cy="388.11" r="281.32"/>
+    <circle class="uuid-ea38c9c8-9abb-4e21-a78a-30ee96289cdc" cx="390.4" cy="384.69" r="316.72"/>
+  </g>
+  <text class="uuid-01d09f53-d1d3-4ee1-bfcb-44a735797f54" transform="translate(244.3 136.97) rotate(-27.23)"><tspan x="0" y="0">E</tspan></text>
+  <text class="uuid-a610af31-2995-4e1d-9036-1e2618e1c368" transform="translate(260.49 128.62) rotate(-24.47)"><tspan x="0" y="0">C</tspan></text>
+  <text class="uuid-d6611db7-08be-47ab-9cc8-ca20b9cb6035" transform="translate(278.55 120.59) rotate(-20.32)"><tspan x="0" y="0">O</tspan></text>
+  <text class="uuid-92fd86e0-4e72-46b6-b7e9-0107370cca7d" transform="translate(298.84 113.17) rotate(-16.13)"><tspan x="0" y="0">L</tspan></text>
+  <text class="uuid-0dc9edff-857a-49b3-99ae-3f3887ff842a" transform="translate(315.18 108.35) rotate(-11.9)"><tspan x="0" y="0">O</tspan></text>
+  <text class="uuid-56281f09-cbb7-4c4c-974d-97c281c21fb3" transform="translate(336.51 103.68) rotate(-7.64)"><tspan x="0" y="0">G</tspan></text>
+  <text class="uuid-e2e09faf-9a91-4e6f-8a10-3ca0f6aa931b" transform="translate(357.69 100.83) rotate(-4.78)"><tspan x="0" y="0">I</tspan></text>
+  <text class="uuid-a610af31-2995-4e1d-9036-1e2618e1c368" transform="translate(368.31 99.83) rotate(-1.91)"><tspan x="0" y="0">C</tspan></text>
+  <text class="uuid-a79716cc-ceb5-4496-b2d8-85ed5d3455ea" transform="translate(387.96 98.98) rotate(2.43)"><tspan x="0" y="0">A</tspan></text>
+  <text class="uuid-7d9fc32d-a328-479b-84a7-dabdc199847b" transform="translate(409.05 99.97) rotate(5.32)"><tspan x="0" y="0">L</tspan></text>
+  <text class="uuid-3ec06b59-818a-4f58-81d6-1c48ca5c4c0a" transform="translate(426.11 101.6) rotate(8.22)"><tspan x="0" y="0"> </tspan></text>
+  <text class="uuid-174efd1d-9c67-497d-b234-74683957fc9d" transform="translate(433.67 102.4) rotate(11.13)"><tspan x="0" y="0">C</tspan></text>
+  <text class="uuid-a79716cc-ceb5-4496-b2d8-85ed5d3455ea" transform="translate(452.91 106.2) rotate(14.02)"><tspan x="0" y="0">E</tspan></text>
+  <text class="uuid-92fd86e0-4e72-46b6-b7e9-0107370cca7d" transform="translate(470.75 110.81) rotate(16.91)"><tspan x="0" y="0">I</tspan></text>
+  <text class="uuid-a610af31-2995-4e1d-9036-1e2618e1c368" transform="translate(481.08 113.84) rotate(19.78)"><tspan x="0" y="0">L</tspan></text>
+  <text class="uuid-174efd1d-9c67-497d-b234-74683957fc9d" transform="translate(497.2 119.73) rotate(22.64)"><tspan x="0" y="0">I</tspan></text>
+  <text class="uuid-83a12ba8-5fec-4ac6-ac7a-ce9be6aeaa6b" transform="translate(507.29 123.73) rotate(25.49)"><tspan x="0" y="0">N</tspan></text>
+  <text class="uuid-dabe4c66-610f-41d9-8454-bc5ad01e19c5" transform="translate(526.45 132.91) rotate(29.72)"><tspan x="0" y="0">G</tspan></text>
+  <g class="uuid-dffae47d-a6a2-4113-8cb5-8c95a09d2607">
+    <path class="uuid-ea38c9c8-9abb-4e21-a78a-30ee96289cdc" d="M389.4,588.47c110.66,0,200.36-89.7,200.36-200.36s-89.7-200.36-200.36-200.36-200.36,89.7-200.36,200.36,89.7,200.36,200.36,200.36Z"/>
+  </g>
+  <text class="uuid-a09fffdf-b19b-4aa4-a520-641503930685" transform="translate(260.65 217.73) rotate(-34.87)"><tspan x="0" y="0">S</tspan></text>
+  <text class="uuid-738e7623-0f46-4182-8937-5a1c171077c9" transform="translate(274.62 207.8) rotate(-29.29)"><tspan x="0" y="0">O</tspan></text>
+  <text class="uuid-fb799bd6-d3c4-4ec1-80f9-b5d3226de8bd" transform="translate(292.62 197.55) rotate(-23.77)"><tspan x="0" y="0">C</tspan></text>
+  <text class="uuid-58b88ffd-4e7c-40a0-9ae9-c0bd21e3d1e1" transform="translate(309.66 190.21) rotate(-21.02)"><tspan x="0" y="0">I</tspan></text>
+  <text class="uuid-3ba46daf-602a-482f-bbf7-d3ff9f14b8df" transform="translate(318.25 186.73) rotate(-16.92)"><tspan x="0" y="0">A</tspan></text>
+  <text class="uuid-fc24a414-35b0-4b42-882f-7e115d490e4a" transform="translate(337.35 180.99) rotate(-11.45)"><tspan x="0" y="0">L</tspan></text>
+  <text class="uuid-4883be50-8231-44ec-a758-fdb4dfc61606" transform="translate(352.86 177.84) rotate(-8.72)"><tspan x="0" y="0"> </tspan></text>
+  <text class="uuid-2b73b1ab-e4d5-4c3e-9a4a-7212439a6d43" transform="translate(358.47 176.78) rotate(-5.98)"><tspan x="0" y="0">F</tspan></text>
+  <text class="uuid-2eaa7c4e-ed66-4e48-af9e-848a2fa9095b" transform="translate(373.95 175.18) rotate(-1.85)"><tspan x="0" y="0">O</tspan></text>
+  <text class="uuid-4883be50-8231-44ec-a758-fdb4dfc61606" transform="translate(394.55 174.52) rotate(3.68)"><tspan x="0" y="0">U</tspan></text>
+  <text class="uuid-d96d5657-a232-4852-8e44-9b4072bd428f" transform="translate(413.98 175.88) rotate(9.28)"><tspan x="0" y="0">N</tspan></text>
+  <text class="uuid-77b7c35d-0b8c-48b5-840f-b0416800d3b3" transform="translate(434.27 179.21) rotate(14.93)"><tspan x="0" y="0">D</tspan></text>
+  <text class="uuid-3f4025c0-d813-430e-b5fa-73696d54f796" transform="translate(452.43 184.1) rotate(19.22)"><tspan x="0" y="0">A</tspan></text>
+  <text class="uuid-d409467e-0791-4876-a27e-24e18bb7d05d" transform="translate(468.95 189.72) rotate(24.98)"><tspan x="0" y="0">T</tspan></text>
+  <text class="uuid-738e7623-0f46-4182-8937-5a1c171077c9" transform="translate(485.63 197.65) rotate(27.87)"><tspan x="0" y="0">I</tspan></text>
+  <text class="uuid-d409467e-0791-4876-a27e-24e18bb7d05d" transform="translate(493.73 201.71) rotate(32.23)"><tspan x="0" y="0">O</tspan></text>
+  <text class="uuid-9b1dd86b-ea09-4935-989a-27c0cf1e3ece" transform="translate(510.8 212.16) rotate(38.02)"><tspan x="0" y="0">N</tspan></text>
+  <g class="uuid-ca49948f-8916-44bf-b983-527acae8016f">
+    <circle class="uuid-ea38c9c8-9abb-4e21-a78a-30ee96289cdc" cx="389.4" cy="388.11" r="242.65"/>
+  </g>
+  <text class="uuid-bee92b3b-0404-4921-9c03-51a4ad9b3681" transform="translate(154.85 522.37) rotate(59.41)"><tspan x="0" y="0">R</tspan></text>
+  <text class="uuid-2ea067eb-7f11-42cb-8d57-855727c3d300" transform="translate(162.93 536.24) rotate(55.27)"><tspan x="0" y="0">E</tspan></text>
+  <text class="uuid-6339f34a-194c-470c-98eb-93fd945c5a47" transform="translate(170.85 547.82) rotate(52.52)"><tspan x="0" y="0">G</tspan></text>
+  <text class="uuid-b572eec3-7973-4b54-939a-12accdd0cd55" transform="translate(181.61 561.63) rotate(49.78)"><tspan x="0" y="0">E</tspan></text>
+  <text class="uuid-4560a2df-81c6-4626-852d-b58558e75fe3" transform="translate(190.61 572.39) rotate(45.68)"><tspan x="0" y="0">N</tspan></text>
+  <text class="uuid-9fea2b00-3ca4-4ac1-a4e9-458147249922" transform="translate(202.87 585.01) rotate(41.58)"><tspan x="0" y="0">A</tspan></text>
+  <text class="uuid-afada8b9-a4b7-4f5b-8c41-138eb173582a" transform="translate(215.31 596.23) rotate(38.85)"><tspan x="0" y="0">T</tspan></text>
+  <text class="uuid-cdfe8c80-f680-413f-9711-bf019e1fe4ad" transform="translate(228.11 606.36) rotate(36.1)"><tspan x="0" y="0">I</tspan></text>
+  <text class="uuid-63509e3a-beae-4821-ae7d-794abda6ca2f" transform="translate(234.38 611.09) rotate(33.35)"><tspan x="0" y="0">V</tspan></text>
+  <text class="uuid-bee92b3b-0404-4921-9c03-51a4ad9b3681" transform="translate(248.9 620.61) rotate(30.59)"><tspan x="0" y="0">E</tspan></text>
+  <text class="uuid-fa9006b9-d038-4b45-a521-1644a034c0c9" transform="translate(260.93 627.55) rotate(27.82)"><tspan x="0" y="0"> </tspan></text>
+  <text class="uuid-e1ab88d3-81c7-4be8-9f6b-8a9309863eb8" transform="translate(265.81 630.36) rotate(25.03)"><tspan x="0" y="0">A</tspan></text>
+  <text class="uuid-149e157d-8684-40c9-a74f-f01ae6dd4476" transform="translate(280.91 637.53) rotate(22.22)"><tspan x="0" y="0">N</tspan></text>
+  <text class="uuid-9b94fae4-93a1-4231-8f1c-82514f5a335f" transform="translate(297.31 644.16) rotate(17.99)"><tspan x="0" y="0">D</tspan></text>
+  <text class="uuid-b572eec3-7973-4b54-939a-12accdd0cd55" transform="translate(314.13 649.53) rotate(15.14)"><tspan x="0" y="0"> </tspan></text>
+  <text class="uuid-b572eec3-7973-4b54-939a-12accdd0cd55" transform="translate(319.5 651.08) rotate(13.71)"><tspan x="0" y="0">D</tspan></text>
+  <text class="uuid-c59396f0-180f-40ea-9ce6-0d265b01f7ba" transform="translate(336.79 655.05) rotate(10.85)"><tspan x="0" y="0">I</tspan></text>
+  <text class="uuid-2f26c238-3510-4144-ad2d-f20390ccee5f" transform="translate(344.38 656.51) rotate(7.97)"><tspan x="0" y="0">S</tspan></text>
+  <text class="uuid-bee92b3b-0404-4921-9c03-51a4ad9b3681" transform="translate(356.26 658.33) rotate(5.07)"><tspan x="0" y="0">T</tspan></text>
+  <text class="uuid-d53fdd68-f285-43e2-a5fe-03d78d257791" transform="translate(372.57 659.79) rotate(2.18)"><tspan x="0" y="0">R</tspan></text>
+  <text class="uuid-e1ab88d3-81c7-4be8-9f6b-8a9309863eb8" transform="translate(388.68 660.27) rotate(-.72)"><tspan x="0" y="0">I</tspan></text>
+  <text class="uuid-684cecac-f7da-4257-a8f9-ed6e0729a427" transform="translate(396.52 660.32) rotate(-3.63)"><tspan x="0" y="0">B</tspan></text>
+  <text class="uuid-ef6f8bec-1632-4731-b156-3935ad2d6617" transform="translate(410.99 659.51) rotate(-6.52)"><tspan x="0" y="0">U</tspan></text>
+  <text class="uuid-8e19d602-586c-4a41-a404-f5e174c40a73" transform="translate(428.45 657.43) rotate(-9.41)"><tspan x="0" y="0">T</tspan></text>
+  <text class="uuid-684cecac-f7da-4257-a8f9-ed6e0729a427" transform="translate(444.55 654.62) rotate(-12.28)"><tspan x="0" y="0">I</tspan></text>
+  <text class="uuid-b572eec3-7973-4b54-939a-12accdd0cd55" transform="translate(452.12 652.95) rotate(-15.14)"><tspan x="0" y="0">V</tspan></text>
+  <text class="uuid-8b85fe9f-6800-418a-8b8a-4e9820faa2df" transform="translate(468.99 648.44) rotate(-19.4)"><tspan x="0" y="0">E</tspan></text>
+  <text class="uuid-6339f34a-194c-470c-98eb-93fd945c5a47" transform="translate(482.04 643.78) rotate(-20.81)"><tspan x="0" y="0"> </tspan></text>
+  <text class="uuid-149e157d-8684-40c9-a74f-f01ae6dd4476" transform="translate(487.36 641.76) rotate(-22.22)"><tspan x="0" y="0">E</tspan></text>
+  <text class="uuid-9b94fae4-93a1-4231-8f1c-82514f5a335f" transform="translate(500.2 636.46) rotate(-26.42)"><tspan x="0" y="0">C</tspan></text>
+  <text class="uuid-437507a8-6181-4dd4-adac-a63aa172e311" transform="translate(514.66 629.29) rotate(-29.21)"><tspan x="0" y="0">O</tspan></text>
+  <text class="uuid-63509e3a-beae-4821-ae7d-794abda6ca2f" transform="translate(530.12 620.58) rotate(-33.35)"><tspan x="0" y="0">N</tspan></text>
+  <text class="uuid-6339f34a-194c-470c-98eb-93fd945c5a47" transform="translate(544.86 610.82) rotate(-37.48)"><tspan x="0" y="0">O</tspan></text>
+  <text class="uuid-9fea2b00-3ca4-4ac1-a4e9-458147249922" transform="translate(559.02 600.1) rotate(-41.58)"><tspan x="0" y="0">M</tspan></text>
+  <text class="uuid-4560a2df-81c6-4626-852d-b58558e75fe3" transform="translate(575.71 585.22) rotate(-45.68)"><tspan x="0" y="0">Y</tspan></text>
+  <text class="uuid-b789b659-a4ed-4d8c-aba1-465f87d6ec51" transform="translate(213.72 200.89) rotate(-40.37)"><tspan x="0" y="0">T</tspan></text>
+  <text class="uuid-fc8e3c5a-2ce9-4179-ab03-675ae6c0610f" transform="translate(226.33 190.3) rotate(-36.34)"><tspan x="0" y="0">h</tspan></text>
+  <text class="uuid-6fb0c651-8541-4a42-8fd3-75da37726705" transform="translate(236.67 182.47) rotate(-33.65)"><tspan x="0" y="0">e</tspan></text>
+  <text class="uuid-15090eb3-ebd3-4afe-8543-17996c040af3" transform="translate(245.46 176.67) rotate(-32.31)"><tspan x="0" y="0"> </tspan></text>
+  <text class="uuid-94ff05dc-0b2a-4f5c-bf5c-e9eeaa021cf6" transform="translate(250.1 173.61) rotate(-30.95)"><tspan x="0" y="0">s</tspan></text>
+  <text class="uuid-7326e00f-5e22-4356-9a6e-75d06cf5d220" transform="translate(257.64 169.18) rotate(-29.6)"><tspan x="0" y="0">a</tspan></text>
+  <text class="uuid-f800d485-d775-4a29-8232-2530240c5a5d" transform="translate(266.73 164.03) rotate(-26.89)"><tspan x="0" y="0">f</tspan></text>
+  <text class="uuid-19b4315d-9415-44cf-b883-dc7575d4e591" transform="translate(273.22 160.72) rotate(-25.52)"><tspan x="0" y="0">e</tspan></text>
+  <text class="uuid-69800759-d29f-4cf0-81d1-19af8aac8738" transform="translate(282.84 156.26) rotate(-24.16)"><tspan x="0" y="0"> </tspan></text>
+  <text class="uuid-b1bf84cf-7d75-4653-b261-36c23ff6517f" transform="translate(287.85 153.95) rotate(-21.41)"><tspan x="0" y="0">a</tspan></text>
+  <text class="uuid-94ff05dc-0b2a-4f5c-bf5c-e9eeaa021cf6" transform="translate(297.55 150.08) rotate(-18.66)"><tspan x="0" y="0">n</tspan></text>
+  <text class="uuid-19b4315d-9415-44cf-b883-dc7575d4e591" transform="translate(310.07 145.67) rotate(-15.88)"><tspan x="0" y="0">d</tspan></text>
+  <text class="uuid-f8e7c035-fea3-4eda-bc28-6767817ec86f" transform="translate(321.71 142.39) rotate(-14.49)"><tspan x="0" y="0"> </tspan></text>
+  <text class="uuid-5d50a00f-62c1-4f2e-9401-2c12bb7c33d9" transform="translate(327.14 140.98) rotate(-13.09)"><tspan x="0" y="0">j</tspan></text>
+  <text class="uuid-64d5d4ee-ca21-4033-8f9c-284e452d611e" transform="translate(332.79 139.56) rotate(-11.69)"><tspan x="0" y="0">u</tspan></text>
+  <text class="uuid-b1bf84cf-7d75-4653-b261-36c23ff6517f" transform="translate(345.2 137.05) rotate(-8.88)"><tspan x="0" y="0">s</tspan></text>
+  <text class="uuid-445e738c-c661-4ee0-ba96-a498f5f6fad9" transform="translate(353.86 135.72) rotate(-7.47)"><tspan x="0" y="0">t</tspan></text>
+  <text class="uuid-0e24cfb9-d382-4de5-8ac5-e24820685eda" transform="translate(361.52 134.79) rotate(-6.06)"><tspan x="0" y="0"> </tspan></text>
+  <text class="uuid-83ff00cf-a675-4d79-bdb4-cdb9e18ccf90" transform="translate(367.08 134.17) rotate(-4.64)"><tspan x="0" y="0">s</tspan></text>
+  <text class="uuid-ac0ea970-47cf-470b-928d-53544173652e" transform="translate(375.84 133.36) rotate(-1.8)"><tspan x="0" y="0">p</tspan></text>
+  <text class="uuid-c6f20942-eb92-42b6-8456-7faa25aee10f" transform="translate(388.36 133.09) rotate(-.38)"><tspan x="0" y="0">a</tspan></text>
+  <text class="uuid-14325123-818a-4701-b759-34e75a24e60d" transform="translate(398.75 133.07) rotate(2.47)"><tspan x="0" y="0">c</tspan></text>
+  <text class="uuid-78e3b3a3-8c6d-45a0-8095-1c6ebec16399" transform="translate(408.59 133.49) rotate(3.93)"><tspan x="0" y="0">e</tspan></text>
+  <text class="uuid-f73599fa-7485-4ebf-97c2-71b01e4ce478" transform="translate(419.05 134.31) rotate(6.82)"><tspan x="0" y="0"> </tspan></text>
+  <text class="uuid-6fb0c651-8541-4a42-8fd3-75da37726705" transform="translate(424.69 134.91) rotate(8.27)"><tspan x="0" y="0">f</tspan></text>
+  <text class="uuid-393f62eb-2d99-4eec-99c9-b4f7c2c47ea7" transform="translate(432.01 135.93) rotate(9.72)"><tspan x="0" y="0">o</tspan></text>
+  <text class="uuid-5c0d5ad2-cf9c-4f0b-b5bf-0370c64f2731" transform="translate(444.26 138.02) rotate(12.6)"><tspan x="0" y="0">r</tspan></text>
+  <text class="uuid-486c59d9-c238-40ec-a821-0da2976abe1e" transform="translate(453.32 140) rotate(14.03)"><tspan x="0" y="0"> </tspan></text>
+  <text class="uuid-64d5d4ee-ca21-4033-8f9c-284e452d611e" transform="translate(458.77 141.34) rotate(15.46)"><tspan x="0" y="0">h</tspan></text>
+  <text class="uuid-393f62eb-2d99-4eec-99c9-b4f7c2c47ea7" transform="translate(471.35 144.83) rotate(18.32)"><tspan x="0" y="0">u</tspan></text>
+  <text class="uuid-447edc0c-52ec-45f6-bc8d-a08bf755bae7" transform="translate(483.33 148.66) rotate(22.57)"><tspan x="0" y="0">m</tspan></text>
+  <text class="uuid-83ff00cf-a675-4d79-bdb4-cdb9e18ccf90" transform="translate(501.41 156.14) rotate(25.38)"><tspan x="0" y="0">a</tspan></text>
+  <text class="uuid-5c0d5ad2-cf9c-4f0b-b5bf-0370c64f2731" transform="translate(510.84 160.46) rotate(28.17)"><tspan x="0" y="0">n</tspan></text>
+  <text class="uuid-5c0d5ad2-cf9c-4f0b-b5bf-0370c64f2731" transform="translate(522.56 166.78) rotate(29.57)"><tspan x="0" y="0">i</tspan></text>
+  <text class="uuid-b789b659-a4ed-4d8c-aba1-465f87d6ec51" transform="translate(528.2 170.09) rotate(30.96)"><tspan x="0" y="0">t</tspan></text>
+  <text class="uuid-5c0d5ad2-cf9c-4f0b-b5bf-0370c64f2731" transform="translate(534.86 174.05) rotate(33.72)"><tspan x="0" y="0">y</tspan></text>
+  <line class="uuid-ea38c9c8-9abb-4e21-a78a-30ee96289cdc" x1="388.91" y1="188" x2="388.91" y2="588"/>
+  <line class="uuid-ea38c9c8-9abb-4e21-a78a-30ee96289cdc" x1="188.91" y1="387" x2="589.91" y2="388"/>
+  <line class="uuid-ea38c9c8-9abb-4e21-a78a-30ee96289cdc" x1="562.76" y1="486.62" x2="216.11" y2="285.8"/>
+  <line class="uuid-ea38c9c8-9abb-4e21-a78a-30ee96289cdc" x1="287.91" y1="561" x2="489.64" y2="215.48"/>
+  <line class="uuid-ea38c9c8-9abb-4e21-a78a-30ee96289cdc" x1="214.91" y1="487" x2="562.35" y2="288.82"/>
+  <line class="uuid-ea38c9c8-9abb-4e21-a78a-30ee96289cdc" x1="492.95" y1="558.32" x2="285.85" y2="215.92"/>
+  <text class="uuid-afd5c9d5-da09-499b-8f1a-1d847c5f7eaa" transform="translate(468.34 374.86) rotate(-9)"><tspan x="0" y="0">education</tspan></text>
+  <text class="uuid-73a94504-eca5-4cab-a8fd-314f89de0069" transform="translate(497.84 413.48)"><tspan x="0" y="0">income </tspan></text>
+  <text class="uuid-73a94504-eca5-4cab-a8fd-314f89de0069" transform="translate(497.84 446.34)"><tspan x="0" y="0">&amp; work</tspan></text>
+  <text class="uuid-14bd055c-5706-4d25-95fc-e2bd411f0a38" transform="translate(328.44 568.59) rotate(-72)"><tspan x="0" y="0">social </tspan></text>
+  <text class="uuid-14bd055c-5706-4d25-95fc-e2bd411f0a38" transform="translate(359.69 578.75) rotate(-72)"><tspan x="0" y="0">equity</tspan></text>
+  <text class="uuid-14bd055c-5706-4d25-95fc-e2bd411f0a38" transform="translate(238.12 504.61) rotate(-35)"><tspan x="0" y="0">gender </tspan></text>
+  <text class="uuid-14bd055c-5706-4d25-95fc-e2bd411f0a38" transform="translate(256.97 531.53) rotate(-35)"><tspan x="0" y="0">equality</tspan></text>
+  <text class="uuid-a752924a-76a8-420f-9ce3-d7072c63ca42" transform="translate(204.21 432.74) rotate(-10)"><tspan x="0" y="0">housing</tspan></text>
+  <text class="uuid-c6c1e7d7-866b-4814-9a19-7a1749b285bf" transform="translate(201.39 343.86) rotate(11)"><tspan x="0" y="0">networks</tspan></text>
+  <text class="uuid-14bd055c-5706-4d25-95fc-e2bd411f0a38" transform="translate(257.39 273.17) rotate(35)"><tspan x="0" y="0">energy</tspan></text>
+  <text class="uuid-57a4cfb7-2f76-4829-91ff-ba9588477480" transform="translate(423.43 487.33) rotate(67)"><tspan x="0" y="0">political</tspan></text>
+  <text class="uuid-57a4cfb7-2f76-4829-91ff-ba9588477480" transform="translate(393.19 500.17) rotate(67)"><tspan x="0" y="0">voice</tspan></text>
+  <text class="uuid-14bd055c-5706-4d25-95fc-e2bd411f0a38" transform="translate(473.01 462.55) rotate(35)"><tspan x="0" y="0">peace &amp; </tspan></text>
+  <text class="uuid-14bd055c-5706-4d25-95fc-e2bd411f0a38" transform="translate(454.16 489.47) rotate(35)"><tspan x="0" y="0">justice</tspan></text>
+  <text class="uuid-14bd055c-5706-4d25-95fc-e2bd411f0a38" transform="translate(429.17 277.85) rotate(-72)"><tspan x="0" y="0">food</tspan></text>
+  <text class="uuid-c6c1e7d7-866b-4814-9a19-7a1749b285bf" transform="translate(470.04 306.18) rotate(-29)"><tspan x="0" y="0">health</tspan></text>
+  <text class="uuid-57a4cfb7-2f76-4829-91ff-ba9588477480" transform="translate(337.07 216.86) rotate(67)"><tspan x="0" y="0">water</tspan></text>
+  <line class="uuid-ea38c9c8-9abb-4e21-a78a-30ee96289cdc" x1="250.22" y1="24.18" x2="277.91" y2="89"/>
+  <line class="uuid-ea38c9c8-9abb-4e21-a78a-30ee96289cdc" x1="487.32" y1="83.52" x2="511.51" y2="19.32"/>
+  <line class="uuid-ea38c9c8-9abb-4e21-a78a-30ee96289cdc" x1="52.79" y1="190.92" x2="117.28" y2="227.01"/>
+  <line class="uuid-ea38c9c8-9abb-4e21-a78a-30ee96289cdc" x1="4.28" y1="437.48" x2="77.01" y2="425.57"/>
+  <line class="uuid-ea38c9c8-9abb-4e21-a78a-30ee96289cdc" x1="702.91" y1="439" x2="770.8" y2="443.86"/>
+  <line class="uuid-ea38c9c8-9abb-4e21-a78a-30ee96289cdc" x1="129.45" y1="677.12" x2="178.35" y2="620.63"/>
+  <line class="uuid-ea38c9c8-9abb-4e21-a78a-30ee96289cdc" x1="382.77" y1="776.22" x2="382.77" y2="702.6"/>
+  <line class="uuid-ea38c9c8-9abb-4e21-a78a-30ee96289cdc" x1="638.84" y1="683.96" x2="591.74" y2="628.84"/>
+  <text class="uuid-73a94504-eca5-4cab-a8fd-314f89de0069" transform="translate(303.54 51.6)"><tspan x="0" y="0">climate change</tspan></text>
+  <text class="uuid-73e4d799-ea75-44d9-b95f-45eb5a7e2601" transform="translate(590.8 86.04) rotate(37)"><tspan x="0" y="0">ocean </tspan></text>
+  <text class="uuid-73e4d799-ea75-44d9-b95f-45eb5a7e2601" transform="translate(543.41 91.47) rotate(37)"><tspan x="0" y="0">acidification</tspan></text>
+  <text class="uuid-64376953-d874-4f75-91c9-d1d65097ab6f" transform="translate(107.51 151.43) rotate(-41)"><tspan x="0" y="0">ozone layer </tspan></text>
+  <text class="uuid-64376953-d874-4f75-91c9-d1d65097ab6f" transform="translate(137.34 169.05) rotate(-41)"><tspan x="0" y="0">depletion</tspan></text>
+  <text class="uuid-a752924a-76a8-420f-9ce3-d7072c63ca42" transform="translate(56.61 382.73) rotate(-80)"><tspan x="0" y="0">air pollution</tspan></text>
+  <text class="uuid-40fcb45e-8625-48f4-ad87-26f9a0049e75" transform="translate(33.8 491.59) rotate(60)"><tspan x="0" y="0">biodiversity loss</tspan></text>
+  <text class="uuid-14bd055c-5706-4d25-95fc-e2bd411f0a38" transform="translate(185.39 695.38) rotate(18)"><tspan x="0" y="0">land conversion</tspan></text>
+  <text class="uuid-73a94504-eca5-4cab-a8fd-314f89de0069" transform="translate(454.95 732.85) rotate(-25)"><tspan x="0" y="0">freshwater </tspan></text>
+  <text class="uuid-73a94504-eca5-4cab-a8fd-314f89de0069" transform="translate(461.17 766.21) rotate(-25)"><tspan x="0" y="0">withdrawals</tspan></text>
+  <text class="uuid-55e52a36-fb30-4c7c-8195-d0b50fa220de" transform="translate(651.63 601.09) rotate(-58.5)"><tspan x="0" y="0">nitrogen &amp; </tspan></text>
+  <text class="uuid-55e52a36-fb30-4c7c-8195-d0b50fa220de" transform="translate(654.86 658.72) rotate(-58.5)"><tspan x="0" y="0">phosphorus loading</tspan></text>
+  <text class="uuid-2770283d-f057-4f02-a75d-0c176ede5a70" transform="translate(748.8 297.55) rotate(85.5)"><tspan x="0" y="0">chemical</tspan></text>
+  <text class="uuid-2770283d-f057-4f02-a75d-0c176ede5a70" transform="translate(715.63 294.92) rotate(85.5)"><tspan x="0" y="0" xml:space="preserve"> pollution</tspan></text>
+  <line class="uuid-b18e977e-d8e3-4716-98e0-4fdd09e3e896" x1="409.73" y1="376.76" x2="789.91" y2="147"/>
+  <polygon class="uuid-edae3e16-2c3a-4f3f-a66b-dfe7dbdf3937" points="392.9 386.92 435.15 395.74 404.77 345.43 392.9 386.92"/>
+  <polygon class="uuid-edae3e16-2c3a-4f3f-a66b-dfe7dbdf3937" points="816.16 130.49 773.91 121.67 804.29 171.98 816.16 130.49"/>
+  <text class="uuid-cb927c6c-03a8-417c-b970-8df0fe167831" transform="translate(438.19 370.66) rotate(-31)"><tspan class="uuid-662b3afc-2a52-4b04-b08f-fa753cb0409a" x="0" y="0">S</tspan><tspan class="uuid-e473755d-a0c9-4251-86a8-60acf257f72d" x="17.17" y="0">h</tspan><tspan class="uuid-662b3afc-2a52-4b04-b08f-fa753cb0409a" x="34.09" y="0">o</tspan><tspan class="uuid-f43f7a3d-630c-4496-8c15-746ce5f1d826" x="49.97" y="0">r</tspan><tspan class="uuid-45646ec6-658e-4cff-b2d3-0faff59de25a" x="63.56" y="0">t</tspan><tspan x="74.84" y="0">f</tspan><tspan class="uuid-064f8c76-fcad-4473-b083-ffefd26dd5f1" x="86.97" y="0">a</tspan><tspan class="uuid-ca930ab8-ac42-42d6-a089-0720315913d5" x="102.85" y="0">l</tspan><tspan x="110.6" y="0">l</tspan></text>
+  <text class="uuid-cb927c6c-03a8-417c-b970-8df0fe167831" transform="translate(670.33 230.3) rotate(-31)"><tspan x="0" y="0">O</tspan><tspan class="uuid-56a23ebb-8065-4a03-a161-708c6ae2b483" x="20.59" y="0">v</tspan><tspan class="uuid-649467f2-46af-4d82-8757-5fa68c9bae36" x="35.82" y="0">e</tspan><tspan x="50.88" y="0">r</tspan><tspan class="uuid-c38b6545-d364-4bc1-bc2b-1fb46d66fd83" x="63.64" y="0">s</tspan><tspan x="76.89" y="0">h</tspan><tspan class="uuid-9cf44980-d68e-4994-aa75-1194a87e6602" x="93.81" y="0">o</tspan><tspan x="110.41" y="0">ot</tspan></text>
+</svg>

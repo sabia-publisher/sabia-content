@@ -7,6 +7,7 @@ const show = ref(false)
 const props = defineProps({
     title: String,
     src: String,
+    srcDark: String,
     subtitle: String
 })
 
@@ -25,6 +26,13 @@ function openImage() {
             <div class="flex-1 flex">
                 <img :src="props.src"
                     class="mx-auto cursor-pointer"
+                    :class="props.srcDark ? 'd-light' : ''"
+                    :style="`max-height: calc(${usePageFull.height.value} - 6em);`"
+                    @click.prevent="openImage()"
+                >
+                <img :src="props.srcDark"
+                    class="mx-auto cursor-pointer"
+                    :class="props.src ? 'd-dark' : ''"
                     :style="`max-height: calc(${usePageFull.height.value} - 6em);`"
                     @click.prevent="openImage()"
                 >
@@ -33,7 +41,7 @@ function openImage() {
                 {{ props.subtitle }}
             </figcaption>
 
-            <ImageComponent v-bind="props" :show="show" @close-image="show = false" />
+            <ImageComponent v-if="show" v-bind="props" :show="show" @close-image="show = false" />
         </figure>
     </PageFull>
 </template>

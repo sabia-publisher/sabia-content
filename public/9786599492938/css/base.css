@@ -1,3 +1,12 @@
+.contentSlot .bg-primary {
+    background-color: var(--theme-primary, transparent)
+}
+
+.contentSlot .bg-secondary {
+    background-color: var(--theme-secondary, transparent)
+}
+
+
 .contentSlot {
     font-size: 1em;
     line-height: 145%;
@@ -83,7 +92,7 @@
     position: absolute;
     left: -2em;
     font-size: 1em;
-    color: var(--theme-secondary, #ffa03c);
+    color: var(--theme-primary, #ffa03c);
 }
 
 .contentSlot ul li:before {
@@ -91,11 +100,11 @@
     position: absolute;
     left: -1.40em;
     font-size: 1.5em;
-    color: var(--theme-secondary, #ffa03c);
+    color: var(--theme-primary, #ffa03c);
 }
 
 .contentSlot li {
-    color: var(--text-main, #333333);
+    color: var(--theme-primary, #333333);
 }
 
 .dark .contentSlot p {
@@ -202,4 +211,9 @@
 
 .footnote:hover {
     border-bottom: 1px solid var(--theme-primary, #333333);
+}
+
+.dark .d-light,
+.light .d-dark {
+    display: none !important;
 }

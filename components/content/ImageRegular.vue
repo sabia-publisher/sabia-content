@@ -5,6 +5,7 @@ const show = ref(false)
 
 const props = defineProps({
     src: String,
+    srcDark: String,
     imageClass: String,
     imageStyle: String,
     imageHeight: String,
@@ -23,14 +24,22 @@ function openImage() {
             <img :src="props.src"
                 :style="imageStyle"
                 class="mx-auto cursor-pointer"
-                :class="props.imageClass"
+                :class="`${ props.srcDark ? 'd-light' : ''} ${props.imageClass}`"
                 @click.prevent="openImage()"
             >
+            <img :src="props.srcDark"
+                :style="imageStyle"
+                class="mx-auto cursor-pointer"
+                :class="`${ props.src ? 'd-dark' : ''} ${props.imageClass}`"
+                @click.prevent="openImage()"
+            >
+
             <figcaption>
                 {{ props.subtitle }}
             </figcaption>
 
             <ImageComponent
+                v-if="show"
                 v-bind="props"
                 :show="show"
                 @close-image="show = false"
