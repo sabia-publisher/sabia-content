@@ -30,14 +30,24 @@ export default {
             transition: background-color 200ms linear;
         }
 
-        .capa.columns-double {
+        .capa.columns-double,
+        .capa.columns-single {
             background-color: rgb(24, 64, 151);
             background-image: url(https://firebasestorage.googleapis.com/v0/b/editora-sabia.appspot.com/o/okabayashi.jpg?alt=media&token=614c19c5-15bf-4c0f-a0a8-48a1381ac662);
             background-size: cover;
         }
 
-        .capa.columns-double .columnsArea {
+        .capa.columns-double .columnsArea,
+        .capa.columns-single .columnsArea {
             column-count: initial !important;
+        }
+
+        #rootComponent.capa .viewer-nav {
+            color: #fff !important
+        }
+
+        #rootComponent.capa .slider-target {
+            display: none;
         }
 
         .estudos-decoloniais.columns-double.currentPage-1,

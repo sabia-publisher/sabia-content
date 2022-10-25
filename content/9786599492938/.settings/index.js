@@ -30,6 +30,26 @@ export default {
             transition: background-color 200ms linear;
         }
 
+        .cover.columns-double,
+        .cover.columns-single {
+            background-color: #C86400;
+            background-image: url(https://firebasestorage.googleapis.com/v0/b/editora-sabia.appspot.com/o/capa-livro-clara_plataforma.jpg?alt=media&token=5623508a-dc06-404c-890a-5e32e593d830);
+            background-size: cover;
+        }
+
+        .cover.columns-double .columnsArea,
+        .cover.columns-single .columnsArea {
+            column-count: initial !important;
+        }
+
+        #rootComponent.cover .viewer-nav {
+            color: #fff !important
+        }
+
+        #rootComponent.cover .slider-target {
+            display: none;
+        }
+
         .gratitudes {
             background: var(--theme-primary, #FFFFFF) !important;
         }

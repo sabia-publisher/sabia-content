@@ -21,6 +21,29 @@
     background-color: var(--theme-primary, transparent)
 }
 
+.contentSlot.cover {
+    font-size: 14px;
+    line-height: 32px;
+}
+
+.contentSlot.cover h1 {
+    font-family: "Larken", sans-serif !important;
+    font-weight: 600;
+    font-size: 3.65em;
+    line-height: 1.125;
+    color: #fff!important;
+    margin-bottom: 1em;
+}
+
+.contentSlot.cover h3 {
+    font-family: "Larken", sans-serif !important;
+    font-weight: 600;
+    font-size: 2.1em;
+    line-height: 1.1;
+    color: #fff!important;
+    margin-bottom: 1em;
+}
+
 .contentSlot h1,
 .contentSlot .h1,
 .contentSlot h2,
