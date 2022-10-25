@@ -1,12 +1,14 @@
 <script setup>
 import slugify from 'slugify'
-import usePageFull from '../composables/usePageFull'
-import readerSettings from '../composables/readerSettings'
+import usePageFull from '../../composables/usePageFull'
+import readerSettings from '../../composables/readerSettings'
 
 const { data: navigation } = await useAsyncData('navigation', () => fetchContentNavigation())
 const route = useRoute()
 
-const isbn = route.params.slug[0]
+console.log(route.params)
+
+const isbn = route.params.isbn
 const book = navigation.value.find(item => item.title === isbn)
 
 // const references = await import(`../content/${isbn}/.references.js`)
@@ -17,7 +19,7 @@ const { data } = await useAsyncData(`content-${route.path}`, () => {
         .findOne()
 })
 
-const bookSettings = await import(`../content/${isbn}/.settings/index.js`)
+const bookSettings = await import(`../../content/${isbn}/.settings/index.js`)
 // data.value.body = useReferences(data.value.body, references)
 
 const settings = reactive(bookSettings.default)

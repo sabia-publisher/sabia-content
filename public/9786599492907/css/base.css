@@ -36,6 +36,59 @@ html {
     color: #1c4094 !important;
 }
 
+.dark .contentSlot h1,
+.dark .contentSlot .h1,
+.dark .contentSlot h2,
+.dark .contentSlot .h2,
+.dark .contentSlot h3,
+.dark .contentSlot .h3,
+.dark .contentSlot h4,
+.dark .contentSlot .h4,
+.dark .contentSlot .featured-text * {
+    color: #ffcdab!important
+}
+
+.contentSlot.capa {
+    font-size: 14px;
+    line-height: 32px;
+}
+
+.contentSlot.capa h1 {
+    font-family: "Faune",sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 1.1;
+    color: #fff!important;
+    margin-bottom: 0;
+}
+
+.contentSlot.capa h1 em {
+    font-style: italic;
+    color: #154194;
+    -webkit-text-stroke: 1px #fff;
+    -webkit-text-fill-color: rgba(21,65,148,0);
+}
+
+.contentSlot.capa h2 {
+    font-family: "Faune",sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1.25;
+    font-size: 1.875rem;
+    color: #fff!important;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.contentSlot.capa h3 {
+    font-family: Hyperlegible, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-size: 1.875rem;
+    color: rgb(255, 160, 60) !important;
+    margin: 0;
+}
 
 .contentSlot h1,
 .contentSlot h2 {

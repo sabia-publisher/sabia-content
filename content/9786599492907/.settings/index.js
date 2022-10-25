@@ -30,6 +30,16 @@ export default {
             transition: background-color 200ms linear;
         }
 
+        .capa.columns-double {
+            background-color: rgb(24, 64, 151);
+            background-image: url(https://firebasestorage.googleapis.com/v0/b/editora-sabia.appspot.com/o/okabayashi.jpg?alt=media&token=614c19c5-15bf-4c0f-a0a8-48a1381ac662);
+            background-size: cover;
+        }
+
+        .capa.columns-double .columnsArea {
+            column-count: initial !important;
+        }
+
         .estudos-decoloniais.columns-double.currentPage-1,
         .estudos-decoloniais.columns-single.currentPage-1,
         .estudos-decoloniais.columns-single.currentPage-2 {
