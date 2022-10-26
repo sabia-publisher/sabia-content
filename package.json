@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "@panzoom/panzoom": "^4.5.1",
+    "@ubclaunchpad/vue-fathom": "^2.0.0",
     "slugify": "^1.6.5"
   }
 }
