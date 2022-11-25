@@ -23,14 +23,14 @@ export default defineNuxtConfig({
         'nuxt-windicss'
     ],
 
-    vite: {
-        devBundler: 'legacy'
-    },
-
     vue: {
         compilerOptions: {
             isCustomElement: tag => ['paginate-content'].includes(tag)
         }
+    },
+
+    vite: {
+        devBundler: 'legacy'
     },
 
     nitro: {
