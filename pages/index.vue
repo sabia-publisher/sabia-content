@@ -1,6 +1,6 @@
 <script setup>
 onBeforeMount(() => {
-    window.location.href = 'https://sabia.pub/'
+    window.location.href = '/9786599492907/cover'
 })
 </script>
 
