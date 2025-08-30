@@ -37,7 +37,6 @@ try {
         }
         console.log('settings imported!!!', { bookSettings: bookSettings })
     }
-    console.log('out else')
 } catch (error) {
     console.warn(`Settings file not found for ISBN ${isbn}, using defaults`)
 }
