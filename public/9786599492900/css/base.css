@@ -165,13 +165,11 @@ html {
 .contentSlot p {
     text-indent: 2em;
     font-weight: 400;
-    font-family: "Jornalistica Roman", serif !important;
 }
 
 .contentSlot p em {
     text-indent: 2em;
     font-weight: 400;
-    font-family: "Jornalistica Italic", serif !important;
 }
 
 .contentSlot .featured-text {
@@ -407,9 +405,7 @@ td {
     border-collapse: collapse;
     padding: 0.5em;
     text-align: left;
-    font-size: 1rem;
     line-height: 1.5;
-    font-family: "Jornalistica Roman", serif;
 }
 
 table {
