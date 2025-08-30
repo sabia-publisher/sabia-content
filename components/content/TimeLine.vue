@@ -672,7 +672,7 @@ onKeyStroke('Escape', () => close())
         position: relative;
 
         &.origin-blue,
-        &.origin-red
+        &.origin-red,
         &.origin-bege,
         &.origin-green {
             padding-top: 1em;

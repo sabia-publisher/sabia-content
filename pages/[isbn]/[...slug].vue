@@ -3,24 +3,26 @@ import slugify from 'slugify'
 import usePageFull from '../../composables/usePageFull'
 import readerSettings from '../../composables/readerSettings'
 
-import book9786599492900 from '../../content/9786599492900/.settings'
-import book9786599492907 from '../../content/9786599492907/.settings'
-import book9786599492938 from '../../content/9786599492938/.settings'
+import book9786599492900 from '../../content/9786599492900/.settings/index.js'
+import book9786599492907 from '../../content/9786599492907/.settings/index.js'
+import book9786599492938 from '../../content/9786599492938/.settings/index.js'
 
-const { data: navigation } = await useAsyncData('navigation', () => fetchContentNavigation())
 const route = useRoute()
 const router = useRouter()
 
 const isbn = route.params.isbn
-const book = navigation.value.find(item => item.title === isbn)
 
-const { data } = await useAsyncData(`content-${route.path}`, async () => {
-    const content = await queryContent()
-        .where({ _path: route.path })
-        .findOne()
-
-    return content
+// Build navigation for current ISBN and load current document (Nuxt Content v3)
+const { data: allContent } = await useAsyncData('all-content', () => queryCollection('content').all())
+const bookPages = computed(() => {
+    const items = (allContent.value || []).filter(item => (item.path || '').startsWith(`/${isbn}/`))
+    return items
 })
+
+const { data: doc } = await useAsyncData(
+    `content-${route.path}`,
+    () => queryCollection('content').path(route.path).first()
+)
 
 // Handle dynamic import with error catching
 let bookSettings = {}
@@ -44,11 +46,18 @@ try {
 const settings = reactive(bookSettings || {})
 const classList = ref('')
 
-const content = reactive({
-    summary: book?.children?.map(item => ({ title: item.title, link: item._path })) || [],
+const summary = computed(() => (
+    bookPages.value.map(item => ({
+        title: item.title || (item.path || '').split('/').pop(),
+        link: item.path || item._path
+    }))
+))
+
+const bookContent = computed(() => ({
+    summary: summary.value,
     footnotes: bookSettings?.footnotes ?? [],
     references: bookSettings?.references ?? []
-})
+}))
 
 watch(() => route.params.slug, async () => {
     const { path } = useRoute()
@@ -58,11 +67,8 @@ watch(() => route.params.slug, async () => {
         router.push(`/${isbn}/cover`)
     } else {
         if (isbn) {
-            const newContent = await queryContent()
-                .where({ _path: path })
-                .findOne()
-
-            data.value = newContent
+            const newDoc = await queryCollection('content').path(path).first()
+            doc.value = newDoc
         }
     }
 })
@@ -91,8 +97,8 @@ onMounted(() => {
 })
 
 useHead({
-    title: data?.value?.title
-        ? data.value.title
+    title: doc?.value?.title
+        ? doc.value.title
         : 'Editora Sabiá'
 })
 </script>
@@ -100,17 +106,17 @@ useHead({
 <template>
     <main class="w-full h-screen">
         <paginate-content
-            v-if="data"
+            v-if="doc"
             id="pagination-el"
             :reader-blocked="readerSettings.blocked.value === true ? true : null"
-            :book-title="data?.navigation?.title || ''"
+            :book-title="doc?.title || ''"
             :reader-settings="JSON.stringify(settings)"
-            :book-content="JSON.stringify(content)"
-            :root-class="data?.navigation?.title ? slugify(data.navigation.title).toLocaleLowerCase() : ''"
+            :book-content="JSON.stringify(bookContent)"
+            :root-class="doc?.title ? slugify(doc.title).toLocaleLowerCase() : ''"
             :css-string="bookSettings?.cssString ?? ''"
         >
             <div slot="header">
-                <p class="text-white">{{ data?.navigation?.title || '' }}</p>
+                <p class="text-white">{{ doc?.title || '' }}</p>
             </div>
 
             <div slot="optionsBottom">
@@ -122,7 +128,7 @@ useHead({
             </div>
 
             <div slot="content" class="contentSlot" :class="classList">
-                <ContentRenderer :key="path" :value="data" />
+                <ContentRenderer :key="route.path" :value="doc" />
             </div>
         </paginate-content>
     </main>
