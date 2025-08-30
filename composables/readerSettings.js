@@ -1,6 +1,3 @@
-import { useWindowSize, watchDebounced } from '@vueuse/core'
-const { height: windowHeight } = useWindowSize()
-
 const state = reactive({
     blocked: false
 })
