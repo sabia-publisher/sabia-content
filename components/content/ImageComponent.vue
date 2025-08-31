@@ -26,7 +26,6 @@ onKeyStroke('Escape', () => closeImage())
 
 onMounted(() => {
     const elem = document.getElementById('panzoom-element')
-    console.log(elem)
     if (elem) {
         const panzoom = Panzoom(elem, {
             initialZoom: 1
