@@ -16,14 +16,14 @@ export default defineNuxtConfig({
   app: {
     head: {
       script: [
-        { src: 'https://unpkg.com/paginar@0.2.8/dist/index.es.js', type: 'module'}
+        { src: 'https://unpkg.com/paginar@0.2.8/dist/index.es.js', type: 'module', rel: 'modulepreload'}
       ]
     }
   },
 
   css: [
     '@/assets/css/tailwind.css',
-    '@/assets/css/components.css', 
+    '@/assets/css/components.css',
     '@/assets/css/fonts/faune.css',
     '@/assets/css/fonts/larken.css'
   ],
@@ -36,13 +36,13 @@ export default defineNuxtConfig({
       routes: [
         '/',
         '/9786599492900/cover',
-        '/9786599492900/prefacio', 
+        '/9786599492900/prefacio',
         '/9786599492900/nascimento',
         '/9786599492900/moreira',
         '/9786599492900/rossato',
         '/9786599492900/pinto-e-silva',
         '/9786599492900/gusmao',
-        '/9786599492900/oliveira', 
+        '/9786599492900/oliveira',
         '/9786599492900/matos',
         '/9786599492900/maciel',
         '/9786599492907/cover',

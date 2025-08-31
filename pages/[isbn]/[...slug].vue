@@ -109,12 +109,13 @@ useHead({
 <template>
     <main class="w-full h-screen">
         <ClientOnly>
-            <paginate-content v-if="doc" id="pagination-el"
+            <paginate-content v-if="doc" v-show="bookSettings?.cssString" id="pagination-el"
                 :reader-blocked="readerSettings.blocked.value === true ? true : null"
                 :book-title="doc?.navigation?.title || doc?.title || ''" :reader-settings="JSON.stringify(settings)"
                 :book-content="JSON.stringify(content)"
                 :root-class="doc?.navigation?.title ? slugify(doc.navigation.title).toLocaleLowerCase() : ''"
-                :css-string="bookSettings?.cssString ?? ''">
+                :css-string="bookSettings?.cssString ?? ''"
+            >
                 <div slot="header">
                     <p class="text-white">{{ doc?.navigation?.title || doc?.title || '' }}</p>
                 </div>
