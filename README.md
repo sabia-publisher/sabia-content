@@ -520,5 +520,3 @@ The new system is fully backward compatible. Existing books continue to work whi
 - **Custom Fonts**: Faune and Larken font families
 
 ---
-
-For questions or issues, please refer to the troubleshooting section or check the application logs during development.
