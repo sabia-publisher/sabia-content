@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Copy-Item \"package.json\" \"package.json.bak\" -Force)",
+      "Bash(Copy-Item \"nuxt.config.js\" \"nuxt.config.js.bak\" -Force)",
+      "Bash(cp:*)",
+      "Bash(npm install)",
+      "Bash(npm audit:*)",
+      "Bash(npx nuxi:*)",
+      "Bash(npx tailwindcss:*)",
+      "Bash(grep:*)",
+      "Bash(timeout 30 npm run dev)",
+      "Bash(npm install:*)",
+      "Bash(timeout 15 npm run dev)",
+      "Bash(npm run generate:*)",
+      "Bash(timeout 10 npm run preview)",
+      "WebFetch(domain:content.nuxt.com)",
+      "WebSearch",
+      "Bash(timeout 20 npm run dev)",
+      "Bash(npm run dev:*)",
+      "WebFetch(domain:mcp.nuxt.com)",
+      "WebFetch(domain:nuxt.com)",
+      "Bash(npx serve:*)",
+      "Bash(npm run preview:*)",
+      "WebFetch(domain:github.com)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
