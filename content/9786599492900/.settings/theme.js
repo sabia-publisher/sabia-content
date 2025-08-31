@@ -25,6 +25,28 @@ export default {
       transition: background-color 200ms linear;
     }
 
+    #summary-menu .w-60 {
+        width: 35rem !important;
+        max-width: 90vw !important;
+    }
+
+    .summary-menu-dropdown-item-title {
+        display: block;
+        font-weight: bold;
+    }
+
+    .summary-menu-dropdown-item-author {
+        display: block;
+    }
+
+    .capa.columns-double,
+    .capa.columns-single {
+        background-color: rgb(0, 0, 0);
+        background-image: url(https://firebasestorage.googleapis.com/v0/b/editora-sabia.appspot.com/o/nascimento-gusmao-cover.svg?alt=media&token=257108fe-acda-497f-a3ba-7a0b05bf1d94);
+        background-size: cover;
+        background-position: bottom center;
+    }
+
     .contentArea {
       max-width: 65ch;
       margin: 0 auto;

@@ -48,7 +48,11 @@ const settings = reactive(bookSettings || {})
 const classList = ref('')
 
 const content = reactive({
-    summary: bookPages.value?.map(item => ({ title: item.navigation?.title || item.title, link: item.path })) || [],
+    summary: bookPages.value?.map(item => ({
+        title: item.navigation?.title || item.title,
+        author: item.navigation?.author || item.author,
+        link: item.path
+    })) || [],
     footnotes: bookSettings?.footnotes ?? [],
     references: bookSettings?.references ?? []
 })

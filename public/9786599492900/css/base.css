@@ -67,22 +67,18 @@ html {
 .contentSlot.capa {
     font-size: 14px;
     line-height: 32px;
+    padding-right: 3rem;
 }
 
 .contentSlot.capa h1 {
     font-family: "Now",sans-serif;
-    text-transform: uppercase;
     font-weight: 600;
     line-height: 1.1;
     color: #fff!important;
-    margin-bottom: 0;
-}
-
-.contentSlot.capa h1 em {
-    font-style: italic;
-    color: #154194;
-    -webkit-text-stroke: 1px #fff;
-    -webkit-text-fill-color: rgba(21,65,148,0);
+    margin-bottom: 3rem;
+    padding-bottom: 3rem;
+    font-size: 3rem;
+    border-bottom: 4px solid #00AEEF;
 }
 
 .contentSlot.capa h2 {
@@ -97,13 +93,16 @@ html {
 }
 
 .contentSlot.capa h3 {
-    font-family: Hyperlegible, Arial, sans-serif;
+    font-family: "Now",sans-serif;
     font-weight: 600;
-    font-size: 1.875rem;
+    font-size: 1.25rem;
     line-height: 2.25rem;
-    font-size: 1.875rem;
-    color: rgb(255, 160, 60) !important;
+    color: rgb(255, 255, 255) !important;
     margin: 0;
+}
+
+.contentSlot.capa span.thin {
+    font-weight: 200;
 }
 
 .contentSlot h1,
