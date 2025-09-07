@@ -24,20 +24,23 @@ function closeImage() {
 
 onKeyStroke('Escape', () => closeImage())
 
+const panzoomElement = ref(null)
+const panzoomInstance = ref(null)
+
 onMounted(() => {
-    const elem = document.getElementById('panzoom-element')
-    if (elem) {
-        const panzoom = Panzoom(elem, {
+    panzoomElement.value = document.getElementById('panzoom-element')
+    if (panzoomElement.value) {
+        panzoomInstance.value = Panzoom(panzoomElement.value, {
             initialZoom: 1
         })
-        elem.parentElement.addEventListener('wheel', panzoom.zoomWithWheel)
+        panzoomElement.value.parentElement.addEventListener('wheel', panzoomInstance.value.zoomWithWheel)
     }
+})
 
-    onBeforeMount(() => {
-        if (elem) {
-            elem.parentElement.removeEventListener('wheel', panzoom.zoomWithWheel)
-        }
-    })
+onBeforeUnmount(() => {
+    if (panzoomElement.value && panzoomInstance.value) {
+        panzoomElement.value.parentElement.removeEventListener('wheel', panzoomInstance.value.zoomWithWheel)
+    }
 })
 
 </script>

@@ -1,6 +1,8 @@
 import { defineNuxtConfig } from 'nuxt/config'
 
 export default defineNuxtConfig({
+    compatibilityDate: '2025-09-07',
+
     modules: [
         '@nuxt/content',
         '@nuxtjs/tailwindcss',
@@ -15,8 +17,27 @@ export default defineNuxtConfig({
 
     app: {
         head: {
+            link: [
+                // Aggressive preloading for fastest possible load
+                { rel: 'dns-prefetch', href: 'https://unpkg.com' },
+                { rel: 'preconnect', href: 'https://unpkg.com', crossorigin: true },
+                { rel: 'preconnect', href: 'https://cdn.jsdelivr.net', crossorigin: true }, // Backup CDN
+                // Preload the critical script as high priority
+                {
+                    rel: 'preload',
+                    href: 'https://unpkg.com/paginar@0.3.2/dist/index.es.js',
+                    as: 'script',
+                    crossorigin: true
+                }
+            ],
             script: [
-                { src: 'https://unpkg.com/paginar@0.3.2/dist/index.es.js', type: 'module', rel: 'modulepreload' }
+                {
+                    src: 'https://unpkg.com/paginar@0.3.2/dist/index.es.js',
+                    type: 'module',
+                    // Blocking load - no async/defer since component is crucial
+                    // High priority loading
+                    fetchpriority: 'high'
+                }
             ]
         }
     },
@@ -69,5 +90,32 @@ export default defineNuxtConfig({
     // Ensure all routes are pre-rendered by default
     routeRules: {
         '/**': { prerender: true }
+    },
+
+    // Performance optimizations for critical paginar loading
+    experimental: {
+        payloadExtraction: false, // Reduces payload size for SSG
+        inlineSSRStyles: false    // Prevents CSS inlining which can delay script loading
+    },
+
+    // Optimize for critical resource loading
+    render: {
+        resourceHints: true, // Enable resource hints
+        http2: {
+            push: true, // Enable HTTP/2 push for critical resources
+            pushAssets: (req, res, publicPath, preloadFiles) =>
+                preloadFiles
+                    .filter(f => f.asType === 'script' && f.file.includes('paginar'))
+                    .map(f => `<${publicPath}${f.file}>; rel=preload; as=${f.asType}`)
+        }
+    },
+
+    // Optimize build for better loading
+    vite: {
+        build: {
+            rollupOptions: {
+                external: ['paginar'] // Don't bundle external modules
+            }
+        }
     }
 })

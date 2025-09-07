@@ -1,5 +1,6 @@
 <script setup>
 import slugify from 'slugify'
+
 import usePageFull from '../../composables/usePageFull'
 import readerSettings from '../../composables/readerSettings'
 
@@ -46,6 +47,8 @@ try {
 
 const settings = reactive(bookSettings || {})
 const classList = ref('')
+const paginarLoaded = ref(false)
+const paginarReady = ref(false)
 
 const content = reactive({
     summary: bookPages.value?.map(item => ({
@@ -75,14 +78,53 @@ watch(() => route.params.slug, async () => {
     }
 })
 
-onMounted(() => {
+// Function to check if paginar is loaded and ready
+const checkPaginarReady = () => {
+    return new Promise((resolve) => {
+        const checkElement = () => {
+            // Check if custom element is defined
+            if (customElements.get('paginate-content')) {
+                paginarLoaded.value = true
+
+                // Wait for the element to be fully initialized
+                nextTick(() => {
+                    const paginateElement = document.querySelector('paginate-content')
+                    console.log({ paginateElement })
+                    if (paginateElement?.shadowRoot) {
+                        const targetNode = paginateElement.shadowRoot.querySelector('#rootComponent')
+                        console.log({ targetNode })
+                        if (targetNode) {
+                            paginarReady.value = true
+                            resolve(true)
+                        } else {
+                            // If shadowRoot exists but rootComponent doesn't, wait a bit more
+                            setTimeout(checkElement, 50)
+                        }
+                    } else {
+                        // Element exists but shadowRoot not ready, wait
+                        setTimeout(checkElement, 50)
+                    }
+                })
+            } else {
+                // Custom element not yet defined, wait
+                setTimeout(checkElement, 50)
+            }
+        }
+        checkElement()
+    })
+}
+
+onMounted(async () => {
     if (!route.params.slug) {
         if (process.client) {
             window.location.href = `/${isbn}/cover`
         }
     } else {
         if (process.client) {
-            // Wait for custom element to be ready
+            // Wait for paginar to be fully loaded and ready
+            await checkPaginarReady()
+
+            // Now set up the observers and functionality
             nextTick(() => {
                 const paginateElement = document.querySelector('paginate-content')
                 if (paginateElement?.shadowRoot) {
@@ -112,14 +154,26 @@ useHead({
 
 <template>
     <main class="w-full h-screen">
+        <!-- Loading State - Show while paginar is loading -->
+        <div v-if="!paginarReady && doc" class="w-full h-screen flex flex-col items-center justify-between bg-areia">
+            <header class="bg-primary flex justify-center items-center p-4 bg-terra w-full h-[82px] text-center">
+                <p class="text-white text-center text-sm">
+                    {{ doc?.navigation?.title || doc?.title || 'Carregando...' }}
+                </p>
+            </header>
+            <div class="text-center h-full flex flex-col items-center justify-center">
+                <div class="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-laranjeira mb-4"></div>
+                <p class="text-gray-500">Carregando...</p>
+            </div>
+        </div>
+
         <ClientOnly>
             <paginate-content v-if="doc" v-show="bookSettings?.cssString" id="pagination-el"
                 :reader-blocked="readerSettings.blocked.value === true ? true : null"
                 :book-title="doc?.navigation?.title || doc?.title || ''" :reader-settings="JSON.stringify(settings)"
                 :book-content="JSON.stringify(content)"
                 :root-class="doc?.navigation?.title ? slugify(doc.navigation.title).toLocaleLowerCase() : ''"
-                :css-string="bookSettings?.cssString ?? ''"
-            >
+                :css-string="bookSettings?.cssString ?? ''">
                 <div slot="header">
                     <p class="text-white">{{ doc?.navigation?.title || doc?.title || '' }}</p>
                 </div>
