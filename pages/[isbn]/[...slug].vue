@@ -4,7 +4,7 @@ import slugify from 'slugify'
 import usePageFull from '../../composables/usePageFull'
 import readerSettings from '../../composables/readerSettings'
 
-import book9786599492900 from '../../content/9786599492900/.settings/index.js'
+import book9786583942494 from '../../content/9786583942494/.settings/index.js'
 import book9786599492907 from '../../content/9786599492907/.settings/index.js'
 import book9786599492938 from '../../content/9786599492938/.settings/index.js'
 
@@ -33,8 +33,8 @@ const { data: doc } = await useAsyncData(
 let bookSettings = {}
 try {
     if (isbn !== '.well-known') {
-        if (isbn === '9786599492900') {
-            bookSettings = book9786599492900
+        if (isbn === '9786583942494') {
+            bookSettings = book9786583942494
         } else if (isbn === '9786599492907') {
             bookSettings = book9786599492907
         } else if (isbn === '9786599492938') {

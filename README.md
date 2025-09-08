@@ -85,7 +85,7 @@ content/
 - **Book Pages**: `/[isbn]/[slug]` → Dynamic routing for all book content
 - **ISBN Examples**: 
   - `9786599492907` (Design Decolonial)
-  - `9786599492900` (Nascimento, Gusmão, etc.)
+  - `9786583942494` (Nascimento, Gusmão, etc.)
   - `9786599492938` (English book)
 
 ### Content Processing
