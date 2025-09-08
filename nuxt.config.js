@@ -82,7 +82,11 @@ export default defineNuxtConfig({
                 '/9786599492938/part-a',
                 '/9786599492938/part-b',
                 '/9786599492938/part-c',
-                '/9786599492938/references'
+                '/9786599492938/references',
+                '/9786583942449/cover',
+                '/9786583942449/apresentacao',
+                '/9786583942449/ribeiro',
+                '/9786583942449/preto'
             ]
         }
     },

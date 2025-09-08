@@ -25,9 +25,11 @@ export default {
       transition: background-color 200ms linear;
     }
 
-    #summary-menu .w-60 {
+    #summary-menu-dropdown {
         width: 35rem !important;
         max-width: 90vw !important;
+        max-height: calc(100vh - 6rem);
+        overflow: auto;
     }
 
     .summary-menu-dropdown-item-title {
