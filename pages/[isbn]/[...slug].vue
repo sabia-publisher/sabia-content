@@ -7,6 +7,7 @@ import readerSettings from '../../composables/readerSettings'
 import book9786583942494 from '../../content/9786583942494/.settings/index.js'
 import book9786599492907 from '../../content/9786599492907/.settings/index.js'
 import book9786599492938 from '../../content/9786599492938/.settings/index.js'
+import book9786583942449 from '../../content/9786583942449/.settings/index.js'
 
 const route = useRoute()
 const router = useRouter()
@@ -39,6 +40,8 @@ try {
             bookSettings = book9786599492907
         } else if (isbn === '9786599492938') {
             bookSettings = book9786599492938
+        } else if (isbn === '9786583942449') {
+            bookSettings = book9786583942449
         }
     }
 } catch (error) {
