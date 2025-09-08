@@ -178,7 +178,7 @@ useHead({
                 :root-class="doc?.navigation?.title ? slugify(doc.navigation.title).toLocaleLowerCase() : ''"
                 :css-string="bookSettings?.cssString ?? ''">
                 <div slot="header">
-                    <p class="text-white">{{ doc?.navigation?.title || doc?.title || '' }}</p>
+                    <p class="text-white hidden md:block">{{ doc?.navigation?.title || doc?.title || '' }}</p>
                 </div>
 
                 <div slot="optionsBottom">

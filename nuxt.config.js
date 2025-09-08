@@ -25,14 +25,14 @@ export default defineNuxtConfig({
                 // Preload the critical script as high priority
                 {
                     rel: 'preload',
-                    href: 'https://unpkg.com/paginar@0.3.3/dist/index.es.js',
+                    href: 'https://unpkg.com/paginar@0.3.4/dist/index.es.js',
                     as: 'script',
                     crossorigin: true
                 }
             ],
             script: [
                 {
-                    src: 'https://unpkg.com/paginar@0.3.3/dist/index.es.js',
+                    src: 'https://unpkg.com/paginar@0.3.4/dist/index.es.js',
                     type: 'module',
                     // Blocking load - no async/defer since component is crucial
                     // High priority loading
