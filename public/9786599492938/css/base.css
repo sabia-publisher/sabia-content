@@ -21,12 +21,12 @@
     background-color: var(--theme-primary, transparent)
 }
 
-.contentSlot.cover {
+.contentSlot.systemic-sustainability-editora-sabia {
     font-size: 14px;
     line-height: 32px;
 }
 
-.contentSlot.cover h1 {
+.contentSlot.systemic-sustainability-editora-sabia h1 {
     font-family: "Larken", sans-serif !important;
     font-weight: 600;
     font-size: 3.65em;
@@ -35,7 +35,7 @@
     margin-bottom: 1em;
 }
 
-.contentSlot.cover h3 {
+.contentSlot.systemic-sustainability-editora-sabia h3 {
     font-family: "Larken", sans-serif !important;
     font-weight: 600;
     font-size: 2.1em;

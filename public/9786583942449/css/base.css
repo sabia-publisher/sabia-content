@@ -205,9 +205,26 @@ html {
     margin-bottom: 0.5em;
 }
 
+.contentSlot figcaption {
+    text-align: center;
+}
+
+.contentSlot figcaption .figNumber {
+    font-weight: bold;
+    padding-right: 0.5em;
+}
+
 .contentSlot ol,
 .contentSlot ul {
-    font-family: "Jornalistica Roman", serif !important;
+    margin-left: 2em;
+}
+
+.contentSlot ol {
+    list-style: decimal;
+}
+
+.contentSlot ul {
+    list-style: initial;
 }
 
 .contentSlot ul ul,
@@ -392,7 +409,7 @@ html {
     text-indent: -3em !important;
 }
 
-.ending_reference p {
+.reference-list p {
     padding-left: 3em !important;
     text-indent: -3em !important;
     margin-bottom: 0.5rem !important;

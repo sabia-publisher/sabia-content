@@ -9,7 +9,8 @@ const props = defineProps({
     imageClass: String,
     imageStyle: String,
     imageHeight: String,
-    subtitle: String
+    subtitle: String,
+    figNumber: String
 })
 
 function openImage() {
@@ -35,7 +36,10 @@ function openImage() {
             >
 
             <figcaption>
-                {{ props.subtitle }}
+                <span v-if="props.figNumber" class="figNumber">
+                    {{ props.figNumber }}
+                </span>
+                <span v-html="props.subtitle"></span>
             </figcaption>
 
             <ImageComponent

@@ -14,7 +14,8 @@ const props = defineProps({
     imageStyle: String,
     imageHeight: String,
     subtitle: String,
-    show: Boolean
+    show: Boolean,
+    figNumber: String
 })
 
 function closeImage() {
@@ -54,7 +55,10 @@ onBeforeUnmount(() => {
                     <img id="panzoom-element" :src="props.src" class="object-contain h-full w-full">
                 </div>
                 <figcaption class="px-4 pb-4 grow-0 md:w-72 text-sm leading-normal md:ml-10 md:mr-0 pt-6">
-                    {{ props.subtitle }}
+                    <span v-if="props.figNumber" class="figNumber">
+                        {{ props.figNumber }}
+                    </span>
+                    <span v-html="props.subtitle"></span>
                 </figcaption>
             </figure>
         </div>

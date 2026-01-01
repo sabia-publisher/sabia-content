@@ -14,61 +14,61 @@ export default {
             transition: background-color 200ms linear;
         }
 
-        .cover.columns-double,
-        .cover.columns-single {
+        .systemic-sustainability-editora-sabia.columns-double,
+        .systemic-sustainability-editora-sabia.columns-single {
             background-color: #C86400;
             background-image: url(https://firebasestorage.googleapis.com/v0/b/editora-sabia.appspot.com/o/capa-livro-clara_plataforma.jpg?alt=media&token=5623508a-dc06-404c-890a-5e32e593d830);
             background-size: cover;
         }
 
-        .cover.columns-double .columnsArea,
-        .cover.columns-single .columnsArea {
+        .systemic-sustainability-editora-sabia.columns-double .columnsArea,
+        .systemic-sustainability-editora-sabia.columns-single .columnsArea {
             column-count: initial !important;
         }
 
-        #rootComponent.cover .viewer-nav {
+        #rootComponent.systemic-sustainability-editora-sabia .viewer-nav {
             color: #fff !important
         }
 
-        #rootComponent.cover .slider-target {
+        #rootComponent.systemic-sustainability-editora-sabia .slider-target {
             display: none;
         }
 
-        .gratitudes {
+        .gratitudes-systemic-sustainability-editora-sabia {
             background: var(--theme-primary, #FFFFFF) !important;
         }
 
-        .introduction.columns-double.currentPage-1,
-        .introduction.columns-single.currentPage-1,
-        .introduction.columns-single.currentPage-2 {
+        .introduction-systemic-sustainability-editora-sabia.columns-double.currentPage-1,
+        .introduction-systemic-sustainability-editora-sabia.columns-single.currentPage-1,
+        .introduction-systemic-sustainability-editora-sabia.columns-single.currentPage-2 {
             background: var(--theme-primary, #FFFFFF) !important;
         }
 
-        .part-a.columns-double.currentPage-1,
-        .part-a.columns-double.currentPage-2,
-        .part-a.columns-single.currentPage-1,
-        .part-a.columns-single.currentPage-2,
-        .part-a.columns-single.currentPage-3 {
+        .part-a-systemic-sustainability-editora-sabia.columns-double.currentPage-1,
+        .part-a-systemic-sustainability-editora-sabia.columns-double.currentPage-2,
+        .part-a-systemic-sustainability-editora-sabia.columns-single.currentPage-1,
+        .part-a-systemic-sustainability-editora-sabia.columns-single.currentPage-2,
+        .part-a-systemic-sustainability-editora-sabia.columns-single.currentPage-3 {
             background: var(--theme-primary, #FFFFFF) !important;
         }
 
-        .part-b.columns-double.currentPage-1,
-        .part-b.columns-double.currentPage-2,
-        .part-b.columns-single.currentPage-1,
-        .part-b.columns-single.currentPage-2,
-        .part-b.columns-single.currentPage-3 {
+        .part-b-systemic-sustainability-editora-sabia.columns-double.currentPage-1,
+        .part-b-systemic-sustainability-editora-sabia.columns-double.currentPage-2,
+        .part-b-systemic-sustainability-editora-sabia.columns-single.currentPage-1,
+        .part-b-systemic-sustainability-editora-sabia.columns-single.currentPage-2,
+        .part-b-systemic-sustainability-editora-sabia.columns-single.currentPage-3 {
             background: var(--theme-primary, #FFFFFF) !important;
         }
 
-        .part-c.columns-double.currentPage-1,
-        .part-c.columns-double.currentPage-2,
-        .part-c.columns-single.currentPage-1,
-        .part-c.columns-single.currentPage-2 {
+        .part-c-systemic-sustainability-editora-sabia.columns-double.currentPage-1,
+        .part-c-systemic-sustainability-editora-sabia.columns-double.currentPage-2,
+        .part-c-systemic-sustainability-editora-sabia.columns-single.currentPage-1,
+        .part-c-systemic-sustainability-editora-sabia.columns-single.currentPage-2 {
             background: var(--theme-primary, #FFFFFF) !important;
         }
 
-        .references.columns-double.currentPage-1,
-        .references.columns-single.currentPage-1 {
+        .references-systemic-sustainability-editora-sabia.columns-double.currentPage-1,
+        .references-systemic-sustainability-editora-sabia.columns-single.currentPage-1 {
             background: var(--theme-primary, #FFFFFF) !important;
         }
 

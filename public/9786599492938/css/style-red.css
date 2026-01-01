@@ -11,25 +11,25 @@ html {
   --sidebar-text: #fff;
 }
 
-.contentSlot.part-a.currentPage-1.columns-double h1,
-.contentSlot.part-a.currentPage-1.columns-single h1,
-.contentSlot.part-a.currentPage-2.columns-double h2,
-.contentSlot.part-a.currentPage-2.columns-double h3 {
+.contentSlot.part-a-systemic-sustainability-editora-sabia.currentPage-1.columns-double h1,
+.contentSlot.part-a-systemic-sustainability-editora-sabia.currentPage-1.columns-single h1,
+.contentSlot.part-a-systemic-sustainability-editora-sabia.currentPage-2.columns-double h2,
+.contentSlot.part-a-systemic-sustainability-editora-sabia.currentPage-2.columns-double h3 {
     color: #FFF !important;
 }
 
-.contentSlot.part-a.currentPage-1.columns-double h2,
-.contentSlot.part-a.currentPage-2.columns-single h2 {
+.contentSlot.part-a-systemic-sustainability-editora-sabia.currentPage-1.columns-double h2,
+.contentSlot.part-a-systemic-sustainability-editora-sabia.currentPage-2.columns-single h2 {
     color: var(--theme-primary-extralight, #FFFFFF) !important;
 }
 
-.contentSlot.part-a.currentPage-2.columns-double figcaption,
-.contentSlot.part-a.currentPage-3.columns-single figcaption {
+.contentSlot.part-a-systemic-sustainability-editora-sabia.currentPage-2.columns-double figcaption,
+.contentSlot.part-a-systemic-sustainability-editora-sabia.currentPage-3.columns-single figcaption {
     color: var(--theme-primary-extralight, #FFFFFF) !important;
     border-top: 0.25em solid #FFF !important;
 }
 
-.contentSlot.part-a.currentPage-2.columns-double p {
+.contentSlot.part-a-systemic-sustainability-editora-sabia.currentPage-2.columns-double p {
     color: var(--theme-primary-extralight, #FFFFFF) !important;
 }
 

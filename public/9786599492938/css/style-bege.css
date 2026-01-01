@@ -11,37 +11,37 @@ html {
   --sidebar-text: #fff;
 }
 
-.contentSlot.gratitudes h1,
-.contentSlot.gratitudes h2,
-.contentSlot.gratitudes h3 {
+.contentSlot.gratitudes-systemic-sustainability-editora-sabia h1,
+.contentSlot.gratitudes-systemic-sustainability-editora-sabia h2,
+.contentSlot.gratitudes-systemic-sustainability-editora-sabia h3 {
     color: #FFFFFF !important;
 }
 
-.contentSlot.gratitudes p {
+.contentSlot.gratitudes-systemic-sustainability-editora-sabia p {
     color: var(--theme-primary-extralight, #FFFFFF) !important;
 }
 
-.contentSlot.part-c.currentPage-1.columns-double h1,
-.contentSlot.part-c.currentPage-1.columns-single h1,
-.contentSlot.part-c.currentPage-2.columns-double h2,
-.contentSlot.part-c.currentPage-2.columns-double h3 {
+.contentSlot.part-c-systemic-sustainability-editora-sabia.currentPage-1.columns-double h1,
+.contentSlot.part-c-systemic-sustainability-editora-sabia.currentPage-1.columns-single h1,
+.contentSlot.part-c-systemic-sustainability-editora-sabia.currentPage-2.columns-double h2,
+.contentSlot.part-c-systemic-sustainability-editora-sabia.currentPage-2.columns-double h3 {
     color: #FFF !important;
 }
 
-.contentSlot.part-c.currentPage-1.columns-double h2,
-.contentSlot.part-c.currentPage-2.columns-single h2, {
+.contentSlot.part-c-systemic-sustainability-editora-sabia.currentPage-1.columns-double h2,
+.contentSlot.part-c-systemic-sustainability-editora-sabia.currentPage-2.columns-single h2, {
     color: var(--theme-primary-extralight, #FFFFFF) !important;
 }
 
-.contentSlot.part-c.currentPage-2.columns-double figcaption {
+.contentSlot.part-c-systemic-sustainability-editora-sabia.currentPage-2.columns-double figcaption {
     color: var(--theme-primary-extralight, #FFFFFF) !important;
     border-top: 0.25em solid #FFF !important;
 }
 
-.contentSlot.part-c.currentPage-2.columns-double p {
+.contentSlot.part-c-systemic-sustainability-editora-sabia.currentPage-2.columns-double p {
     color: var(--theme-primary-extralight, #FFFFFF) !important;
 }
 
-.contentSlot.part-c.currentPage-2.columns-double blockquote {
+.contentSlot.part-c-systemic-sustainability-editora-sabia.currentPage-2.columns-double blockquote {
     border-left: 0.25em solid #FFF;
 }

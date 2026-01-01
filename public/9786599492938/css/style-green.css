@@ -11,13 +11,13 @@ html {
   --sidebar-text: #fff;
 }
 
-.contentSlot.introduction.currentPage-1.columns-double h2,
-.contentSlot.introduction.currentPage-1.columns-single h2 {
+.contentSlot.introduction-systemic-sustainability-editora-sabia.currentPage-1.columns-double h2,
+.contentSlot.introduction-systemic-sustainability-editora-sabia.currentPage-1.columns-single h2 {
     color: #FFF !important;
 }
 
-.contentSlot.introduction.currentPage-1.columns-double p,
-.contentSlot.introduction.currentPage-2.columns-single p {
+.contentSlot.introduction-systemic-sustainability-editora-sabia.currentPage-1.columns-double p,
+.contentSlot.introduction-systemic-sustainability-editora-sabia.currentPage-2.columns-single p {
     color: var(--theme-primary-extralight, #FFFFFF) !important;
     font-size: 1.5em;
 }
