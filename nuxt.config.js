@@ -86,7 +86,21 @@ export default defineNuxtConfig({
                 '/9786583942449/cover',
                 '/9786583942449/apresentacao',
                 '/9786583942449/ribeiro',
-                '/9786583942449/preto'
+                '/9786583942449/preto',
+                '/9786583942401/cover',
+                '/9786583942401/notas-sobre-a-pos-graduacao-em-design-no-brasil',
+                '/9786583942401/apresentacao',
+                '/9786583942401/das-artes-plasticas-ao-design-aloisio-magalhaes-e-',
+                '/9786583942401/o-hiato-da-historia-das-artes-aplicadas-no-brasil',
+                '/9786583942401/o-mam-rio-na-historia-do-design-brasileiro',
+                '/9786583942401/trajetorias-do-espaco-expositivo-moderno-confluenc',
+                '/9786583942401/design-e-autonomia-da-virtualidade-do-campo-ao-pro',
+                '/9786583942401/o-drama-e-a-era-do-projeto',
+                '/9786583942401/batalha-das-cadeiras-disputas-legais-de-design-e-p',
+                '/9786583942401/a-oficina-tribiani-e-a-pintura-de-tabuletas-no-rio',
+                '/9786583942401/memoria-grafica-na-margem-ampliar-para-mapear-o-ci',
+                '/9786583942401/as-folhas-velhas-da-vista-alegre-historia-impressa',
+                '/9786583942401/estudos-em-historia-e-teoria-do-design'
             ]
         }
     },

@@ -8,6 +8,7 @@ import book9786583942494 from '../../content/9786583942494/.settings/index.js'
 import book9786599492907 from '../../content/9786599492907/.settings/index.js'
 import book9786599492938 from '../../content/9786599492938/.settings/index.js'
 import book9786583942449 from '../../content/9786583942449/.settings/index.js'
+import book9786583942401 from '../../content/9786583942401/.settings/index.js'
 
 const route = useRoute()
 const router = useRouter()
@@ -42,6 +43,8 @@ try {
             bookSettings = book9786599492938
         } else if (isbn === '9786583942449') {
             bookSettings = book9786583942449
+        } else if (isbn === '9786583942401') {
+            bookSettings = book9786583942401
         }
     }
 } catch (error) {
@@ -54,11 +57,14 @@ const paginarLoaded = ref(false)
 const paginarReady = ref(false)
 
 const content = reactive({
-    summary: bookPages.value?.map(item => ({
-        title: item.navigation?.title || item.title,
-        author: item.navigation?.author || item.author,
-        link: item.path
-    })) || [],
+    summary: bookPages.value
+        ?.toSorted((a, b) => a?.meta?.order > b?.meta?.order ? 1 : -1)
+        ?.map(item => ({
+            title: item.navigation?.title || item.title,
+            author: item.navigation?.author || item.author,
+            link: item.path,
+            order: item.order || '',
+        })) || [],
     footnotes: bookSettings?.footnotes ?? [],
     references: bookSettings?.references ?? []
 })
@@ -92,10 +98,10 @@ const checkPaginarReady = () => {
                 // Wait for the element to be fully initialized
                 nextTick(() => {
                     const paginateElement = document.querySelector('paginate-content')
-                    console.log({ paginateElement })
+
                     if (paginateElement?.shadowRoot) {
                         const targetNode = paginateElement.shadowRoot.querySelector('#rootComponent')
-                        console.log({ targetNode })
+
                         if (targetNode) {
                             paginarReady.value = true
                             resolve(true)
@@ -173,9 +179,10 @@ useHead({
         <ClientOnly>
             <paginate-content v-if="doc" v-show="bookSettings?.cssString" id="pagination-el"
                 :reader-blocked="readerSettings.blocked.value === true ? true : null"
-                :book-title="doc?.navigation?.title || doc?.title || ''" :reader-settings="JSON.stringify(settings)"
+                :book-title="doc?.navigation?.title || doc?.title || ''"
+                :reader-settings="JSON.stringify(settings)"
                 :book-content="JSON.stringify(content)"
-                :root-class="doc?.navigation?.title ? slugify(doc.navigation.title).toLocaleLowerCase() : ''"
+                :root-class="doc?.title ? slugify(doc.title).toLocaleLowerCase() : ''"
                 :css-string="bookSettings?.cssString ?? ''">
                 <div slot="header">
                     <p class="text-white hidden md:block">{{ doc?.navigation?.title || doc?.title || '' }}</p>

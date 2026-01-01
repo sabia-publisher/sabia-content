@@ -1,7 +1,7 @@
 // Theme configuration for Paginar component
 export default {
     // Theme metadata
-    name: 'design-decolonial',
+    name: 'design-decolonial-uma-perspectiva-decolonial-para-o-design-no-brasil-editora-sabia',
     version: '1.0.0',
 
     // CSS Variables for consistent theming
@@ -14,45 +14,45 @@ export default {
             transition: background-color 200ms linear;
         }
 
-        .capa.columns-double,
-        .capa.columns-single {
+        .uma-perspectiva-decolonial-para-o-design-no-brasil-editora-sabia.columns-double,
+        .uma-perspectiva-decolonial-para-o-design-no-brasil-editora-sabia.columns-single {
             background-color: rgb(24, 64, 151);
             background-image: url(https://firebasestorage.googleapis.com/v0/b/editora-sabia.appspot.com/o/okabayashi.jpg?alt=media&token=614c19c5-15bf-4c0f-a0a8-48a1381ac662);
             background-size: cover;
         }
 
-        .capa.columns-double .columnsArea,
-        .capa.columns-single .columnsArea {
+        .uma-perspectiva-decolonial-para-o-design-no-brasil-editora-sabia.columns-double .columnsArea,
+        .uma-perspectiva-decolonial-para-o-design-no-brasil-editora-sabia.columns-single .columnsArea {
             column-count: initial !important;
         }
 
-        #rootComponent.capa .viewer-nav {
+        #rootComponent.uma-perspectiva-decolonial-para-o-design-no-brasil-editora-sabia .viewer-nav {
             color: #fff !important
         }
 
-        #rootComponent.capa .slider-target {
+        #rootComponent.uma-perspectiva-decolonial-para-o-design-no-brasil-editora-sabia .slider-target {
             display: none;
         }
 
-        .estudos-decoloniais.columns-double.currentPage-1,
-        .estudos-decoloniais.columns-single.currentPage-1,
-        .estudos-decoloniais.columns-single.currentPage-2 {
+        .estudos-decoloniais-uma-perspectiva-decolonial-para-o-design-no-brasil-editora-sabia.columns-double.currentPage-1,
+        .estudos-decoloniais-uma-perspectiva-decolonial-para-o-design-no-brasil-editora-sabia.columns-single.currentPage-1,
+        .estudos-decoloniais-uma-perspectiva-decolonial-para-o-design-no-brasil-editora-sabia.columns-single.currentPage-2 {
             background-image: url(https://firebasestorage.googleapis.com/v0/b/editora-sabia.appspot.com/o/okabayashi.jpg?alt=media&token=614c19c5-15bf-4c0f-a0a8-48a1381ac662);
             background-color: rgb(24, 64, 151);
             background-size: cover;
         }
 
-        .estudos-culturais-do-design.columns-double.currentPage-1,
-        .estudos-culturais-do-design.columns-single.currentPage-1,
-        .estudos-culturais-do-design.columns-single.currentPage-2 {
+        .estudos-culturais-uma-perspectiva-decolonial-para-o-design-no-brasil-editora-sabia.columns-double.currentPage-1,
+        .estudos-culturais-uma-perspectiva-decolonial-para-o-design-no-brasil-editora-sabia.columns-single.currentPage-1,
+        .estudos-culturais-uma-perspectiva-decolonial-para-o-design-no-brasil-editora-sabia.columns-single.currentPage-2 {
             background-image: url(https://firebasestorage.googleapis.com/v0/b/editora-sabia.appspot.com/o/okabayashi.jpg?alt=media&token=614c19c5-15bf-4c0f-a0a8-48a1381ac662);
             background-color: rgb(24, 64, 151);
             background-size: cover;
         }
 
-        .design-decolonial.columns-double.currentPage-1,
-        .design-decolonial.columns-single.currentPage-1,
-        .design-decolonial.columns-single.currentPage-2 {
+        .design-decolonial-uma-perspectiva-decolonial-para-o-design-no-brasil-editora-sabia.columns-double.currentPage-1,
+        .design-decolonial-uma-perspectiva-decolonial-para-o-design-no-brasil-editora-sabia.columns-single.currentPage-1,
+        .design-decolonial-uma-perspectiva-decolonial-para-o-design-no-brasil-editora-sabia.columns-single.currentPage-2 {
             background-image: url(https://firebasestorage.googleapis.com/v0/b/editora-sabia.appspot.com/o/okabayashi.jpg?alt=media&token=614c19c5-15bf-4c0f-a0a8-48a1381ac662);
             background-color: rgb(24, 64, 151);
             background-size: cover;

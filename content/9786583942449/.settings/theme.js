@@ -41,10 +41,10 @@ export default {
         display: block;
     }
 
-    .capa.columns-double,
-    .capa.columns-single {
+    .praticas-de-leitura-e-analise-de-textos-literarios-editora-sabia.columns-double,
+    .praticas-de-leitura-e-analise-de-textos-literarios-editora-sabia.columns-single {
         background-color: rgb(0, 0, 0);
-        background-image: url(https://firebasestorage.googleapis.com/v0/b/editora-sabia.appspot.com/o/nascimento-gusmao-cover.svg?alt=media&token=257108fe-acda-497f-a3ba-7a0b05bf1d94);
+        background-image: url(/9786583942449/images/cover.png);
         background-size: cover;
         background-position: bottom center;
     }

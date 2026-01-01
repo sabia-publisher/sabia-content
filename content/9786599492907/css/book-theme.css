@@ -14,23 +14,23 @@ main#rootComponent {
 }
 
 /* Cover page styling */
-.capa.columns-double,
-.capa.columns-single {
+.uma-perspectiva-decolonial-para-o-design-no-brasil-editora-sabia.columns-double,
+.uma-perspectiva-decolonial-para-o-design-no-brasil-editora-sabia.columns-single {
   background-color: var(--book-primary-color);
   background-image: var(--book-cover-image);
   background-size: cover;
 }
 
-.capa.columns-double .columnsArea,
-.capa.columns-single .columnsArea {
+.uma-perspectiva-decolonial-para-o-design-no-brasil-editora-sabia.columns-double .columnsArea,
+.uma-perspectiva-decolonial-para-o-design-no-brasil-editora-sabia.columns-single .columnsArea {
   column-count: initial !important;
 }
 
-#rootComponent.capa .viewer-nav {
+#rootComponent.uma-perspectiva-decolonial-para-o-design-no-brasil-editora-sabia .viewer-nav {
   color: var(--book-accent-color) !important;
 }
 
-#rootComponent.capa .slider-target {
+#rootComponent.uma-perspectiva-decolonial-para-o-design-no-brasil-editora-sabia .slider-target {
   display: none;
 }
 
@@ -61,7 +61,7 @@ main#rootComponent {
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
-  .capa.columns-single {
+  .uma-perspectiva-decolonial-para-o-design-no-brasil-editora-sabia.columns-single {
     background-position: center;
   }
 }
@@ -71,8 +71,8 @@ main#rootComponent {
   main#rootComponent {
     background: white !important;
   }
-  
-  .capa {
+
+  .uma-perspectiva-decolonial-para-o-design-no-brasil-editora-sabia {
     background-image: none !important;
   }
 }

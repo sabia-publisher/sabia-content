@@ -106,11 +106,6 @@ html {
 }
 
 .contentSlot h1,
-.contentSlot h2 {
-    break-before: column;
-}
-
-.contentSlot h1,
 .contentSlot .h1 {
     font-size: 4em;
     line-height: 1.52380952em;
