@@ -41,8 +41,8 @@ export default {
         display: block;
     }
 
-    .praticas-de-leitura-e-analise-de-textos-literarios-editora-sabia.columns-double,
-    .praticas-de-leitura-e-analise-de-textos-literarios-editora-sabia.columns-single {
+    .portugues-lingua-estrangeira-editora-sabia.columns-double,
+    .portugues-lingua-estrangeira-editora-sabia.columns-single {
         background-color: rgb(0, 0, 0);
         background-image: url(/9786583942449/images/cover.png);
         background-size: cover;
