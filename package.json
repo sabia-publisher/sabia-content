@@ -2,6 +2,7 @@
     "private": true,
     "type": "module",
     "scripts": {
+        "prebuild": "node scripts/verify-main-redirects.mjs",
         "build": "nuxt build",
         "dev": "nuxt dev",
         "generate": "nuxt generate",
