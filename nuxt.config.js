@@ -49,65 +49,17 @@ export default defineNuxtConfig({
         '@/assets/css/fonts/larken.css'
     ],
 
-    // SSG Configuration for Nuxt 4 + Content v3
+    // This legacy host only redirects to the consolidated main website.
+    // Do not emit readable book pages into the deployment artifact.
     nitro: {
         prerender: {
-            // Explicit route definition ensures all content routes are pre-rendered
-            // Content v3 + Nuxt 4 automatically discovers routes, but explicit is safer
-            routes: [
-                '/',
-                '/9786583942494/cover',
-                '/9786583942494/prefacio',
-                '/9786583942494/nascimento',
-                '/9786583942494/moreira',
-                '/9786583942494/rossato',
-                '/9786583942494/pinto-e-silva',
-                '/9786583942494/gusmao',
-                '/9786583942494/oliveira',
-                '/9786583942494/matos',
-                '/9786583942494/maciel',
-                '/9786599492907/cover',
-                '/9786599492907/prefacio',
-                '/9786599492907/carta-a-primeira-edicao',
-                '/9786599492907/mas-afinal',
-                '/9786599492907/estudos-decoloniais',
-                '/9786599492907/estudos-culturais',
-                '/9786599492907/design-decolonial',
-                '/9786599492907/consideracoes-finais',
-                '/9786599492907/referencias',
-                '/9786599492938/cover',
-                '/9786599492938/gratitudes',
-                '/9786599492938/preface',
-                '/9786599492938/introduction',
-                '/9786599492938/part-a',
-                '/9786599492938/part-b',
-                '/9786599492938/part-c',
-                '/9786599492938/references',
-                '/9786583942449/cover',
-                '/9786583942449/apresentacao',
-                '/9786583942449/ribeiro',
-                '/9786583942449/preto',
-                '/9786583942401/cover',
-                '/9786583942401/notas-sobre-a-pos-graduacao-em-design-no-brasil',
-                '/9786583942401/apresentacao',
-                '/9786583942401/das-artes-plasticas-ao-design-aloisio-magalhaes-e-',
-                '/9786583942401/o-hiato-da-historia-das-artes-aplicadas-no-brasil',
-                '/9786583942401/o-mam-rio-na-historia-do-design-brasileiro',
-                '/9786583942401/trajetorias-do-espaco-expositivo-moderno-confluenc',
-                '/9786583942401/design-e-autonomia-da-virtualidade-do-campo-ao-pro',
-                '/9786583942401/o-drama-e-a-era-do-projeto',
-                '/9786583942401/batalha-das-cadeiras-disputas-legais-de-design-e-p',
-                '/9786583942401/a-oficina-tribiani-e-a-pintura-de-tabuletas-no-rio',
-                '/9786583942401/memoria-grafica-na-margem-ampliar-para-mapear-o-ci',
-                '/9786583942401/as-folhas-velhas-da-vista-alegre-historia-impressa',
-                '/9786583942401/estudos-em-historia-e-teoria-do-design'
-            ]
+            routes: [],
+            crawlLinks: false
         }
     },
 
-    // Ensure all routes are pre-rendered by default
     routeRules: {
-        '/**': { prerender: true }
+        '/**': { ssr: true, prerender: false }
     },
 
     // Performance optimizations for critical paginar loading

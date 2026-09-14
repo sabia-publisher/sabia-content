@@ -1,0 +1,310 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "/9786583942401/a-oficina-tribiani-e-a-pintura-de-tabuletas-no-rio",
+      "destination": "https://sabia.pub/read/9786583942401/a-oficina-tribiani-e-a-pintura-de-tabuletas-no-rio",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786583942401/apresentacao",
+      "destination": "https://sabia.pub/read/9786583942401/apresentacao",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786583942401/as-folhas-velhas-da-vista-alegre-historia-impressa",
+      "destination": "https://sabia.pub/read/9786583942401/as-folhas-velhas-da-vista-alegre-historia-impressa",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786583942401/batalha-das-cadeiras-disputas-legais-de-design-e-p",
+      "destination": "https://sabia.pub/read/9786583942401/batalha-das-cadeiras-disputas-legais-de-design-e-p",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786583942401/cover",
+      "destination": "https://sabia.pub/read/9786583942401/cover",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786583942401/das-artes-plasticas-ao-design-aloisio-magalhaes-e-",
+      "destination": "https://sabia.pub/read/9786583942401/das-artes-plasticas-ao-design-aloisio-magalhaes-e",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786583942401/design-e-autonomia-da-virtualidade-do-campo-ao-pro",
+      "destination": "https://sabia.pub/read/9786583942401/design-e-autonomia-da-virtualidade-do-campo-ao-pro",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786583942401/memoria-grafica-na-margem-ampliar-para-mapear-o-ci",
+      "destination": "https://sabia.pub/read/9786583942401/memoria-grafica-na-margem-ampliar-para-mapear-o-ci",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786583942401/o-drama-e-a-era-do-projeto",
+      "destination": "https://sabia.pub/read/9786583942401/o-drama-e-a-era-do-projeto",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786583942401/o-hiato-da-historia-das-artes-aplicadas-no-brasil",
+      "destination": "https://sabia.pub/read/9786583942401/o-hiato-da-historia-das-artes-aplicadas-no-brasil",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786583942401/o-mam-rio-na-historia-do-design-brasileiro",
+      "destination": "https://sabia.pub/read/9786583942401/o-mam-rio-na-historia-do-design-brasileiro",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786583942401/prefacio",
+      "destination": "https://sabia.pub/read/9786583942401/prefacio",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786583942401/trajetorias-do-espaco-expositivo-moderno-confluenc",
+      "destination": "https://sabia.pub/read/9786583942401/trajetorias-do-espaco-expositivo-moderno-confluenc",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786583942449/apresentacao",
+      "destination": "https://sabia.pub/read/9786583942449/apresentacao",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786583942449/cover",
+      "destination": "https://sabia.pub/read/9786583942449/cover",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786583942449/deliberal",
+      "destination": "https://sabia.pub/read/9786583942449/deliberal",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786583942449/dragonetti",
+      "destination": "https://sabia.pub/read/9786583942449/dragonetti",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786583942449/machado_e_costa",
+      "destination": "https://sabia.pub/read/9786583942449/machado-e-costa",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786583942449/nelo",
+      "destination": "https://sabia.pub/read/9786583942449/nelo",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786583942449/preto",
+      "destination": "https://sabia.pub/read/9786583942449/preto",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786583942449/ribeiro",
+      "destination": "https://sabia.pub/read/9786583942449/ribeiro",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786583942449/sellan",
+      "destination": "https://sabia.pub/read/9786583942449/sellan",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786583942494/cover",
+      "destination": "https://sabia.pub/read/9786583942494/cover",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786583942494/gusmao",
+      "destination": "https://sabia.pub/read/9786583942494/gusmao",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786583942494/maciel",
+      "destination": "https://sabia.pub/read/9786583942494/maciel",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786583942494/matos",
+      "destination": "https://sabia.pub/read/9786583942494/matos",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786583942494/moreira",
+      "destination": "https://sabia.pub/read/9786583942494/moreira",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786583942494/nascimento",
+      "destination": "https://sabia.pub/read/9786583942494/nascimento",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786583942494/oliveira",
+      "destination": "https://sabia.pub/read/9786583942494/oliveira",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786583942494/pinto-e-silva",
+      "destination": "https://sabia.pub/read/9786583942494/pinto-e-silva",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786583942494/prefacio",
+      "destination": "https://sabia.pub/read/9786583942494/prefacio",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786583942494/rossato",
+      "destination": "https://sabia.pub/read/9786583942494/rossato",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786599492907/carta-a-primeira-edicao",
+      "destination": "https://sabia.pub/read/9786599492907/carta-a-primeira-edicao",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786599492907/consideracoes-finais",
+      "destination": "https://sabia.pub/read/9786599492907/consideracoes-finais",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786599492907/cover",
+      "destination": "https://sabia.pub/read/9786599492907/cover",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786599492907/design-decolonial",
+      "destination": "https://sabia.pub/read/9786599492907/design-decolonial",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786599492907/estudos-culturais",
+      "destination": "https://sabia.pub/read/9786599492907/estudos-culturais",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786599492907/estudos-decoloniais",
+      "destination": "https://sabia.pub/read/9786599492907/estudos-decoloniais",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786599492907/mas-afinal",
+      "destination": "https://sabia.pub/read/9786599492907/mas-afinal",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786599492907/prefacio",
+      "destination": "https://sabia.pub/read/9786599492907/prefacio",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786599492907/referencias",
+      "destination": "https://sabia.pub/read/9786599492907/referencias",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786599492938/cover",
+      "destination": "https://sabia.pub/en/read/9786599492938/cover",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786599492938/gratitudes",
+      "destination": "https://sabia.pub/en/read/9786599492938/gratitudes",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786599492938/introduction",
+      "destination": "https://sabia.pub/en/read/9786599492938/introduction",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786599492938/part-a",
+      "destination": "https://sabia.pub/en/read/9786599492938/part-a",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786599492938/part-b",
+      "destination": "https://sabia.pub/en/read/9786599492938/part-b",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786599492938/part-c",
+      "destination": "https://sabia.pub/en/read/9786599492938/part-c",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786599492938/preface",
+      "destination": "https://sabia.pub/en/read/9786599492938/preface",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786599492938/references",
+      "destination": "https://sabia.pub/en/read/9786599492938/references",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786583942401",
+      "destination": "https://sabia.pub/read/9786583942401/cover",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786583942401/:path*",
+      "destination": "https://sabia.pub/read/9786583942401/cover",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786583942449",
+      "destination": "https://sabia.pub/read/9786583942449/cover",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786583942449/:path*",
+      "destination": "https://sabia.pub/read/9786583942449/cover",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786583942494",
+      "destination": "https://sabia.pub/read/9786583942494/cover",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786583942494/:path*",
+      "destination": "https://sabia.pub/read/9786583942494/cover",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786599492907",
+      "destination": "https://sabia.pub/read/9786599492907/cover",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786599492907/:path*",
+      "destination": "https://sabia.pub/read/9786599492907/cover",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786599492938",
+      "destination": "https://sabia.pub/en/read/9786599492938/cover",
+      "statusCode": 301
+    },
+    {
+      "source": "/9786599492938/:path*",
+      "destination": "https://sabia.pub/en/read/9786599492938/cover",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "destination": "https://sabia.pub/",
+      "statusCode": 301
+    },
+    {
+      "source": "/:path*",
+      "destination": "https://sabia.pub/",
+      "statusCode": 301
+    }
+  ]
+}
